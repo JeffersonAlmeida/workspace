@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="br.ufpe.cin.target.pm.input">
+      <inputDocumentExtension
+            inputDocumentErrorIcon="icons/excel_icon_error_32_32.bmp"
+            inputDocumentIcon="icons/excel_icon_32_32.bmp"
+            inputDocumentImplementation="br.ufpe.cin.target.xlsinput.controller.XLSDocumentExtensionImplementation"
+            inputDocumentType="xls"
+            inputDocumentTypeFilter="*.xls"
+            name="XLS Documents">
+      </inputDocumentExtension>
+   </extension>
+
+
+</plugin>

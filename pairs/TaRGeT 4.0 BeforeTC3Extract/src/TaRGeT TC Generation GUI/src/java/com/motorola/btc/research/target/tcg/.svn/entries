@@ -1,0 +1,129 @@
+10
+
+dir
+3776
+https://svn.cin.ufpe.br/svn/cinspg/SafeRefactor/trunk/Exemplos/TaRGeT%204.0%20BeforeTC3Extract/src/TaRGeT%20TC%20Generation%20GUI/src/java/com/motorola/btc/research/target/tcg
+https://svn.cin.ufpe.br/svn/cinspg
+
+
+
+2011-05-05T18:53:02.950740Z
+3685
+fsf2
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+d69a6c6a-caee-dd11-b87f-0019d1013b4f
+
+TCGActivator.java
+file
+
+
+
+
+2011-05-17T11:18:15.000000Z
+efd6fc582cf38bcb824caae5476d8918
+2011-05-05T18:53:02.950740Z
+3685
+fsf2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2686
+
+TCGUtil.java
+file
+
+
+
+
+2011-05-17T11:18:15.000000Z
+327eed26c46373bb866b8925629fe43a
+2011-05-05T18:53:02.950740Z
+3685
+fsf2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5145
+
+actions
+dir
+
+controller
+dir
+
+editors
+dir
+
+excel
+dir
+
+exceptions
+dir
+
+extractor
+dir
+
+filters
+dir
+
+preferences
+dir
+
+progressbars
+dir
+
+propertiesreader
+dir
+
+wizards
+dir
+

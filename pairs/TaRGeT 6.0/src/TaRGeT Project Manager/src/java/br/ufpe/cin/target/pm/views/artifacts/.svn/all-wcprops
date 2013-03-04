@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/cinspg/!svn/ver/3656/SafeRefactor/trunk/Exemplos/TaRGeT%206.0/src/TaRGeT%20Project%20Manager/src/java/br/ufpe/cin/target/pm/views/artifacts
+END
+RenameDocumentAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/cinspg/!svn/ver/3656/SafeRefactor/trunk/Exemplos/TaRGeT%206.0/src/TaRGeT%20Project%20Manager/src/java/br/ufpe/cin/target/pm/views/artifacts/RenameDocumentAction.java
+END
+DoubleClickAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/cinspg/!svn/ver/3656/SafeRefactor/trunk/Exemplos/TaRGeT%206.0/src/TaRGeT%20Project%20Manager/src/java/br/ufpe/cin/target/pm/views/artifacts/DoubleClickAction.java
+END
+DeleteDocumentAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/cinspg/!svn/ver/3656/SafeRefactor/trunk/Exemplos/TaRGeT%206.0/src/TaRGeT%20Project%20Manager/src/java/br/ufpe/cin/target/pm/views/artifacts/DeleteDocumentAction.java
+END
+DocumentTreeObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/cinspg/!svn/ver/3656/SafeRefactor/trunk/Exemplos/TaRGeT%206.0/src/TaRGeT%20Project%20Manager/src/java/br/ufpe/cin/target/pm/views/artifacts/DocumentTreeObject.java
+END
+ArtifactsView.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/cinspg/!svn/ver/3656/SafeRefactor/trunk/Exemplos/TaRGeT%206.0/src/TaRGeT%20Project%20Manager/src/java/br/ufpe/cin/target/pm/views/artifacts/ArtifactsView.java
+END
+DocumentType.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/cinspg/!svn/ver/3656/SafeRefactor/trunk/Exemplos/TaRGeT%206.0/src/TaRGeT%20Project%20Manager/src/java/br/ufpe/cin/target/pm/views/artifacts/DocumentType.java
+END
+ArtifactsTreeViewLabelProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 180
+/svn/cinspg/!svn/ver/3656/SafeRefactor/trunk/Exemplos/TaRGeT%206.0/src/TaRGeT%20Project%20Manager/src/java/br/ufpe/cin/target/pm/views/artifacts/ArtifactsTreeViewLabelProvider.java
+END

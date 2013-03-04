@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CNLFramework
+Bundle-SymbolicName: br.ufpe.cin.cnlframework
+Bundle-Version: 1.0.0
+Export-Package: br.ufpe.cin.cnlframework.exceptions,
+ br.ufpe.cin.cnlframework.grammar,
+ br.ufpe.cin.cnlframework.postagger,
+ br.ufpe.cin.cnlframework.preprocessor,
+ br.ufpe.cin.cnlframework.tokenizer,
+ br.ufpe.cin.cnlframework.util,
+ br.ufpe.cin.cnlframework.vocabulary,
+ br.ufpe.cin.cnlframework.vocabulary.base,
+ br.ufpe.cin.cnlframework.vocabulary.terms,
+ br.ufpe.cin.cnlframework.vocabulary.trie

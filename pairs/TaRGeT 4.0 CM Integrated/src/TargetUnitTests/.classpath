@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="lib/lucene-core-2.1.0.jar" sourcepath="C:/Documents and Settings/dhq348/Desktop/lucene-2.1.0/src/"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/TaRGeT Common"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/TaRGeT Project Manager"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/TaRGeT TC Generation GUI"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

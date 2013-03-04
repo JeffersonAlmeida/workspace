@@ -1,0 +1,15 @@
+source.. = src/java/
+output.. = bin/
+bin.includes = plugin.xml,\
+               META-INF/,\
+               .,\
+               icons/icon_128_128.gif,\
+               icons/about.gif,\
+               build/,\
+               icons/view_icon.jpg,\
+               icons/logo_TaRGeT.bmp,\
+               splash.bmp,\
+               toc.xml,\
+               TaRGeTToc.xml,\
+               html/,\
+               plugin_customization.ini

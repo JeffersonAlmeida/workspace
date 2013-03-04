@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/cinspg/!svn/ver/3756/SafeRefactor/trunk/Exemplos/TaRGeT%204.0%20CM%20Integrated/src/TargetUnitTests/src/java/com/motorola/btc/research/target/tcg/filters
+END
+DefaultTestSuiteFilterTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 190
+/svn/cinspg/!svn/ver/3756/SafeRefactor/trunk/Exemplos/TaRGeT%204.0%20CM%20Integrated/src/TargetUnitTests/src/java/com/motorola/btc/research/target/tcg/filters/DefaultTestSuiteFilterTest.java
+END
+SimilarityFilterTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 184
+/svn/cinspg/!svn/ver/3756/SafeRefactor/trunk/Exemplos/TaRGeT%204.0%20CM%20Integrated/src/TargetUnitTests/src/java/com/motorola/btc/research/target/tcg/filters/SimilarityFilterTest.java
+END
+TestFiltersUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 179
+/svn/cinspg/!svn/ver/3756/SafeRefactor/trunk/Exemplos/TaRGeT%204.0%20CM%20Integrated/src/TargetUnitTests/src/java/com/motorola/btc/research/target/tcg/filters/TestFiltersUtil.java
+END
+RequirementsFilterTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 186
+/svn/cinspg/!svn/ver/3756/SafeRefactor/trunk/Exemplos/TaRGeT%204.0%20CM%20Integrated/src/TargetUnitTests/src/java/com/motorola/btc/research/target/tcg/filters/RequirementsFilterTest.java
+END
+PurposeFilterTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 181
+/svn/cinspg/!svn/ver/3756/SafeRefactor/trunk/Exemplos/TaRGeT%204.0%20CM%20Integrated/src/TargetUnitTests/src/java/com/motorola/btc/research/target/tcg/filters/PurposeFilterTest.java
+END
+CompositionTestSuiteFilterTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 194
+/svn/cinspg/!svn/ver/3756/SafeRefactor/trunk/Exemplos/TaRGeT%204.0%20CM%20Integrated/src/TargetUnitTests/src/java/com/motorola/btc/research/target/tcg/filters/CompositionTestSuiteFilterTest.java
+END
+TestSuiteFilterAssemblerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 192
+/svn/cinspg/!svn/ver/3756/SafeRefactor/trunk/Exemplos/TaRGeT%204.0%20CM%20Integrated/src/TargetUnitTests/src/java/com/motorola/btc/research/target/tcg/filters/TestSuiteFilterAssemblerTest.java
+END

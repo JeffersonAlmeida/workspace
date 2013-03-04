@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: TaRGeT MSWord Input Plug-in
+Bundle-SymbolicName: com.motorola.btc.research.target.mswordinput;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: com.motorola.btc.research.target.mswordinput.MSWordInputActivator
+Require-Bundle: org.eclipse.core.runtime,
+ com.motorola.btc.research.target.pm,
+ com.motorola.btc.research.target.common,
+ com.motorola.btc.research.target.core,
+ org.eclipse.jface
+Eclipse-LazyStart: true

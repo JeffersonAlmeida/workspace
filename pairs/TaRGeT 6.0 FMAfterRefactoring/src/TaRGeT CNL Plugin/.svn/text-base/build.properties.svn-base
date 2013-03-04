@@ -1,0 +1,11 @@
+output.. = build/classes/
+bin.includes = plugin.xml,\
+               META-INF/,\
+               .,\
+               icons/,\
+               src/java/,\
+               build/classes/,\
+               lib/wordnet_jwi_api_2.1.5.jar,\
+               html/,\
+               toc.xml
+source.. = src/java/

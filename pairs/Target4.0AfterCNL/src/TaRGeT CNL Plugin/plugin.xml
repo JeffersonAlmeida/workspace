@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+
+   <extension
+         id="eclipseviewextension"
+         name="Eclipse View Extension"
+         point="org.eclipse.ui.views">
+      <view
+            allowMultiple="false"
+            class="com.motorola.btc.research.target.cnl.views.CNLView"
+            icon="icons/viewIcon.bmp"
+            id="com.motorola.btc.cnl.views.CNLView"
+            name="CNL Advisor">
+      </view>
+   </extension>
+   <extension
+         id="pmviewsextension"
+         name="Views Added To TaRGeT Workspace"
+         point="com.motorola.btc.research.target.pm.views">
+      <viewExtension
+            name="CNL View Advisor"
+            viewId="com.motorola.btc.cnl.views.CNLView">
+      </viewExtension>
+   </extension>
+   <extension
+         id="cnpluginlviewactions"
+         name="View Actions from CNL Plugins"
+         point="org.eclipse.ui.viewActions">
+      <viewContribution
+            id="com.motorola.btc.cnl.views.CNLViewActionContribution"
+            targetID="com.motorola.btc.cnl.views.CNLView">
+         <action
+               class="com.motorola.btc.research.target.cnl.views.ReloadBasesActionDelegate"
+               icon="icons/reloadBases.bmp"
+               id="com.motorola.btc.cnl.views.cnlview.ReloadBasesAction"
+               label="Reload Bases"
+               toolbarPath="."
+               tooltip="Reload the grammar and the lexicon bases">
+         </action>
+         <action
+               class="com.motorola.btc.research.target.cnl.views.AddNewLexicalTermActionDelegate"
+               icon="icons/addNewLexicalTerm.bmp"
+               id="com.motorola.btc.cnl.views.cnlview.AddLexicalTerm"
+               label="Add New Term"
+               toolbarPath="."
+               tooltip="Add a new lexical term to the lexicon">
+         </action>
+         <action
+               class="com.motorola.btc.research.target.cnl.views.ShowActionSentencesActionDelegate"
+               icon="icons/showActions.bmp"
+               id="com.motorola.btc.cnl.views.cnlview.ShowActionSentences"
+               label="Show Action Sentences"
+               state="true"
+               style="toggle"
+               toolbarPath="."
+               tooltip="Show the results for action sentences.">
+         </action>
+         <action
+               class="com.motorola.btc.research.target.cnl.views.ShowConditionSentencesActionDelegate"
+               icon="icons/showConditions.bmp"
+               id="com.motorola.btc.cnl.views.cnlview.ShowConditionSentences"
+               label="Show Condition Sentences"
+               state="true"
+               style="toggle"
+               toolbarPath=".">
+         </action>
+         <action
+               class="com.motorola.btc.research.target.cnl.views.ShowResponseSentencesActionDelegate"
+               icon="icons/showResponses.bmp"
+               id="com.motorola.btc.cnl.views.cnlview.ShowResponseSentences"
+               label="Show Response Sentences"
+               state="true"
+               style="toggle"
+               toolbarPath=".">
+         </action>
+         <action
+               class="com.motorola.btc.research.target.cnl.views.ShowParsingErrorsActionDelegate"
+               icon="icons/smallGrammarFaultIcon.bmp"
+               id="com.motorola.btc.cnl.views.cnlview.ShowParsingErrorsActionDelegate"
+               label="Show Sintax Errors"
+               toolbarPath="."
+               tooltip="Show the Sintax Errors Details">
+         </action>
+      </viewContribution>
+   </extension>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            locationURI="toolbar:com.motorola.btc.cnl.views.CNLView">
+         <toolbar
+               id="com.motorola.btc.cnl.views.toolbar.CNLView">
+         </toolbar>
+      </menuContribution>
+   </extension>
+   <extension
+         id="target"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="com.motorola.btc.research.target.core.application"
+            name="TaRGeT CNL">
+         <property
+               name="aboutText"
+               value="TaRGeT - Test and Requirements Generation Tool Version: 01.00.03I Label: RSCH-TARGT_N_01.00.03I  (c) Copyright CIn-UFPE and Motorola, Inc. 2006-2008. All rights reserved.  Credits to BTC Research Team.">
+         </property>
+         <property
+               name="aboutImage"
+               value="platform:/plugin/com.motorola.btc.research.target.core/icons/about.gif">
+         </property>
+         <property
+               name="appName"
+               value="TaRGeT CNL">
+         </property>
+      </product>
+   </extension>
+
+</plugin>

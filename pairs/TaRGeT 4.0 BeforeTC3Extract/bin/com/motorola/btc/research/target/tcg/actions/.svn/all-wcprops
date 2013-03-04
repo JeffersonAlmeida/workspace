@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/cinspg/!svn/ver/3685/SafeRefactor/trunk/Exemplos/TaRGeT%204.0%20BeforeTC3Extract/src/TaRGeT%20TC%20Generation%20GUI/src/java/com/motorola/btc/research/target/tcg/actions
+END
+AbstractTCGAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 197
+/svn/cinspg/!svn/ver/3685/SafeRefactor/trunk/Exemplos/TaRGeT%204.0%20BeforeTC3Extract/src/TaRGeT%20TC%20Generation%20GUI/src/java/com/motorola/btc/research/target/tcg/actions/AbstractTCGAction.java
+END
+NewTCGActionDelegate.java
+K 25
+svn:wc:ra_dav:version-url
+V 200
+/svn/cinspg/!svn/ver/3685/SafeRefactor/trunk/Exemplos/TaRGeT%204.0%20BeforeTC3Extract/src/TaRGeT%20TC%20Generation%20GUI/src/java/com/motorola/btc/research/target/tcg/actions/NewTCGActionDelegate.java
+END
+PreferencesActionDelegate.java
+K 25
+svn:wc:ra_dav:version-url
+V 205
+/svn/cinspg/!svn/ver/3685/SafeRefactor/trunk/Exemplos/TaRGeT%204.0%20BeforeTC3Extract/src/TaRGeT%20TC%20Generation%20GUI/src/java/com/motorola/btc/research/target/tcg/actions/PreferencesActionDelegate.java
+END
+OnTheFlyTCGActionDelegate.java
+K 25
+svn:wc:ra_dav:version-url
+V 205
+/svn/cinspg/!svn/ver/3685/SafeRefactor/trunk/Exemplos/TaRGeT%204.0%20BeforeTC3Extract/src/TaRGeT%20TC%20Generation%20GUI/src/java/com/motorola/btc/research/target/tcg/actions/OnTheFlyTCGActionDelegate.java
+END
+AbstractTCGActionDelegate.java
+K 25
+svn:wc:ra_dav:version-url
+V 205
+/svn/cinspg/!svn/ver/3685/SafeRefactor/trunk/Exemplos/TaRGeT%204.0%20BeforeTC3Extract/src/TaRGeT%20TC%20Generation%20GUI/src/java/com/motorola/btc/research/target/tcg/actions/AbstractTCGActionDelegate.java
+END

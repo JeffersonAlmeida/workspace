@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+   <extension
+   		point="org.eclipse.ui.commands">
+   		<category
+         	description="Customized actions."
+         	id="tcg.commands.categories"
+         	name="Custom">
+   		</category>
+   		<command
+        	id="tcg.project.commands.Generate"
+        	categoryId="tcg.commands.categories"
+        	description="Test Generation"
+        	name="Test Generation"/>
+     <command
+           categoryId="tcg.commands.categories"
+           description="On The Fly Test Case Generation Command"
+           id="tcg.project.commands.OnTheFlyGeneration"
+           name="On The Fly Generation Command"/>
+   </extension>
+   <extension
+         point="org.eclipse.ui.bindings">
+      <key
+            sequence="CTRL+G"
+            contextId="org.eclipse.ui.contexts.window"
+            commandId="tcg.project.commands.Generate"
+            schemeId="com.motorola.btc.research.target.scheme"
+            />
+      <key
+            commandId="tcg.project.commands.OnTheFlyGeneration"
+            contextId="org.eclipse.ui.contexts.window"
+            schemeId="com.motorola.btc.research.target.scheme"
+            sequence="CTRL+Y"/>
+   </extension>
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            id="com.motorola.btc.research.target.tcg.actionSet"
+            label="Tools"
+            visible="true">
+         <action
+               class="com.motorola.btc.research.target.tcg.actions.OnTheFlyTCGActionDelegate"
+               definitionId="tcg.project.commands.OnTheFlyGeneration"
+               enablesFor="+"
+               id="com.motorola.btc.research.target.tcg.action.OnTheFlyGeneration"
+               label="On The Fl&amp;y Generation"
+               menubarPath="tools/"
+               tooltip="On The Fly Test Case Generation">
+         </action>
+         <action
+               class="com.motorola.btc.research.target.tcg.actions.PreferencesActionDelegate"
+               enablesFor="+"
+               id="com.motorola.btc.research.target.tcg.action.Preferences"
+               label="Preferences"
+               menubarPath="tools/"
+               tooltip="Preferences">
+         </action>
+      </actionSet>
+   </extension>
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="com.motorola.btc.research.target.tcg.editors.OnTheFlyMultiPageEditor"
+            icon="icons/on_the_fly_editor_icon.gif"
+            id="com.motorola.btc.research.target.tcg.editor.OnTheFlyMultiPageEditor"
+            name="On The Fly Generation Editor"/>
+   </extension>
+
+</plugin>

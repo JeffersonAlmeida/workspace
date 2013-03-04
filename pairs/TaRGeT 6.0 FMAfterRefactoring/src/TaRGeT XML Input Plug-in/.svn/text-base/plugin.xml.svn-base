@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension
+         point="br.ufpe.cin.target.pm.input">
+      <inputDocumentExtension
+            inputDocumentErrorIcon="icons/xml_icon_error_32_32.bmp"
+            inputDocumentIcon="icons/xml_icon_32_32.bmp"
+            inputDocumentImplementation="br.ufpe.cin.target.xmlinput.controller.XMLDocumentExtensionImplementation"
+            inputDocumentType="xml"
+            inputDocumentTypeFilter="*.xml"
+            name="XML Documents">
+      </inputDocumentExtension>
+   </extension>
+
+</plugin>

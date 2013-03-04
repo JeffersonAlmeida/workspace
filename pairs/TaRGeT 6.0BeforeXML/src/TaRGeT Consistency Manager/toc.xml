@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+
+<toc label="TaRGeT Consistency Management" topic="html/TaRGeTConsistencyManagement.htm">
+<topic href="html/KeepingTheConsistecy.htm" label="Keeping the consistency">
+    <topic href="html/ComparingTestCases.htm" label="Comparing test cases">
+    </topic>
+    <topic href="html/RemovingTestCase.htm" label="Deleting a test case">
+    </topic>
+    <topic href="html/AssigningNewID.htm" label="Assigning a new ID">
+    </topic>
+ </topic>
+ <topic href="html/Changing Preferences.htm" label="Changing Preferences">
+    <topic href="html/ChangingTheNextNewID.htm" label="Changing the next new ID">
+    </topic>
+    <topic href="html/MakingAutomaticAssociation.htm" label="Making automatic association">
+    </topic>
+ </topic>
+</toc>

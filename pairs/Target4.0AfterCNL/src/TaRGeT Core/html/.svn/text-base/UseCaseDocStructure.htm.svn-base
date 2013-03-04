@@ -1,0 +1,363 @@
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="book.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Use Case Document Structure</title>
+</head>
+
+<body>
+
+<h1>Use Case Document Structure</h1>
+<p>TaRGeT's input is a use case document. Use case documents shall be Word
+document according to the structure and rules described below.</O:P>
+</p>
+<p>Each use case document has some fields associated with a XML structure that
+stores the relevant information to be processed by the tool. Only the relevant
+fields (associated with XML) are used by the tool, any other information inside
+the document is ignored. The relevant fields are: <span style="mso-bidi-font-family: 'Courier New'"></O:P>
+</span></p>
+<blockquote>
+  <ul>
+    <li>
+      <p style="MARGIN-LEFT: 0px; LINE-HEIGHT: 150%"><span style="FONT-WEIGHT: normal; FONT-SIZE: 7pt; FONT-STYLE: normal; FONT-FAMILY: Times New Roman; FONT-VARIANT: normal; mso-bidi-font-family: Symbol; mso-list: Ignore; mso-fareast-font-family: Symbol">&nbsp;</span><span style="mso-bidi-font-family: 'Courier New'">Feature</span>
+      <ul>
+        <li>
+          <p style="MARGIN-LEFT: 0px; LINE-HEIGHT: 150%"><span style="mso-bidi-font-family: Courier New">Use
+          Case</span>
+          <ul>
+            <li>
+              <p style="MARGIN-LEFT: 0px; LINE-HEIGHT: 150%">Flow
+              <ul>
+                <li>
+                  <p style="MARGIN-LEFT: 0px; LINE-HEIGHT: 150%">Step</p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</blockquote>
+<p style="line-height: 100%; margin-left: 0px"><span style="mso-bidi-font-family:&quot;Courier New&quot;">Each
+document shall have at least one feature. Each feature shall have at least one
+use case. Each use case shall have at least one flow. Each flow shall have at
+least one step. </span></p>
+<p style="line-height: 100%; margin-left: 0px"><span style="mso-bidi-font-family:&quot;Courier New&quot;">The
+upper structure of the document is made of features. A feature has an id, a name
+and a set of use cases; and, a use case has an id, name, description, setup
+information and flows. The details about the upper structure can be seen as
+follows.</span></p>
+<p style="line-height: 100%"><span style="mso-fareast-font-family: Times New Roman; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA">The
+tool allows the user to import more than one document related to the same
+feature. In this case, the features shall have the same feature id. So, the tool
+merges the information and shows in the “Use Cases” view.</span>
+<p style="text-align: justify; text-indent: -18.0pt; line-height: 100%; mso-list: l3 level1 lfo1; tab-stops: list 72.0pt; margin-left: 72.0pt"><span style="mso-list: Ignore; font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b style="mso-bidi-font-weight:normal"><span style="mso-bidi-font-family:&quot;Courier New&quot;">Feature
+<o:p>
+</o:p>
+</span></b></p>
+<p style="text-align: justify; text-indent: -18.0pt; mso-list: l3 level2 lfo1; tab-stops: list 108.0pt; line-height: 100%; margin-left: 108.0pt"><span style="mso-list: Ignore; mso-fareast-font-family: Courier New; mso-bidi-font-family: Courier New">o<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><i style="mso-bidi-font-style:normal"><span style="mso-bidi-font-family:&quot;Courier New&quot;"><b>Feature
+id</b></span></i><span style="mso-bidi-font-family:&quot;Courier New&quot;"> –
+</span>a free textual value and non empty text<span style="mso-bidi-font-family:&quot;Courier New&quot;">.
+It shall be unique inside a document. <o:p>
+</o:p>
+</span></p>
+<p style="text-align: justify; line-height: 100%; margin-left: 90.0pt"><span style="mso-bidi-font-family:&quot;Courier New&quot;"><o:p>
+&nbsp;The tool should show an error message and reject the Use case document in
+the following cases:<o:p>
+&nbsp;</o:p>
+</span></p>
+<p style="text-align: justify; text-indent: -18.0pt; line-height: 100%; mso-list: l4 level1 lfo3; tab-stops: list 144.0pt; margin-left: 144.0pt"><span style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 7.0pt; font-family: Times New Roman; mso-list: Ignore; mso-fareast-font-family: Courier New; mso-bidi-font-family: Courier New">&nbsp;&nbsp;
+</span><span style="mso-bidi-font-family:&quot;Courier New&quot;"></o:p>
+</span><span style="mso-list: Ignore; font-family: Wingdings; mso-fareast-font-family: Wingdings; mso-bidi-font-family: Wingdings">§<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><i><span style="font-style: normal; font-weight: normal; font-size: 7.0pt; font-family: Times New Roman">
+</span></i></span><i><span style="mso-bidi-font-family: Courier New">Feature</span></i><span style="mso-bidi-font-family:&quot;Courier New&quot;"><i>
+Id </i>is empty;</span></p>
+<p style="text-align: justify; text-indent: -18.0pt; line-height: 100%; mso-list: l4 level1 lfo3; tab-stops: list 144.0pt; margin-left: 144.0pt"><span style="font-style: normal; font-variant: normal; font-weight: normal; font-size: 7.0pt; font-family: Times New Roman; mso-list: Ignore; mso-fareast-font-family: Courier New; mso-bidi-font-family: Courier New">&nbsp;</span><span style="mso-bidi-font-family:&quot;Courier New&quot;"></o:p>
+</span> <span style="mso-list: Ignore; font-family: Wingdings; mso-fareast-font-family: Wingdings; mso-bidi-font-family: Wingdings">§<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><i><span style="font-style: normal; font-weight: normal; font-size: 7.0pt; font-family: Times New Roman">
+</span></i></span><span style="mso-bidi-font-family:&quot;Courier New&quot;">There
+are two features ids in the same Use Case document;</span></p>
+<p style="text-align: justify; text-indent: -18.0pt; mso-list: l3 level2 lfo1; tab-stops: list 108.0pt; line-height: 100%; margin-left: 108.0pt"><span style="mso-list: Ignore; mso-fareast-font-family: Courier New; mso-bidi-font-family: Courier New">o<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="mso-bidi-font-family:&quot;Courier New&quot;"><b><i style="mso-bidi-font-style:normal">Feature</i><i style="mso-bidi-font-style: normal; mso-bidi-font-family: Courier New">
+name</i></b> – </span><span style="mso-bidi-font-family: Courier New; mso-bookmark: OLE_LINK4">empty
+field or any other value; </span><span style="mso-bidi-font-family:&quot;Courier New&quot;">
+<br>
+<br>
+<o:p>
+</o:p>
+</span><span style="mso-bidi-font-family: Courier New; mso-bookmark: OLE_LINK4"><o:p>
+</o:p>
+</span></p>
+<p style="text-align: justify; line-height: 100%; margin-left: 18.0pt"><span style="mso-bidi-font-family: Courier New; mso-bookmark: OLE_LINK4"><o:p>
+&nbsp;</span><span style="mso-bookmark: OLE_LINK4"><span style="mso-list: Ignore; font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol">&nbsp;&nbsp;
+</span><span style="mso-bidi-font-family: Courier New; mso-bookmark: OLE_LINK4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span style="mso-list: Ignore; font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b style="mso-bidi-font-weight:normal"><span style="mso-bidi-font-family:&quot;Courier New&quot;">Use
+Case<o:p>
+</o:p>
+</span></b></span></p>
+<p style="text-align: justify; text-indent: -18.0pt; mso-list: l3 level2 lfo1; tab-stops: list 108.0pt; line-height: 100%; margin-left: 108.0pt"><span style="mso-list: Ignore; mso-fareast-font-family: Courier New; mso-bidi-font-family: Courier New">o<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><i style="mso-bidi-font-style:normal"><span style="mso-bidi-font-family:&quot;Courier New&quot;"><b>Use
+Case Id </b></span></i><span style="mso-bidi-font-family:&quot;Courier New&quot;">–
+</span>a free textual value and non empty text<span style="mso-bidi-font-family:&quot;Courier New&quot;">.
+It shall be unique inside a specific feature, i.e., it is possible to exist two
+use cases with same id in different features. The tool should show an error
+message and reject the Use case document in the following cases:<o:p>
+</o:p>
+</span></p>
+<p style="text-align: justify; line-height: 100%; margin-left: 90.0pt"><span style="mso-bidi-font-family:&quot;Courier New&quot;"><o:p>
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</o:p>
+</span><span style="mso-list: Ignore; font-family: Wingdings; mso-fareast-font-family: Wingdings; mso-bidi-font-family: Wingdings">§<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="mso-bidi-font-family:&quot;Courier New&quot;">The <i style="mso-bidi-font-style:normal">Use
+Case Id</i> is empty;<o:p>
+</o:p>
+</span></p>
+<p style="text-align: justify; text-indent: -21.25pt; line-height: 100%; mso-list: l5 level3 lfo6; margin-left: 148.85pt"><span style="mso-list: Ignore; font-family: Wingdings; mso-fareast-font-family: Wingdings; mso-bidi-font-family: Wingdings">§<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="mso-bidi-font-family:&quot;Courier New&quot;">The <i style="mso-bidi-font-style:normal">Use
+Case Id</i> is not unique in the same feature.<o:p>
+</o:p>
+</span></p>
+<p style="text-align: justify; text-indent: -21.25pt; line-height: 100%; mso-list: l5 level3 lfo6; margin-left: 148.85pt"><span style="mso-bidi-font-family:&quot;Courier New&quot;">In
+the other cases, the tool shall accept the Use case document and does not show
+the error message.<o:p>
+</o:p>
+</span></p>
+<p style="text-align: justify; line-height: 100%; margin-left: 90.0pt"><span style="mso-bidi-font-family:&quot;Courier New&quot;"><o:p>
+&nbsp;</o:p>
+</span><span style="mso-list: Ignore; mso-fareast-font-family: Courier New; mso-bidi-font-family: Courier New">o<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><i style="mso-bidi-font-style:normal"><span style="mso-bidi-font-family:&quot;Courier New&quot;"><b>Use
+Case Name</b></span></i><span style="mso-bidi-font-family:&quot;Courier New&quot;">
+– empty field or any other value;<o:p>
+</o:p>
+</span></p>
+<p style="text-align: justify; line-height: 100%; margin-left: 90.0pt"><span style="mso-bidi-font-family:&quot;Courier New&quot;"><o:p>
+&nbsp;</o:p>
+</span><span style="mso-list: Ignore; mso-fareast-font-family: Courier New; mso-bidi-font-family: Courier New">o<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><b><span style="font-style: normal; font-variant: normal; font-size: 7.0pt; font-family: Times New Roman">
+</span></b></span><b><i style="mso-bidi-font-style:normal"><span style="mso-bidi-font-family:&quot;Courier New&quot;">Use
+Case Description</span></i></b><span style="mso-bidi-font-family:&quot;Courier New&quot;">
+– empty field or any other value;<o:p>
+</o:p>
+</span></p>
+<p style="text-align: justify; line-height: 100%; margin-left: 18.0pt">&nbsp;&nbsp;
+<span style="mso-bidi-font-family: Courier New">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span style="mso-bidi-font-family:&quot;Courier New&quot;">&nbsp;</span><span style="mso-list: Ignore; mso-fareast-font-family: Courier New; mso-bidi-font-family: Courier New">&nbsp;&nbsp;
+</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="mso-list: Ignore; mso-fareast-font-family: Courier New; mso-bidi-font-family: Courier New">o<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><i style="mso-bidi-font-style:normal"><span style="mso-bidi-font-family:&quot;Courier New&quot;"><b>Use
+Case Setup</b></span></i><span style="mso-bidi-font-family:&quot;Courier New&quot;">
+– empty field or any other value.<o:p>
+</o:p>
+</span></p>
+<p style="text-align: justify; line-height: 100%"><span style="mso-bidi-font-family:
+&quot;Courier New&quot;"><o:p>
+&nbsp;</o:p>
+</span><span style="mso-bidi-font-family:&quot;Courier New&quot;">&nbsp;&nbsp; </span>&nbsp;&nbsp;&nbsp;&nbsp;
+<span style="mso-bidi-font-family:&quot;Courier New&quot;">&nbsp;&nbsp; </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span style="mso-bidi-font-family:&quot;Courier New&quot;">The <i style="mso-bidi-font-style:
+normal">Use Case Descriptions</i>, and use case setup are optional. All other
+fields are mandatory;</span></p>
+<p style="text-align: justify; line-height: 100%"><span style="mso-bidi-font-family:&quot;Courier New&quot;"><o:p>
+</o:p>
+</span></p>
+<p style="text-align: justify; text-indent: -18.0pt; line-height: 100%; mso-list: l3 level1 lfo1; tab-stops: list 72.0pt; margin-left: 72.0pt"><span style="mso-list: Ignore; font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b style="mso-bidi-font-weight:normal"><span style="mso-bidi-font-family:&quot;Courier New&quot;">Flows<o:p>
+</o:p>
+</span></b></p>
+<p style="text-align: justify; line-height: 100%; margin-left: 92.15pt"><span style="mso-bidi-font-family:&quot;Courier New&quot;">The
+lower structure of the document is composed by flows. A flow has a description,
+a list of source flows (<i style="mso-bidi-font-style:normal">FROM Steps</i>), a
+list of destination flows (<i style="mso-bidi-font-style:normal">TO Steps</i>)
+and a sequence of steps. Each step has an id, an action, a condition, setup
+information (optional) and a response. The details about the lower structure can
+be seen as follow.<o:p>
+</o:p>
+<o:p>
+&nbsp;</o:p>
+</span></p>
+<p style="text-align: justify; line-height: 100%; margin-left: 92.15pt"><span style="mso-list: Ignore; mso-fareast-font-family: Courier New; mso-bidi-font-family: Courier New">o<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><b><span style="font-style: normal; font-variant: normal; font-size: 7.0pt; font-family: Times New Roman">
+</span></b></span><i style="mso-bidi-font-style:normal"><span style="mso-bidi-font-family:&quot;Courier New&quot;"><b>Flow
+Description</b> – empty field or any other value;<o:p>
+</o:p>
+</span></i></p>
+<p style="text-align: justify; line-height: 100%; margin-left: 54.0pt"><span style="mso-list: Ignore; mso-fareast-font-family: Courier New; mso-bidi-font-family: Courier New">&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; o<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><i style="mso-bidi-font-style:normal"><span style="mso-bidi-font-family:&quot;Courier New&quot;"><b>FROM
+Steps</b> – Non empty textual value.<o:p>
+</o:p>
+</span></i></p>
+<p style="text-align: justify; line-height: 100%; margin-left: 54.0pt">&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="mso-bidi-font-family:&quot;Courier New&quot;">In
+the following situations the tool shows a warning before load the document,
+accept the Use Case document and show an error in a specific area into of the
+tool:<o:p>
+</o:p>
+</span></p>
+<p style="text-align: justify; line-height: 100%; margin-left: 108.0pt"><span style="mso-bidi-font-family:&quot;Courier New&quot;"><o:p>
+&nbsp;&nbsp; &nbsp; &nbsp;</span><span style="mso-list: Ignore; font-family: Wingdings; mso-fareast-font-family: Wingdings; mso-bidi-font-family: Wingdings">§<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><i style="mso-bidi-font-style:normal"><span style="mso-bidi-font-family:&quot;Courier New&quot;">FROM
+Steps</span></i><span style="mso-bidi-font-family:&quot;Courier New&quot;"> with
+repeated step ids the same field;<o:p>
+</o:p>
+</span></p>
+<p style="text-align: justify; text-indent: 1.6pt; line-height: 100%; mso-list: l0 level3 lfo4; tab-stops: list 126.0pt; margin-left: 126.0pt"><span style="mso-list: Ignore; font-family: Wingdings; mso-fareast-font-family: Wingdings; mso-bidi-font-family: Wingdings">§<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><i style="mso-bidi-font-style:normal"><span style="mso-bidi-font-family:&quot;Courier New&quot;">FROM
+Steps</span></i><span style="mso-bidi-font-family:&quot;Courier New&quot;"> with
+step ids which are not separated by commas;<o:p>
+</o:p>
+</span></p>
+<p style="text-align: justify; text-indent: 1.6pt; line-height: 100%; mso-list: l0 level3 lfo4; tab-stops: list 126.0pt; margin-left: 126.0pt"><span style="mso-list: Ignore; font-family: Wingdings; mso-fareast-font-family: Wingdings; mso-bidi-font-family: Wingdings">§<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><i style="mso-bidi-font-style:normal"><span style="mso-bidi-font-family:&quot;Courier New&quot;">FROM
+Steps</span></i><span style="mso-bidi-font-family:&quot;Courier New&quot;"> with
+step ids which contains symbols, numbers or letters;<o:p>
+</o:p>
+</span></p>
+<p style="text-align: justify; text-indent: 1.6pt; line-height: 100%; mso-list: l0 level3 lfo4; tab-stops: list 126.0pt; margin-left: 126.0pt"><span style="mso-list: Ignore; font-family: Wingdings; mso-fareast-font-family: Wingdings; mso-bidi-font-family: Wingdings">§<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><i style="mso-bidi-font-style:normal"><span style="mso-bidi-font-family:&quot;Courier New&quot;">FROM
+Steps</span></i><span style="mso-bidi-font-family:&quot;Courier New&quot;"> with
+step ids which do not exist.<o:p>
+</o:p>
+</span></p>
+<p style="text-align: justify; text-indent: 1.6pt; line-height: 100%; mso-list: l0 level3 lfo4; tab-stops: list 126.0pt; margin-left: 54.0pt"><span style="mso-bidi-font-family:&quot;Courier New&quot;">&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In the case where the <i style="mso-bidi-font-style:normal">FROM
+Steps</i> is empty, the tool rejects the use case document.<o:p>
+</o:p>
+</span></p>
+<p style="text-align: justify; line-height: 100%; margin-left: 54.0pt"><span style="mso-bidi-font-family:&quot;Courier New&quot;"><o:p>
+&nbsp;</span><span style="mso-list: Ignore; mso-fareast-font-family: Courier New; mso-bidi-font-family: Courier New">&nbsp;&nbsp;
+</span><span style="mso-bidi-font-family: Courier New">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span style="mso-list: Ignore; mso-fareast-font-family: Courier New; mso-bidi-font-family: Courier New">o<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><i style="mso-bidi-font-style:normal"><span style="mso-bidi-font-family:&quot;Courier New&quot;"><b>TO
+Steps</b> – same rule of FROM Steps;</span></i></p>
+<p style="text-align: justify; line-height: 100%; margin-left: 54.0pt"><i style="mso-bidi-font-style:normal"><span style="mso-bidi-font-family:&quot;Courier New&quot;"><o:p>
+</o:p>
+</span></i></p>
+<p style="text-align: justify; text-indent: -18.0pt; line-height: 100%; mso-list: l3 level1 lfo1; tab-stops: list 72.0pt; margin-left: 72.0pt"><span style="mso-list: Ignore; font-family: Symbol; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol">·<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><b style="mso-bidi-font-weight:normal"><span style="mso-bidi-font-family:&quot;Courier New&quot;">Steps<o:p>
+</o:p>
+</span></b></p>
+<p style="text-align: justify; text-indent: 16.35pt; line-height: 100%; margin-left: 72.0pt"><span style="mso-bidi-font-family:&quot;Courier New&quot;">A
+sequence of steps. Each step is composed by:<o:p>
+</o:p>
+</span></p>
+<p style="text-align: justify; line-height: 100%; margin-left: 36.0pt"><span style="mso-bidi-font-family:&quot;Courier New&quot;"><o:p>
+&nbsp;</span><span style="mso-list: Ignore; mso-fareast-font-family: Courier New; mso-bidi-font-family: Courier New">&nbsp;&nbsp;
+</span><span style="mso-bidi-font-family: Courier New">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><span style="mso-list: Ignore; mso-fareast-font-family: Courier New; mso-bidi-font-family: Courier New">o<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><b><span style="font-style: normal; font-variant: normal; font-size: 7.0pt; font-family: Times New Roman">
+</span></b></span><i style="mso-bidi-font-style:normal"><span style="mso-bidi-font-family:&quot;Courier New&quot;"><b>Step
+Id</b> </span></i><span style="mso-bidi-font-family:&quot;Courier New&quot;">–
+</span>a free textual value and non empty text<span style="mso-bidi-font-family:&quot;Courier New&quot;">.
+The tool shall show a warning before loading the document, accept the Use Case
+document and show an error in the following cases:<o:p>
+&nbsp;</o:p>
+</span></p>
+<p style="text-align: justify; text-indent: -14.15pt; line-height: 100%; mso-list: l2 level3 lfo5; tab-stops: 127.6pt list 5.0cm; margin-left: 5.0cm"><span style="mso-list: Ignore; font-family: Wingdings; mso-fareast-font-family: Wingdings; mso-bidi-font-family: Wingdings">§<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="mso-bidi-font-family:&quot;Courier New&quot;">The
+textual value is empty;<o:p>
+</o:p>
+</span></p>
+<p style="text-align: justify; text-indent: -14.15pt; line-height: 100%; mso-list: l2 level3 lfo5; tab-stops: 127.6pt list 5.0cm; margin-left: 5.0cm"><span style="mso-list: Ignore; font-family: Wingdings; mso-fareast-font-family: Wingdings; mso-bidi-font-family: Wingdings">§<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style="mso-bidi-font-family:&quot;Courier New&quot;">Duplicated
+Step Id in the same use case or same flow.<o:p>
+</o:p>
+</span></p>
+<p style="text-align: justify; line-height: 100%; tab-stops: 127.6pt; margin-left: 127.6pt"><span style="mso-bidi-font-family:&quot;Courier New&quot;"><o:p>
+&nbsp;In the cases that the rule above is not applicable, i.e., letter followed
+by number or number followed by minuscule letters or only numbers or only
+letters or symbols, the tool will show an error message and reject the Use Case
+document.<o:p>
+</o:p>
+</span></p>
+<p style="text-align: justify; text-indent: -18.0pt; mso-list: l2 level2 lfo5; tab-stops: list 106.35pt; line-height: 100%; margin-left: 106.35pt"><span style="mso-list: Ignore; mso-fareast-font-family: Courier New; mso-bidi-font-family: Courier New">o<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><b><i><span style="font-style: normal; font-size: 7.0pt; font-family: Times New Roman">
+</span></i></b></span><i style="mso-bidi-font-style:normal"><span style="mso-bidi-font-family:&quot;Courier New&quot;"><b><i>Step
+Action</i></b> </span></i><span style="mso-bidi-font-family:&quot;Courier New&quot;">–
+The tool will accept any value that does not empty. If field value is empty the
+tool will show a warning before load the document, accept the Use Case document
+and indicate an error in the error tab;<o:p>
+&nbsp;</o:p>
+</span></p>
+<p style="text-align: justify; text-indent: -18.0pt; mso-list: l1 level2 lfo2; tab-stops: list 70.35pt 106.35pt; line-height: 100%; margin-left: 106.35pt"><span style="mso-list: Ignore; mso-fareast-font-family: Courier New; mso-bidi-font-family: Courier New">o<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><b><span style="font-style: normal; font-variant: normal; font-size: 7.0pt; font-family: Times New Roman">
+</span></b></span><b><i style="mso-bidi-font-style:normal"><span style="mso-bidi-font-family:&quot;Courier New&quot;">Step
+Condition</span></i></b><span style="mso-bidi-font-family:&quot;Courier New&quot;;color:blue">
+</span><span style="mso-bidi-font-family:&quot;Courier New&quot;">- The tool
+accept an empty field or any other value;<o:p>
+&nbsp;</o:p>
+</span></p>
+<p style="text-align: justify; text-indent: -18.0pt; mso-list: l1 level2 lfo2; tab-stops: list 70.35pt 106.35pt; line-height: 100%; margin-left: 106.35pt"><span style="mso-list: Ignore; mso-fareast-font-family: Courier New; mso-bidi-font-family: Courier New">o<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><b><span style="font-style: normal; font-variant: normal; font-size: 7.0pt; font-family: Times New Roman">
+</span></b></span><b><i style="mso-bidi-font-style:normal"><span style="mso-bidi-font-family:&quot;Courier New&quot;">Step
+Response</span></i></b><span style="mso-bidi-font-family:&quot;Courier New&quot;">
+- The tool will accept any value that does not empty. If field value is empty
+the tool will show a warning before load the document, accept the Use Case
+document and indicate an error in the error tab.</span><span style="mso-bidi-font-family:
+&quot;Courier New&quot;"><o:p>
+&nbsp;</o:p>
+</span></p>
+<p style="text-align: justify; line-height: 100%; margin-left: 1pt"><span style="mso-bidi-font-family:&quot;Courier New&quot;">All
+the <i style="mso-bidi-font-style:
+normal"><b>Step Ids</b></i> shall be unique in the use case. The above fields,
+except the <i style="mso-bidi-font-style:normal"><b>Step Condition</b></i> and <i style="mso-bidi-font-style:normal"><b>Setup</b>
+</i>are mandatory.<o:p>
+&nbsp;</o:p>
+</span></p>
+<p style="text-align: justify; line-height: 100%; margin-left: 1pt"><span style="mso-bidi-font-family:&quot;Courier New&quot;">The
+<i style="mso-bidi-font-style:
+normal"><b>FROM Steps</b></i> and <i style="mso-bidi-font-style:normal"><b>TO
+Steps</b></i> is a list of references to steps from other flows. The former
+indicates that the flow behavior is a possible continuation of the referenced <b><i style="mso-bidi-font-style:normal">Steps
+Ids</i>.</b> The last indicates that the flow continues to the steps which ids
+are referenced. If the <i style="mso-bidi-font-style:normal"><b>FROM</b></i> and
+<i style="mso-bidi-font-style:
+normal"><b>TO</b></i> fields has more than one listed Step Id, they shall be
+separated by ‘,’ (comma) character. <o:p>
+&nbsp;</o:p>
+</span></p>
+<p style="text-align: justify; line-height: 100%; margin-left: 1pt"><span style="mso-bidi-font-family:&quot;Courier New&quot;">To
+indicate that the scenario may start at the flow, the user shall insert the <b>‘START’</b>
+id in the <i style="mso-bidi-font-style:normal"><b>FROM Steps</b></i> field. On
+the other hand, to indicate that the scenario may end at the flow, the user
+shall insert the <b>‘END’</b> id in the <i style="mso-bidi-font-style:normal"><b>TO
+Steps</b></i> field.<o:p>
+&nbsp;</o:p>
+</span></p>
+<p style="text-align: justify; line-height: 100%; margin-left: 1pt"><span style="mso-bidi-font-family:&quot;Courier New&quot;">When
+it is desired to refer to a step whose flow is in the same use case, the user
+shall only provide the id of the referenced step. <o:p>
+&nbsp;</o:p>
+</span></p>
+<p style="text-align: justify; line-height: 100%; margin-left: 1pt"><span style="mso-bidi-font-family:&quot;Courier New&quot;">When
+it is desired to refer to a step whose flow is in the same feature but in a
+different use case, the user shall provide ‘UC_ID#STEP_ID’ reference. Where
+UC_ID is the Use Case Id of the referenced step and STEP_ID is the Step Id.<o:p>
+&nbsp;</o:p>
+</span></p>
+<p style="text-align: justify; line-height: 100%; margin-left: 1pt"><span style="mso-bidi-font-family:&quot;Courier New&quot;">When
+it is desired to refer to a step whose flow is in a different feature, the user
+shall provide ‘FEATURE_ID#UC_ID#STEP_ID’ reference. It means that FEATURE_ID
+is the Feature Id of the referenced step, UC_ID is the Use Case Id and STEP_ID
+is the Step Id.</span></p>
+<p style="text-align: justify; line-height: 100%; margin-left: 1pt"><span style="mso-bidi-font-family:&quot;Courier New&quot;">The
+<i style="mso-bidi-font-style:
+normal">Requirement Id</i> is an optional field that is written at the end of
+step action, condition and/or response fields. The id shall appear between
+‘[‘ (open brace) and ‘]’ (close brace) characters. If there is more than
+one requirement in the same step field, they shall be separated by ‘,’
+(comma) character (e.g., [REQID1, REQID2]).</span></p>
+<p>The Figure below shows a use case document sample that displays the
+associated XML (in order to see/hide the XML tags, press <b>CTRL+SHIFT+X</b>).
+In this sample there are a feature.</p>
+<p>&nbsp;</p>
+<p align="center"><img src="Images/useCaseDocumentStructure.PNG" border="0" width="739" height="1151">
+
+</body>
+
+</html>

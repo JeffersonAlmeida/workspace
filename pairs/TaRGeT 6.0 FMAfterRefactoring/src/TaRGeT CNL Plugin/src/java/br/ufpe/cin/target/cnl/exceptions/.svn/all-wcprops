@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/cinspg/!svn/ver/3672/SafeRefactor/trunk/Exemplos/TaRGeT%206.0%20FMAfterRefactoring/src/TaRGeT%20CNL%20Plugin/src/java/br/ufpe/cin/target/cnl/exceptions
+END
+NoTaggedSentenceFoundException.java
+K 25
+svn:wc:ra_dav:version-url
+V 192
+/svn/cinspg/!svn/ver/3672/SafeRefactor/trunk/Exemplos/TaRGeT%206.0%20FMAfterRefactoring/src/TaRGeT%20CNL%20Plugin/src/java/br/ufpe/cin/target/cnl/exceptions/NoTaggedSentenceFoundException.java
+END
+NoParserTreeFoundException.java
+K 25
+svn:wc:ra_dav:version-url
+V 188
+/svn/cinspg/!svn/ver/3672/SafeRefactor/trunk/Exemplos/TaRGeT%206.0%20FMAfterRefactoring/src/TaRGeT%20CNL%20Plugin/src/java/br/ufpe/cin/target/cnl/exceptions/NoParserTreeFoundException.java
+END
+InvalidEntryInDictionaryException.java
+K 25
+svn:wc:ra_dav:version-url
+V 195
+/svn/cinspg/!svn/ver/3672/SafeRefactor/trunk/Exemplos/TaRGeT%206.0%20FMAfterRefactoring/src/TaRGeT%20CNL%20Plugin/src/java/br/ufpe/cin/target/cnl/exceptions/InvalidEntryInDictionaryException.java
+END
+DuplicatedTermInLexiconException.java
+K 25
+svn:wc:ra_dav:version-url
+V 194
+/svn/cinspg/!svn/ver/3672/SafeRefactor/trunk/Exemplos/TaRGeT%206.0%20FMAfterRefactoring/src/TaRGeT%20CNL%20Plugin/src/java/br/ufpe/cin/target/cnl/exceptions/DuplicatedTermInLexiconException.java
+END

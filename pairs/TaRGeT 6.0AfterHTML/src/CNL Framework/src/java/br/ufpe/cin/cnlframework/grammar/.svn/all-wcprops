@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/cinspg/!svn/ver/3681/SafeRefactor/trunk/Exemplos/TaRGeT%206.0AfterHTML/src/CNL%20Framework/src/java/br/ufpe/cin/cnlframework/grammar
+END
+NonTerminalGrammarNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/cinspg/!svn/ver/3681/SafeRefactor/trunk/Exemplos/TaRGeT%206.0AfterHTML/src/CNL%20Framework/src/java/br/ufpe/cin/cnlframework/grammar/NonTerminalGrammarNode.java
+END
+CNLParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/cinspg/!svn/ver/3681/SafeRefactor/trunk/Exemplos/TaRGeT%206.0AfterHTML/src/CNL%20Framework/src/java/br/ufpe/cin/cnlframework/grammar/CNLParser.java
+END
+ParserTreeNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/cinspg/!svn/ver/3681/SafeRefactor/trunk/Exemplos/TaRGeT%206.0AfterHTML/src/CNL%20Framework/src/java/br/ufpe/cin/cnlframework/grammar/ParserTreeNode.java
+END
+GrammarReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/cinspg/!svn/ver/3681/SafeRefactor/trunk/Exemplos/TaRGeT%206.0AfterHTML/src/CNL%20Framework/src/java/br/ufpe/cin/cnlframework/grammar/GrammarReader.java
+END
+TestCaseTextType.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/cinspg/!svn/ver/3681/SafeRefactor/trunk/Exemplos/TaRGeT%206.0AfterHTML/src/CNL%20Framework/src/java/br/ufpe/cin/cnlframework/grammar/TestCaseTextType.java
+END
+GrammarNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/cinspg/!svn/ver/3681/SafeRefactor/trunk/Exemplos/TaRGeT%206.0AfterHTML/src/CNL%20Framework/src/java/br/ufpe/cin/cnlframework/grammar/GrammarNode.java
+END
+TextualGrammarNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/cinspg/!svn/ver/3681/SafeRefactor/trunk/Exemplos/TaRGeT%206.0AfterHTML/src/CNL%20Framework/src/java/br/ufpe/cin/cnlframework/grammar/TextualGrammarNode.java
+END
+ParsingPossibility.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/cinspg/!svn/ver/3681/SafeRefactor/trunk/Exemplos/TaRGeT%206.0AfterHTML/src/CNL%20Framework/src/java/br/ufpe/cin/cnlframework/grammar/ParsingPossibility.java
+END

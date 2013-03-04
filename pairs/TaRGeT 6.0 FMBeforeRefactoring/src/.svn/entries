@@ -1,0 +1,91 @@
+10
+
+dir
+3776
+https://svn.cin.ufpe.br/svn/cinspg/SafeRefactor/trunk/Exemplos/TaRGeT%206.0%20FMBeforeRefactoring/src
+https://svn.cin.ufpe.br/svn/cinspg
+
+
+
+2011-05-04T16:46:01.728621Z
+3676
+fsf2
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+d69a6c6a-caee-dd11-b87f-0019d1013b4f
+
+CNL Framework
+dir
+
+TaRGeT Basic Generation
+dir
+
+TaRGeT CNL Plugin
+dir
+
+TaRGeT Common
+dir
+
+TaRGeT Consistency Manager
+dir
+
+TaRGeT Core
+dir
+
+TaRGeT Generate Test Suite
+dir
+
+TaRGeT HTML Output Plug-in
+dir
+
+TaRGeT MSWord Input
+dir
+
+TaRGeT Monitoring Plugin
+dir
+
+TaRGeT On The Fly Generation
+dir
+
+TaRGeT Project Manager
+dir
+
+TaRGeT STD Output Plug-in
+dir
+
+TaRGeT TC Generation GUI
+dir
+
+TaRGeT Test Central 3 Output Plug-in
+dir
+
+TaRGeT Test Central 4 Input Template Plug-in
+dir
+
+TaRGeT Test Central 4 Output Plug-in
+dir
+
+TaRGeT Use Case Editor
+dir
+
+TaRGeT XLS Input Plug-in
+dir
+
+TaRGeT XML Input Plug-in
+dir
+
+TaRGeT XML Output Plug-in
+dir
+

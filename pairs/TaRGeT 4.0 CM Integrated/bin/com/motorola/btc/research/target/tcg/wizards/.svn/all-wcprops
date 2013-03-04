@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/cinspg/!svn/ver/3756/SafeRefactor/trunk/Exemplos/TaRGeT%204.0%20CM%20Integrated/src/TaRGeT%20TC%20Generation%20GUI/src/java/com/motorola/btc/research/target/tcg/wizards
+END
+PageCompletionListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 201
+/svn/cinspg/!svn/ver/3756/SafeRefactor/trunk/Exemplos/TaRGeT%204.0%20CM%20Integrated/src/TaRGeT%20TC%20Generation%20GUI/src/java/com/motorola/btc/research/target/tcg/wizards/PageCompletionListener.java
+END
+TCGUseCaseSelectionPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 202
+/svn/cinspg/!svn/ver/3756/SafeRefactor/trunk/Exemplos/TaRGeT%204.0%20CM%20Integrated/src/TaRGeT%20TC%20Generation%20GUI/src/java/com/motorola/btc/research/target/tcg/wizards/TCGUseCaseSelectionPage.java
+END
+TestPurposeCreationPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 202
+/svn/cinspg/!svn/ver/3756/SafeRefactor/trunk/Exemplos/TaRGeT%204.0%20CM%20Integrated/src/TaRGeT%20TC%20Generation%20GUI/src/java/com/motorola/btc/research/target/tcg/wizards/TestPurposeCreationPage.java
+END
+TCGPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 186
+/svn/cinspg/!svn/ver/3756/SafeRefactor/trunk/Exemplos/TaRGeT%204.0%20CM%20Integrated/src/TaRGeT%20TC%20Generation%20GUI/src/java/com/motorola/btc/research/target/tcg/wizards/TCGPage.java
+END
+FeatureUseCaseLabelProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 206
+/svn/cinspg/!svn/ver/3756/SafeRefactor/trunk/Exemplos/TaRGeT%204.0%20CM%20Integrated/src/TaRGeT%20TC%20Generation%20GUI/src/java/com/motorola/btc/research/target/tcg/wizards/FeatureUseCaseLabelProvider.java
+END
+TCGRequirementsSelectionPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 207
+/svn/cinspg/!svn/ver/3756/SafeRefactor/trunk/Exemplos/TaRGeT%204.0%20CM%20Integrated/src/TaRGeT%20TC%20Generation%20GUI/src/java/com/motorola/btc/research/target/tcg/wizards/TCGRequirementsSelectionPage.java
+END
+FeatureUseCaseViewer.java
+K 25
+svn:wc:ra_dav:version-url
+V 199
+/svn/cinspg/!svn/ver/3756/SafeRefactor/trunk/Exemplos/TaRGeT%204.0%20CM%20Integrated/src/TaRGeT%20TC%20Generation%20GUI/src/java/com/motorola/btc/research/target/tcg/wizards/FeatureUseCaseViewer.java
+END
+NewTCGWizard.java
+K 25
+svn:wc:ra_dav:version-url
+V 191
+/svn/cinspg/!svn/ver/3756/SafeRefactor/trunk/Exemplos/TaRGeT%204.0%20CM%20Integrated/src/TaRGeT%20TC%20Generation%20GUI/src/java/com/motorola/btc/research/target/tcg/wizards/NewTCGWizard.java
+END
+TabFolderPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 192
+/svn/cinspg/!svn/ver/3756/SafeRefactor/trunk/Exemplos/TaRGeT%204.0%20CM%20Integrated/src/TaRGeT%20TC%20Generation%20GUI/src/java/com/motorola/btc/research/target/tcg/wizards/TabFolderPage.java
+END

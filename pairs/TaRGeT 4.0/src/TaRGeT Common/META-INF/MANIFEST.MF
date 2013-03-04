@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Common Plug-in
+Bundle-SymbolicName: com.motorola.btc.research.target.common
+Bundle-Version: 1.0.0
+Bundle-Activator: com.motorola.btc.research.target.common.Activator
+Bundle-Vendor: CIN-BTC
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Eclipse-LazyStart: true
+Export-Package: com.motorola.btc.research.target.common,
+ com.motorola.btc.research.target.common.actions,
+ com.motorola.btc.research.target.common.exceptions,
+ com.motorola.btc.research.target.common.lts,
+ com.motorola.btc.research.target.common.tuclientagent,
+ com.motorola.btc.research.target.common.ucdoc,
+ com.motorola.btc.research.target.common.ucdoc.xml, 
+ com.motorola.btc.research.target.common.util 

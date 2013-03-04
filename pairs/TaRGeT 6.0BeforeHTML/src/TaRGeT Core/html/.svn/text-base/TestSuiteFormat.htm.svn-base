@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="book.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Help - Test and Requirements Generation Tool - TaRGeT</title>
+</head>
+<body>
+<h1>Test Suite Format </h1>
+<p>The generated Test Suite format follows the TestCentral format. A test case is composed 
+by:</p>
+<ul>
+  <li>The <b>Use Cases</b> field, which lists all use cases related to the test
+    case.</li>
+  <li>The <b>Requirements</b> field, which is filled with all requirements covered by the test case.</li>
+  <li>The <b>Setup</b> field, which is filled with the setup information from
+    the use cases (see
+  the <a href="UseCaseDocStructure.htm">use case structure</a>).</li>
+  <li>The<b> Initial Conditions</b> field, which is filled with all system states covered by the test case.</li>
+  <li>The <b>Procedure</b> field, which is a sequence of user actions from
+  the use cases (see the <a href="UseCaseDocStructure.htm">use case structure</a>).</li>
+  <li>The <b>Expected Results</b> field, which is the sequence of system
+  responses for its corresponding actions (see
+  the <a href="UseCaseDocStructure.htm">use case structure</a>)</li>
+<p><img src="Images/testSuiteFormat.PNG"></p>
+</ul>
+<p>As you can see, there are other test case fields in the example above.
+However, the content of those fields is not generated, or are generated with a
+default text.</p>
+</body>
+</html>

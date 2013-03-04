@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: TaRGeT On The Fly Generation
+Bundle-SymbolicName: br.ufpe.cin.target.onthefly;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: br.ufpe.cin.target.onthefly.OnTheFlyActivator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ br.ufpe.cin.target.tcg;bundle-version="1.0.0",
+ org.eclipse.ui.forms;bundle-version="3.4.0",
+ org.eclipse.nebula.widgets.grid;bundle-version="1.0.0",
+ br.ufpe.cin.target.pm
+Bundle-ActivationPolicy: lazy
+Import-Package: br.ufpe.cin.target.common.actions,
+ br.ufpe.cin.target.common.exceptions,
+ br.ufpe.cin.target.common.lts,
+ br.ufpe.cin.target.common.ucdoc,
+ br.ufpe.cin.target.common.util,
+ br.ufpe.cin.target.pm,
+ br.ufpe.cin.target.pm.controller,
+ br.ufpe.cin.target.pm.export,
+ br.ufpe.cin.target.pm.util
+Export-Package: br.ufpe.cin.target.onthefly.editors

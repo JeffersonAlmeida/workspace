@@ -1,0 +1,99 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="book.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>TaRGeT - Tasks</title>
+</head>
+
+<body>
+<h1>TaRGeT Workspace </h1>
+<p>TaRGeT Workspace displays three different panels (Figure 1): </p>
+<h3> <img border="0" src="Images/TargetWorkspace.PNG" width="901" height="547"></h3>
+<p align="left"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Figure 1 - Target Workspace</b></p>
+<p align="center">&nbsp;</p>
+<ul><li><h3> Left Panel</h3>
+  </li>
+</ul>
+<blockquote>
+  <blockquote>
+    <p> This panel (Figure 2) contains the Use Cases view in which the use cases
+    are outlined. A tree structure is shown, grouping the use cases by feature. The <b>Features </b>folder contains all the use cases grouped according to
+    their feature.</p>
+    <p><img border="0" src="Images/leftPanel.PNG" width="235" height="451"></p>
+    <p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Figure 2 - Left Panel</b></p>
+    <p>&nbsp;</p>
+  </blockquote>
+</blockquote>
+<ul>
+  <li>
+    <h3> Bottom Panel</h3>
+  </li>
+</ul>
+<blockquote>
+  <blockquote>
+    <p> This panel allows three views:</p>
+    <ul>
+      <li><strong> Artifacts View</strong> &ndash; it outlines the project artifacts. It groups, in two different folders, the use case documents and the test suite
+        documents (Figure 3). </li>
+    </ul>
+    <blockquote>
+      <p><img src="Images/bottomPanelArtifacts.PNG" width="593" height="216"></p>
+      <p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      Figure 3 - </b><b>Artifacts View</b></p>
+      <p>&nbsp;</p>
+    </blockquote>
+    <ul>
+      <li><strong> Errors View</strong> &ndash; it lists all <a href="UseCaseDocError.htm">errors</a>
+      in the use case documents. Each error is composed by the <b>Description</b>,
+      the <b>Resource</b> where the error ocurred, the <b>Path</b> of the 
+      resource and the error <b>Location</b> inside the resource (Figure 4).&nbsp;</li>
+    </ul>
+    <blockquote>
+      <p><img border="0" src="Images/bottomPanelError.PNG" width="591" height="216"></p>
+      <p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      Figure 4 - Errors View</b></p>
+      <p>&nbsp;</p>
+    </blockquote>
+    <ul>
+      <li><strong>Search View</strong> &ndash; this list displays the results of
+        a <a href="SearchHelp.htm">search</a> operation. It lists all use cases
+        that are found according to the given query. Each result is composed by
+        the <b>Use Case Name</b>, the <b>Use Case Id</b>, the id<b> </b>of the
+        feature that contains the use case (<b>Feature ID</b>) and the name of
+        the document that contains the use case (<b>Document Name</b>) (Figure
+        5).</li>
+    </ul>
+    <blockquote>
+      <p><img border="0" src="Images/searchResults.PNG" width="592" height="216"></p>
+      <p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      Figure 5 - Search View</b></p>
+      <p>&nbsp;</p>
+    </blockquote>
+  </blockquote>
+</blockquote>
+<ul>
+  <li>
+    <h3> Main Panel</h3>
+  </li>
+</ul>
+<blockquote>
+  <blockquote>
+    <p> This panel is used to display the use case documents content (Figure 6)
+    and the On The Fly Generation editor (Figure 7).</p>
+    <p>&nbsp;</p>
+    <p><img border="0" src="Images/mainPanel.PNG" width="775" height="461"></p>
+    <p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    Figure 6 - Use Case View</b></p>
+    <p>&nbsp;</p>
+    <p><img border="0" src="Images/onTheFly.PNG" width="774" height="460"></p>
+    <p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Figure
+    7 - On The Fly Generation editor</b></p>
+    <p>&nbsp;</p>
+  </blockquote>
+</blockquote>
+</body>
+</html>

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/cinspg/!svn/ver/3681/SafeRefactor/trunk/Exemplos/TaRGeT%206.0AfterHTML/src/TaRGeT%20On%20The%20Fly%20Generation/src/br/ufpe/cin/target/onthefly/editors/actions
+END
+IncludeTestCaseAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 191
+/svn/cinspg/!svn/ver/3681/SafeRefactor/trunk/Exemplos/TaRGeT%206.0AfterHTML/src/TaRGeT%20On%20The%20Fly%20Generation/src/br/ufpe/cin/target/onthefly/editors/actions/IncludeTestCaseAction.java
+END
+AddUseCaseToFilterAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 194
+/svn/cinspg/!svn/ver/3681/SafeRefactor/trunk/Exemplos/TaRGeT%206.0AfterHTML/src/TaRGeT%20On%20The%20Fly%20Generation/src/br/ufpe/cin/target/onthefly/editors/actions/AddUseCaseToFilterAction.java
+END
+AddRequirementToFilterAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 198
+/svn/cinspg/!svn/ver/3681/SafeRefactor/trunk/Exemplos/TaRGeT%206.0AfterHTML/src/TaRGeT%20On%20The%20Fly%20Generation/src/br/ufpe/cin/target/onthefly/editors/actions/AddRequirementToFilterAction.java
+END
+CancelTestCaseExclusionAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 199
+/svn/cinspg/!svn/ver/3681/SafeRefactor/trunk/Exemplos/TaRGeT%206.0AfterHTML/src/TaRGeT%20On%20The%20Fly%20Generation/src/br/ufpe/cin/target/onthefly/editors/actions/CancelTestCaseExclusionAction.java
+END
+CancelTestCaseInclusionAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 199
+/svn/cinspg/!svn/ver/3681/SafeRefactor/trunk/Exemplos/TaRGeT%206.0AfterHTML/src/TaRGeT%20On%20The%20Fly%20Generation/src/br/ufpe/cin/target/onthefly/editors/actions/CancelTestCaseInclusionAction.java
+END
+ExcludeTestCaseAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 191
+/svn/cinspg/!svn/ver/3681/SafeRefactor/trunk/Exemplos/TaRGeT%206.0AfterHTML/src/TaRGeT%20On%20The%20Fly%20Generation/src/br/ufpe/cin/target/onthefly/editors/actions/ExcludeTestCaseAction.java
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/cinspg/!svn/ver/3692/SafeRefactor/trunk/Exemplos/TaRGeT%206.0AfterXMLTestLinkBug/src/CNL%20Framework/src/java/br/ufpe/cin/cnlframework/vocabulary/terms
+END
+LexicalEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/cinspg/!svn/ver/3692/SafeRefactor/trunk/Exemplos/TaRGeT%206.0AfterXMLTestLinkBug/src/CNL%20Framework/src/java/br/ufpe/cin/cnlframework/vocabulary/terms/LexicalEntry.java
+END
+AdverbTerm.java
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/cinspg/!svn/ver/3692/SafeRefactor/trunk/Exemplos/TaRGeT%206.0AfterXMLTestLinkBug/src/CNL%20Framework/src/java/br/ufpe/cin/cnlframework/vocabulary/terms/AdverbTerm.java
+END
+CardinalTerm.java
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/cinspg/!svn/ver/3692/SafeRefactor/trunk/Exemplos/TaRGeT%206.0AfterXMLTestLinkBug/src/CNL%20Framework/src/java/br/ufpe/cin/cnlframework/vocabulary/terms/CardinalTerm.java
+END
+DeterminerTerm.java
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/cinspg/!svn/ver/3692/SafeRefactor/trunk/Exemplos/TaRGeT%206.0AfterXMLTestLinkBug/src/CNL%20Framework/src/java/br/ufpe/cin/cnlframework/vocabulary/terms/DeterminerTerm.java
+END
+VerbTerm.java
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/cinspg/!svn/ver/3692/SafeRefactor/trunk/Exemplos/TaRGeT%206.0AfterXMLTestLinkBug/src/CNL%20Framework/src/java/br/ufpe/cin/cnlframework/vocabulary/terms/VerbTerm.java
+END
+PrepositionTerm.java
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/svn/cinspg/!svn/ver/3692/SafeRefactor/trunk/Exemplos/TaRGeT%206.0AfterXMLTestLinkBug/src/CNL%20Framework/src/java/br/ufpe/cin/cnlframework/vocabulary/terms/PrepositionTerm.java
+END
+NounTerm.java
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/cinspg/!svn/ver/3692/SafeRefactor/trunk/Exemplos/TaRGeT%206.0AfterXMLTestLinkBug/src/CNL%20Framework/src/java/br/ufpe/cin/cnlframework/vocabulary/terms/NounTerm.java
+END
+AdjectiveTerm.java
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/cinspg/!svn/ver/3692/SafeRefactor/trunk/Exemplos/TaRGeT%206.0AfterXMLTestLinkBug/src/CNL%20Framework/src/java/br/ufpe/cin/cnlframework/vocabulary/terms/AdjectiveTerm.java
+END

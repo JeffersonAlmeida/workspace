@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            categoryId="basicgeneration.commands.category"
+            description="Generation Command"
+            id="basicgeneration.project.commands.BasicGeneration"
+            name="Generation Command">
+      </command>
+      <category
+            description="Customized actions."
+            id="basicgeneration.commands.category"
+            name="Basic Category">
+      </category>
+   </extension>
+   <extension
+         point="org.eclipse.ui.bindings">
+      <key
+            commandId="basicgeneration.project.commands.BasicGeneration"
+            contextId="org.eclipse.ui.contexts.window"
+            schemeId="br.ufpe.cin.target.scheme"
+            sequence="CTRL+J">
+      </key>
+   </extension>
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            id="br.ufpe.cin.target.basicgneration.actionSet"
+            label="Tools"
+            visible="true">
+         <action
+               class="br.ufpe.cin.target.basicgeneration.actions.BasicGenerationTCGActionDelegate"
+               definitionId="basicgeneration.project.commands.BasicGeneration"
+               enablesFor="+"
+               id="br.ufpe.cin.target.onthefly.action.BasicGenerationAction"
+               label="&amp;Generate Test Cases"
+               menubarPath="tools/"
+               tooltip="Generate Test Cases">
+         </action>
+      </actionSet>
+   </extension>
+
+
+</plugin>

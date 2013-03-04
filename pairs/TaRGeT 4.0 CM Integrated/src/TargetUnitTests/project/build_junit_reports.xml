@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<!--
+ *
+ * @(#)build.xml
+ * 
+ *(c) COPYRIGHT 2006 MOTOROLA INC.
+ * MOTOROLA CONFIDENTIAL PROPIETARY
+ * Template ID and version: IL93-TMP-01-0112  Version 1.10
+ *
+ * REVISION HISTORY:
+ * Author    Date           CR Number    Brief Description
+ * ######    ############   ##########   #############################
+ * dhq348    May 09, 2007   LIBmm23672   Initial creation. 
+ * dhq348    May 18, 2007   LIBmm23672   Rework of inspection LX175100.
+ * wdt022    Mar 06, 2008   LIBoo24851   Added pm/lib/lucene-core-2.1.0.jar
+ *
+ *
+ -->
+
+<!-- ======================================================================
+    This build.xml file generates the HTML reports for unit test executions.
+    
+    This build.xml file depends on the ANT versions built after apache-ant-1.7.0. 
+    It was first built using a version of ANT that was in its subversion (SVN) location,
+    since the <junit> task of the release apache-ant-1.7.0 does not support
+    support JUnit4 (annotations). Only the version under development (after apache-ant-1.7.0) 
+    supports such feature. 
+  ====================================================================== -->
+<project name="generateUnitTestReports" basedir="../../" default="generate_html_reports">
+
+	<!--
+         The classpath used to execute the unit tests.
+	-->
+	<path id="classpath.test">
+		<pathelement location="common/build/classes" />
+		<pathelement location="core/build/classes" />
+		<pathelement location="pm/build/classes" />
+		<pathelement location="tcg/build/classes" />
+		<pathelement location="unittests/build/classes" />
+		<pathelement location="tcg/lib/poi-2.5.1-final-20040804.jar" />
+		<pathelement location="pm/lib/lucene-core-2.1.0.jar" />
+		<pathelement location="tcg/lib/aspectjrt.jar" />
+		<pathelement location="unittests/lib/junit-4.1.jar" />
+	</path>
+
+	<!--
+        The objective of the target bellow is to execute the unit tests.
+        First of all the target deletes the folder 'unittests/reports' and creates it again.
+        It uses the <junit> ant task for executing com.motorola.btc.research.target.TargetTests, 
+        then it writes the results in the file unittests/reports/TEST-TargetTests.xml. This 
+        file contains information about unit tests execution.
+	-->
+	<target name="execute_junit_tests">
+		<delete dir="unittests/reports" />
+		<mkdir dir="unittests/reports" />
+		<junit dir="unittests" haltonerror="false" fork="yes" showoutput="true" printsummary="yes" haltonfailure="false">
+			<classpath refid="classpath.test" />
+			<formatter type="xml" />
+			<test outfile="unittests/reports/TEST-TargetTests.xml" name="com.motorola.btc.research.target.TargetTests" />
+		</junit>
+	</target>
+
+	<!--
+        The following target is responsible for generating the HTML reports from 
+        the unit tests results. It locates files with the pattern 'TEST-*.xml'.
+        The final reports are created in 'unittests/reports' folder.
+	-->
+	<target name="generate_html_reports" depends="execute_junit_tests">
+		<junitreport todir="unittests/reports">
+			<fileset dir="unittests/reports">
+				<include name="TEST-*.xml" />
+			</fileset>
+			<report todir="unittests/reports" />
+		</junitreport>
+	</target>
+
+</project>

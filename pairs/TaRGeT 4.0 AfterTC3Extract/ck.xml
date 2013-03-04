@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<configurationModel>
+
+	<configuration>
+		<expression>targett</expression>
+		<required></required>
+		<provided>
+			TaRGeTCommon,TaRGeTCore,TaRGeTProjectManager,TaRGeTTCGenerationGUI
+		</provided>
+	</configuration>
+
+	<configuration>
+		<expression>tc3</expression>
+		<required></required>
+		<provided>TaRGeTTestCentral3OutputPlugin
+		</provided>
+	</configuration>
+	
+</configurationModel>

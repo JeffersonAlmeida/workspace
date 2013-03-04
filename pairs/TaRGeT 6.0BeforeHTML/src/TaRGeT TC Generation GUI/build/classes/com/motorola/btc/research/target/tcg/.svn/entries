@@ -1,0 +1,64 @@
+10
+
+dir
+3776
+https://svn.cin.ufpe.br/svn/cinspg/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeHTML/src/TaRGeT%20TC%20Generation%20GUI/build/classes/com/motorola/btc/research/target/tcg
+https://svn.cin.ufpe.br/svn/cinspg
+
+
+
+2011-05-04T17:11:06.862695Z
+3677
+fsf2
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+d69a6c6a-caee-dd11-b87f-0019d1013b4f
+
+actions
+dir
+
+controller
+dir
+
+editors
+dir
+
+exceptions
+dir
+
+extensions
+dir
+
+extractor
+dir
+
+filters
+dir
+
+preferences
+dir
+
+progressbars
+dir
+
+propertiesreader
+dir
+
+util
+dir
+
+wizards
+dir
+

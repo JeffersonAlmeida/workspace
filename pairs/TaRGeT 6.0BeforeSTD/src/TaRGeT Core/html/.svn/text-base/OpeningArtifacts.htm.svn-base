@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="book.css"/>
+<link rel="stylesheet" type="text/css" href="book.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>TaRGeT - Opening a Requirement Document</title>
+</head>
+
+<body>
+<h1>Opening Artifacts</h1>
+
+  <p> You can open an artifact by double-clicking on it in the <b>Artifacts</b> view .</p>
+  <p>&nbsp;</p>
+  <h2><a name="ucdoc">Opening a Use Case Document </a></h2>
+    <ol>
+      <li>Double-click on a use case document in the <b>Artifacts</b> view (Bottom Panel).
+      The following picture shows an use case document that is selected in order to be opened. </li>
+      <p><img border="0" src="Images/openUseCaseDoubleClickArtifactView.PNG" width="356" height="158"></p>
+    </ol>
+
+<p></p>
+<h2><a name="tsdoc">Opening a Test Suite</a></h2>
+<ol>
+  <li>
+  Double-click on a test suite spreadsheet in the <b>Artifacts</b> view (Bottom Panel).
+  The following picture shows a test suite file that is selected in order to be opened. </li>
+</ol>
+
+<blockquote>
+  <p><img border="0" src="Images/openTestSuiteDoubleClickArtifactView.PNG" width="356" height="158"></p>
+</blockquote>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>
+</html>

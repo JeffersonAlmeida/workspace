@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/cinspg/!svn/ver/3671/SafeRefactor/trunk/Exemplos/TaRGeT%206.0%20FMBeforeRefactoring/src/CNL%20Framework/src/java/br/ufpe/cin/cnlframework/vocabulary/base
+END
+LexiconXMLRepository.java
+K 25
+svn:wc:ra_dav:version-url
+V 184
+/svn/cinspg/!svn/ver/3671/SafeRefactor/trunk/Exemplos/TaRGeT%206.0%20FMBeforeRefactoring/src/CNL%20Framework/src/java/br/ufpe/cin/cnlframework/vocabulary/base/LexiconXMLRepository.java
+END
+ILexiconRepository.java
+K 25
+svn:wc:ra_dav:version-url
+V 182
+/svn/cinspg/!svn/ver/3671/SafeRefactor/trunk/Exemplos/TaRGeT%206.0%20FMBeforeRefactoring/src/CNL%20Framework/src/java/br/ufpe/cin/cnlframework/vocabulary/base/ILexiconRepository.java
+END
+LexiconBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/cinspg/!svn/ver/3671/SafeRefactor/trunk/Exemplos/TaRGeT%206.0%20FMBeforeRefactoring/src/CNL%20Framework/src/java/br/ufpe/cin/cnlframework/vocabulary/base/LexiconBase.java
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/cinspg/!svn/ver/3717/SafeRefactor/trunk/Exemplos/Target4.0BeforeCNL/src/TaRGeT%20Core/src/java/com/motorola/btc/research/target/core
+END
+TargetApplication.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/cinspg/!svn/ver/3717/SafeRefactor/trunk/Exemplos/Target4.0BeforeCNL/src/TaRGeT%20Core/src/java/com/motorola/btc/research/target/core/TargetApplication.java
+END
+Perspective.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/cinspg/!svn/ver/3717/SafeRefactor/trunk/Exemplos/Target4.0BeforeCNL/src/TaRGeT%20Core/src/java/com/motorola/btc/research/target/core/Perspective.java
+END
+DefaultView.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/cinspg/!svn/ver/3717/SafeRefactor/trunk/Exemplos/Target4.0BeforeCNL/src/TaRGeT%20Core/src/java/com/motorola/btc/research/target/core/DefaultView.java
+END
+TargetCoreActivator.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/cinspg/!svn/ver/3717/SafeRefactor/trunk/Exemplos/Target4.0BeforeCNL/src/TaRGeT%20Core/src/java/com/motorola/btc/research/target/core/TargetCoreActivator.java
+END
+ApplicationActionBarAdvisor.java
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/cinspg/!svn/ver/3717/SafeRefactor/trunk/Exemplos/Target4.0BeforeCNL/src/TaRGeT%20Core/src/java/com/motorola/btc/research/target/core/ApplicationActionBarAdvisor.java
+END
+ApplicationWorkbenchWindowAdvisor.java
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/cinspg/!svn/ver/3717/SafeRefactor/trunk/Exemplos/Target4.0BeforeCNL/src/TaRGeT%20Core/src/java/com/motorola/btc/research/target/core/ApplicationWorkbenchWindowAdvisor.java
+END
+ApplicationWorkbenchAdvisor.java
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/cinspg/!svn/ver/3717/SafeRefactor/trunk/Exemplos/Target4.0BeforeCNL/src/TaRGeT%20Core/src/java/com/motorola/btc/research/target/core/ApplicationWorkbenchAdvisor.java
+END

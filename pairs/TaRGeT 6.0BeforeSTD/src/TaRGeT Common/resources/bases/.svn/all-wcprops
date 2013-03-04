@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/cinspg/!svn/ver/3658/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeSTD/src/TaRGeT%20Common/resources/bases
+END
+grammar_action.txt
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/cinspg/!svn/ver/3658/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeSTD/src/TaRGeT%20Common/resources/bases/grammar_action.txt
+END
+lexicon.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/cinspg/!svn/ver/3658/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeSTD/src/TaRGeT%20Common/resources/bases/lexicon.xml
+END
+grammar_condition.txt
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/cinspg/!svn/ver/3658/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeSTD/src/TaRGeT%20Common/resources/bases/grammar_condition.txt
+END
+grammar_response.txt
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/cinspg/!svn/ver/3658/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeSTD/src/TaRGeT%20Common/resources/bases/grammar_response.txt
+END
+base_grammar.txt
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/cinspg/!svn/ver/3658/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeSTD/src/TaRGeT%20Common/resources/bases/base_grammar.txt
+END

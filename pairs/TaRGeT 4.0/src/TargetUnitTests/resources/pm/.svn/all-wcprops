@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/cinspg/!svn/ver/3744/SafeRefactor/trunk/Exemplos/TaRGeT%204.0/src/TargetUnitTests/resources/pm
+END
+correct_doc_2.doc
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/cinspg/!svn/ver/3744/SafeRefactor/trunk/Exemplos/TaRGeT%204.0/src/TargetUnitTests/resources/pm/correct_doc_2.doc
+END
+dup_featid_inside_doc.doc
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/cinspg/!svn/ver/3744/SafeRefactor/trunk/Exemplos/TaRGeT%204.0/src/TargetUnitTests/resources/pm/dup_featid_inside_doc.doc
+END
+correct_duplicated_feature_with_doc1.doc
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/cinspg/!svn/ver/3744/SafeRefactor/trunk/Exemplos/TaRGeT%204.0/src/TargetUnitTests/resources/pm/correct_duplicated_feature_with_doc1.doc
+END
+missing_stepid_doc.doc
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/cinspg/!svn/ver/3744/SafeRefactor/trunk/Exemplos/TaRGeT%204.0/src/TargetUnitTests/resources/pm/missing_stepid_doc.doc
+END
+missing_action_response_doc.doc
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/cinspg/!svn/ver/3744/SafeRefactor/trunk/Exemplos/TaRGeT%204.0/src/TargetUnitTests/resources/pm/missing_action_response_doc.doc
+END
+testSuite.xls
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/cinspg/!svn/ver/3744/SafeRefactor/trunk/Exemplos/TaRGeT%204.0/src/TargetUnitTests/resources/pm/testSuite.xls
+END
+noxml_doc.doc
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/cinspg/!svn/ver/3744/SafeRefactor/trunk/Exemplos/TaRGeT%204.0/src/TargetUnitTests/resources/pm/noxml_doc.doc
+END
+dup_stepid_doc.doc
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/cinspg/!svn/ver/3744/SafeRefactor/trunk/Exemplos/TaRGeT%204.0/src/TargetUnitTests/resources/pm/dup_stepid_doc.doc
+END
+duplicated_feature_name_with_correct_doc1.doc
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/cinspg/!svn/ver/3744/SafeRefactor/trunk/Exemplos/TaRGeT%204.0/src/TargetUnitTests/resources/pm/duplicated_feature_name_with_correct_doc1.doc
+END
+dup_ucid_doc.doc
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/cinspg/!svn/ver/3744/SafeRefactor/trunk/Exemplos/TaRGeT%204.0/src/TargetUnitTests/resources/pm/dup_ucid_doc.doc
+END
+wrongxml_doc.doc
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/cinspg/!svn/ver/3744/SafeRefactor/trunk/Exemplos/TaRGeT%204.0/src/TargetUnitTests/resources/pm/wrongxml_doc.doc
+END
+dup_featid_with_doc_1.doc
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/cinspg/!svn/ver/3744/SafeRefactor/trunk/Exemplos/TaRGeT%204.0/src/TargetUnitTests/resources/pm/dup_featid_with_doc_1.doc
+END
+correct_doc_1.doc
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/cinspg/!svn/ver/3744/SafeRefactor/trunk/Exemplos/TaRGeT%204.0/src/TargetUnitTests/resources/pm/correct_doc_1.doc
+END

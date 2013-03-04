@@ -1,0 +1,3 @@
+#nome da feature=constante (tudo em minusculas)
+#preprocess=TaRGeT Common/src/java/com/motorola/btc/research/target/common/tuclientagent/TrackUsageClient.java,TaRGeT Common/src/java/com/motorola/btc/research/target/common/tuclientagent/TrackUsageClient.java
+

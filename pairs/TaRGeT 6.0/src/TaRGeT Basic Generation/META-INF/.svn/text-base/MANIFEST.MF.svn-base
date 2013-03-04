@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: TaRGeT Basic Generation
+Bundle-SymbolicName: br.ufpe.cin.target.basicgeneration;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: br.ufpe.cin.target.basicgeneration.BGActivator
+Bundle-Vendor: CIN-BTC
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources,
+ br.ufpe.cin.target.tcg;bundle-version="1.0.0",
+ br.ufpe.cin.target.pm;bundle-version="1.0.0"
+Bundle-ActivationPolicy: lazy
+Import-Package: br.ufpe.cin.target.common.actions,
+ br.ufpe.cin.target.common.lts,
+ br.ufpe.cin.target.common.ucdoc,
+ br.ufpe.cin.target.common.util

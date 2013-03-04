@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/cinspg/!svn/ver/3673/SafeRefactor/trunk/Exemplos/TaRGeT%206.0CMWarningsRefactored/src/TaRGeT%20TC%20Generation%20GUI/src/java/br/ufpe/cin/target/tcg/actions
+END
+AbstractTCGAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 184
+/svn/cinspg/!svn/ver/3673/SafeRefactor/trunk/Exemplos/TaRGeT%206.0CMWarningsRefactored/src/TaRGeT%20TC%20Generation%20GUI/src/java/br/ufpe/cin/target/tcg/actions/AbstractTCGAction.java
+END
+PreferencesActionDelegate.java
+K 25
+svn:wc:ra_dav:version-url
+V 192
+/svn/cinspg/!svn/ver/3673/SafeRefactor/trunk/Exemplos/TaRGeT%206.0CMWarningsRefactored/src/TaRGeT%20TC%20Generation%20GUI/src/java/br/ufpe/cin/target/tcg/actions/PreferencesActionDelegate.java
+END
+AbstractTCGActionDelegate.java
+K 25
+svn:wc:ra_dav:version-url
+V 192
+/svn/cinspg/!svn/ver/3673/SafeRefactor/trunk/Exemplos/TaRGeT%206.0CMWarningsRefactored/src/TaRGeT%20TC%20Generation%20GUI/src/java/br/ufpe/cin/target/tcg/actions/AbstractTCGActionDelegate.java
+END

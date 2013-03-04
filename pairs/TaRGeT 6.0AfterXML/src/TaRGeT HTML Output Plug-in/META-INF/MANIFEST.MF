@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: TaRGeT HTML Output Plug-in
+Bundle-SymbolicName: br.ufpe.cin.target.htmloutput;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: br.ufpe.cin.target.htmloutput.Activator
+Require-Bundle: org.eclipse.core.runtime,
+ br.ufpe.cin.target.common;bundle-version="1.0.0",
+ br.ufpe.cin.target.pm;bundle-version="1.0.0",
+ br.ufpe.cin.target.tcg;bundle-version="1.0.0"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ClassPath: lib/jericho-html-3.1.jar,
+ .
+Bundle-Vendor: CIN-BTC

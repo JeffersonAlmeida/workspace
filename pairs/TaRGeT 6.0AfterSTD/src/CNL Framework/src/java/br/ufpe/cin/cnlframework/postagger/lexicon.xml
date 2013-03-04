@@ -1,0 +1,3159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><lexicon>
+
+<!--
+PARTICLES
+-->
+<particle>
+	<term pos="EX">there</term>
+</particle>
+
+<particle>
+	<term pos="DO">do</term>
+</particle>
+<particle>
+	<term pos="NG">not</term>
+</particle>
+
+<!--
+### ORDINAL ###
+-->
+
+<particle>
+	<term pos="OD">first</term>
+</particle>
+<particle>
+	<term pos="OD">second</term>
+</particle>
+<particle>
+	<term pos="OD">third</term>
+</particle>
+<particle>
+	<term pos="OD">fourth</term>
+</particle>
+<particle>
+	<term pos="OD">fifth</term>
+</particle>
+<particle>
+	<term pos="OD">sixth</term>
+</particle>
+<particle>
+	<term pos="OD">seventh</term>
+</particle>
+<particle>
+	<term pos="OD">eighth</term>
+</particle>
+<particle>
+	<term pos="OD">ninth</term>
+</particle>
+<particle>
+	<term pos="OD">tenth</term>
+</particle>
+
+<!--
+### CONJUNCTION ###
+-->
+
+<particle>
+	<term pos="CJ">after</term>
+</particle>
+<particle>
+	<term pos="CJ">before</term>
+</particle>
+<particle>
+	<term pos="CJ">while</term>
+</particle>
+<particle>
+	<term pos="CJ">instead of</term>
+</particle>
+
+<!--
+### CARDINAL ###
+-->
+<cardinal>
+	<term>one</term>
+</cardinal>
+<cardinal>
+	<term>two</term>
+</cardinal>
+<cardinal>
+	<term>three</term>
+</cardinal>
+<cardinal>
+	<term>four</term>
+</cardinal>
+<cardinal>
+	<term>five</term>
+</cardinal>
+<cardinal>
+	<term>six</term>
+</cardinal>
+<cardinal>
+	<term>seven</term>
+</cardinal>
+<cardinal>
+	<term>eight</term>
+</cardinal>
+<cardinal>
+	<term>nine</term>
+</cardinal>
+<cardinal>
+	<term>ten</term>
+</cardinal>
+<cardinal>
+	<term>eleven</term>
+</cardinal>
+<cardinal>
+	<term>twelve</term>
+</cardinal>
+<cardinal>
+	<term>thirteen</term>
+</cardinal>
+<cardinal>
+	<term>fourteen</term>
+</cardinal>
+<cardinal>
+	<term>fifteen</term>
+</cardinal>
+<cardinal>
+	<term>sixteen</term>
+</cardinal>
+<cardinal>
+	<term>seventeen</term>
+</cardinal>
+<cardinal>
+	<term>eighteen</term>
+</cardinal>
+<cardinal>
+	<term>nineteen</term>
+</cardinal>
+<cardinal>
+	<term>twenty</term>
+</cardinal>
+<cardinal>
+	<term>thirty</term>
+</cardinal>
+<cardinal>
+	<term>forty</term>
+</cardinal>
+<cardinal>
+	<term>fifty</term>
+</cardinal>
+<cardinal>
+	<term>sixty</term>
+</cardinal>
+<cardinal>
+	<term>seventy</term>
+</cardinal>
+<cardinal>
+	<term>eighty</term>
+</cardinal>
+<cardinal>
+	<term>ninety</term>
+</cardinal>
+<cardinal>
+	<term>hundred</term>
+</cardinal>
+<cardinal>
+	<term>thousand</term>
+</cardinal>
+<cardinal>
+	<term>million</term>
+</cardinal>
+
+<!--
+PREPOSITIONS
+-->
+<preposition>
+	<term>from</term>
+</preposition>
+<preposition>
+	<term>until</term>
+</preposition>
+<preposition>
+	<term>to</term>
+</preposition>
+<preposition>
+	<term>of</term>
+</preposition>
+<preposition>
+	<term>for</term>
+</preposition>
+<preposition>
+	<term>at</term>
+</preposition>
+<preposition>
+	<term>in</term>
+</preposition>
+<preposition>
+	<term>on</term>
+</preposition>
+<preposition>
+	<term>by</term>
+</preposition>
+<preposition>
+	<term>over</term>
+</preposition>
+<preposition>
+	<term>without</term>
+</preposition>
+<preposition>
+	<term>with</term>
+</preposition>
+<preposition>
+	<term>during</term>
+</preposition>
+<preposition>
+	<term>after</term>
+</preposition>
+
+
+<!--
+NOUNS
+-->
+<noun>
+	<term>device</term>
+	<plural/>
+</noun>
+<noun>
+	<term>wmdrm content</term>
+	<plural/>
+</noun>
+
+<noun>
+	<term>mmc</term>
+	<plural/>
+</noun>
+
+<noun>
+	<term>wmdrm file</term>
+	<plural/>
+</noun>
+
+<noun>
+	<term>server</term>
+	<plural/>
+</noun>
+
+<noun>
+	<term>silent</term>
+	<plural/>
+</noun>
+
+<noun>
+	<term>mode</term>
+	<plural/>
+</noun>
+
+<noun>
+	<term>media file</term>
+	<plural/>
+</noun>
+
+<noun>
+	<term>dialog</term>
+	<plural/>
+</noun>
+
+<noun>
+	<term>license</term>
+	<plural/>
+</noun>
+
+<noun>
+	<term>sound file</term>
+	<plural/>
+</noun>
+
+<noun>
+	<term>wherefrom</term>
+	<plural/>
+</noun>
+
+<noun>
+	<term>download</term>
+	<plural/>
+</noun>
+
+<noun>
+	<term>phone</term>
+	<plural/>
+</noun>
+
+<noun>
+	<term>operation</term>
+	<plural/>
+</noun>
+
+<noun>
+	<term>progress bar</term>
+	<plural/>
+</noun>
+
+<noun>
+	<term>data loss</term>
+	<plural/>
+</noun>
+
+<noun>
+	<term>timeout</term>
+	<plural/>
+</noun>
+
+<noun>
+	<term>secure clock</term>
+	<plural/>
+</noun>
+
+<noun>
+	<term>synchronization</term>
+	<plural/>
+</noun>
+
+<noun>
+	<term>off</term>
+	<plural/>
+</noun>
+
+
+<noun>
+	<term>update error</term>
+	<plural/>
+</noun>
+<noun>
+	<term>wap push sl message</term>
+	<plural/>
+</noun>
+<noun>
+	<term>service</term>
+	<plural/>
+</noun>
+<noun>
+	<term>provider</term>
+	<plural/>
+</noun>
+<noun>
+	<term>ota metering</term>
+	<plural/>
+</noun>
+<noun>
+	<term>metering</term>
+	<plural/>
+</noun>
+<noun>
+	<term>flex bit</term>
+	<plural/>
+</noun>
+<noun>
+	<term>on</term>
+	<plural/>
+</noun>
+<noun>
+	<term>off</term>
+	<plural/>
+</noun>
+<noun>
+	<term>usage</term>
+	<plural/>
+</noun>
+<noun>
+	<term>information</term>
+	<plural/>
+</noun>
+<noun>
+	<term>subscription</term>
+	<plural/>
+</noun>
+<noun>
+	<term>content</term>
+	<plural/>
+</noun>
+<noun>
+	<term>process</term>
+	<plural/>
+</noun>
+<noun>
+	<term>end</term>
+	<plural/>
+</noun>
+<noun>
+	<term>file</term>
+	<plural/>
+</noun>
+<noun>
+	<term>failure</term>
+	<plural/>
+</noun>
+<noun>
+	<term>license</term>
+	<plural/>
+</noun>
+<noun>
+	<term>acquisition</term>
+	<plural/>
+</noun>
+<noun>
+	<term>handset</term>
+	<plural/>
+</noun>
+<noun>
+	<term>storage</term>
+	<plural/>
+</noun>
+<noun>
+	<term>ip address</term>
+	<plural/>
+</noun>
+
+<noun>
+	<term>voice</term>
+	<plural/>
+</noun>
+
+<noun>
+	<term>mms</term>
+	<plural/>
+</noun>
+
+<noun>
+	<term>sms</term>
+	<plural/>
+</noun>
+
+<noun>
+	<term>call</term>
+	<plural/>
+</noun>
+
+<noun>
+	<term>flipslide</term>
+	<plural/>
+</noun>
+<noun>
+	<term>battery</term>
+	<plural/>
+</noun>
+<noun>
+	<term>authentication</term>
+	<plural/>
+</noun>
+
+<noun>
+	<term>date</term>
+	<plural/>
+</noun>
+
+<noun>
+	<term>book</term>
+	<plural/>
+</noun>
+<noun>
+	<term>event</term>
+	<plural/>
+</noun>
+
+<noun>
+	<term>alarm</term>
+	<plural/>
+</noun>
+<noun>
+	<term>clock</term>
+	<plural/>
+</noun>
+
+<noun>
+	<term>push to talk call</term>
+	<plural/>
+</noun>
+
+<noun>
+	<term>root license</term>
+	<plural/>
+</noun>
+
+<noun>
+	<term>music</term>
+	<plural/>
+</noun>
+
+<noun>
+	<term>renewal</term>
+	<plural/>
+</noun>
+
+<noun>
+	<term>lack</term>
+	<plural/>
+</noun>
+
+<noun>
+	<term>network</term>
+	<plural/>
+</noun>
+
+<noun>
+	<term>coverage</term>
+	<plural/>
+</noun>
+
+<noun>
+	<term>instant message</term>
+	<plural/>
+</noun>
+
+<noun>
+	<term>pc client</term>
+	<plural/>
+</noun>
+
+<noun>
+	<term>screen</term>
+	<plural/>
+</noun>
+<noun>
+	<term>status</term>
+	<plural/>
+</noun>
+<noun>
+	<term>update</term>
+	<plural/>
+</noun>
+<!--
+VERBS
+-->
+
+<verb>
+	<term>inform</term>
+	<past>informed</past>
+	<participle>informed</participle>
+	<gerund>informing</gerund>
+	<thirdperson>informs</thirdperson>
+</verb>
+<verb>
+	<term>provide</term>
+	<past>provided</past>
+	<participle>provided</participle>
+	<gerund>providing</gerund>
+	<thirdperson>provides</thirdperson>
+</verb>
+<verb>
+	<term>fail</term>
+	<past>failed</past>
+	<participle>failed</participle>
+	<gerund>failing</gerund>
+	<thirdperson>fails</thirdperson>
+</verb>
+<verb>
+	<term>terminate</term>
+	<past>terminated</past>
+	<participle>terminated</participle>
+	<gerund>terminating</gerund>
+	<thirdperson>terminates</thirdperson>
+</verb>
+<verb>
+	<term>continue</term>
+	<past>continued</past>
+	<participle>continued</participle>
+	<gerund>continuing</gerund>
+	<thirdperson>continues</thirdperson>
+</verb>
+<verb>
+	<term>corrupt</term>
+	<past>corrupted</past>
+	<participle>corrupted</participle>
+	<gerund>corrupting</gerund>
+	<thirdperson>corrupts</thirdperson>
+</verb>
+
+
+
+<verb>
+	<term>hide</term>
+	<past>hid</past>
+	<participle>hidden</participle>
+	<gerund>hiding</gerund> 
+	<thirdperson>hides</thirdperson>
+</verb>
+<verb>
+	<term>download</term>
+	<past>downloaded</past>
+	<participle>downloaded</participle>
+	<gerund>downloading</gerund>
+	<thirdperson>downloads</thirdperson>
+</verb>
+<verb>
+	<term>return</term>
+	<past>returned</past>
+	<participle>returned</participle>
+	<gerund>returning</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>perform</term>
+	<past>performed</past>
+	<participle>performed</participle>
+	<gerund>performing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>set</term>
+	<past>set</past>
+	<participle>set</participle>
+	<gerund>setting</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>accept</term>
+	<past>accepted</past>
+	<participle>accepted</participle>
+	<gerund>accepting</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>restore</term>
+	<past>restored</past>
+	<participle>restored</participle>
+	<gerund>restoring</gerund> 
+	<thirdperson>restores</thirdperson>
+</verb>
+<verb>
+	<term>have</term>
+	<past>had</past>
+	<participle>had</participle>
+	<gerund>having</gerund> 
+	<thirdperson>has</thirdperson>
+</verb>
+<verb>
+	<term>wait</term>
+	<past>waited</past>
+	<participle>waited</participle>
+	<gerund>waiting</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>open</term>
+	<past>opened</past>
+	<participle>opened</participle>
+	<gerund>opening</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>check</term>
+	<past>checked</past>
+	<participle>checked</participle>
+	<gerund>checking</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>uncheck</term>
+	<past>unchecked</past>
+	<participle>unchecked</participle>
+	<gerund>unchecking</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>change</term>
+	<past>changed</past>
+	<participle>changed</participle>
+	<gerund>changing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>edit</term>
+	<past>edited</past>
+	<participle>edited</participle>
+	<gerund>editing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>fill</term>
+	<past>filled</past>
+	<participle>filled</participle>
+	<gerund>filling</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>select</term>
+	<past>selected</past>
+	<participle>selected</participle>
+	<gerund>selecting</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>choose</term>
+	<past>chose</past>
+	<participle>choosen</participle>
+	<gerund>choosing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>unselect</term>
+	<past>unselected</past>
+	<participle>unselected</participle>
+	<gerund>unselecting</gerund> <thirdperson/>
+</verb>
+<!--<verb>
+	<term>highlight</term>
+	<past>highlighted</past>
+	<participle>highlighted</participle>
+	<gerund>highlighting</gerund> <thirdperson/>
+</verb>-->
+<verb>
+	<term>delete</term>
+	<past>deleted</past>
+	<participle>deleted</participle>
+	<gerund>deleting</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>remove</term>
+	<past>removed</past>
+	<participle>removed</participle>
+	<gerund>removing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>verify</term>
+	<past>verified</past>
+	<participle>verified</participle>
+	<gerund>verifying</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>confirm</term>
+	<past>confirmed</past>
+	<participle>confirmed</participle>
+	<gerund>confirming</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>start</term>
+	<past>started</past>
+	<participle>started</participle>
+	<gerund>starting</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>run</term>
+	<past>ran</past>
+	<participle>run</participle>
+	<gerund>running</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>save</term>
+	<past>saved</past>
+	<participle>save</participle>
+	<gerund>saving</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>store</term>
+	<past>stored</past>
+	<participle>stored</participle>
+	<gerund>storing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>create</term>
+	<past>created</past>
+	<participle>created</participle>
+	<gerund>creating</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>send</term>
+	<past>sent</past>
+	<participle>sent</participle>
+	<gerund>sending</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>go</term>
+	<past>went</past>
+	<participle>gone</participle>
+	<gerund>going</gerund> 
+	<thirdperson>goes</thirdperson>
+</verb>
+<!-- Adicionei a partir daqui-->
+<verb>
+	<term>press</term>
+	<past>pressed</past>
+	<participle>pressed</participle>
+	<gerund>pressing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>enter</term>
+	<past>entered</past>
+	<participle>entered</participle>
+	<gerund>entering</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>unlock</term>
+	<past>unlocked</past>
+	<participle>unlocked</participle>
+	<gerund>unlocking</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>reply</term>
+	<past>replied</past>
+	<participle>replied</participle>
+	<gerund>replying</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>execute</term>
+	<past>executed</past>
+	<participle>executed</participle>
+	<gerund>executing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>scroll</term>
+	<past>scrolled</past>
+	<participle>scrolled</participle>
+	<gerund>scrolling</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>flex</term>
+	<past>flexed</past>
+	<participle>flexed</participle>
+	<gerund>flexing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>show</term>
+	<past>showed</past>
+	<participle>shown</participle>
+	<gerund>showing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>stop</term>
+	<past>stopped</past>
+	<participle>stopped</participle>
+	<gerund>stopping</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>cancel</term>
+	<past>canceled</past>
+	<participle>canceled</participle>
+	<gerund>canceling</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>display</term>
+	<past>displayed</past>
+	<participle>displayed</participle>
+	<gerund>displaying</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>play</term>
+	<past>played</past>
+	<participle>played</participle>
+	<gerund>playing</gerund> <thirdperson/>
+</verb>
+
+<verb>
+	<term>ignore</term>
+	<past>ignored</past>
+	<participle>ignored</participle>
+	<gerund>ignoring</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>reject</term>
+	<past>rejected</past>
+	<participle>rejected</participle>
+	<gerund>rejecting</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>reset</term>
+	<past>reset</past>
+	<participle>reset</participle>
+	<gerund>resetting</gerund> <thirdperson/>
+</verb>
+
+<verb>
+	<term>end</term>
+	<past>ended</past>
+	<participle>ended</participle>
+	<gerund>ending</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>replace</term>
+	<past>replaced</past>
+	<participle>replaced</participle>
+	<gerund>replacing</gerund> <thirdperson/>
+</verb>
+
+<verb>
+	<term>read</term>
+	<past>read</past>
+	<participle>read</participle>
+	<gerund>reading</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>move</term>
+	<past>moved</past>
+	<participle>moved</participle>
+	<gerund>moving</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>write</term>
+	<past>wrote</past>
+	<participle>written</participle>
+	<gerund>writing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>type</term>
+	<past>typed</past>
+	<participle>typed</participle>
+	<gerund>typing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>insert</term>
+	<past>inserted</past>
+	<participle>inserted</participle>
+	<gerund>inserting</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>access</term>
+	<past>accessed</past>
+	<participle>accessed</participle>
+	<gerund>accessing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>navigate</term>
+	<past>navigated</past>
+	<participle>navigated</participle>
+	<gerund>navigating</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>navigate</term>
+	<past>navigated</past>
+	<participle>navigated</participle>
+	<gerund>navigating</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>return</term>
+	<past>returned</past>
+	<participle>returned</participle>
+	<gerund>returning</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>reenter</term>
+	<past>reentered</past>
+	<participle>reentered</participle>
+	<gerund>reentering</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>receive</term>
+	<past>received</past>
+	<participle>received</participle>
+	<gerund>receiving</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>forward</term>
+	<past>forwarded</past>
+	<participle>forwarded</participle>
+	<gerund>forwarding</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>lock</term>
+	<past>locked</past>
+	<participle>locked</participle>
+	<gerund>locking</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>invoke</term>
+	<past>invoked</past>
+	<participle>invoked</participle>
+	<gerund>invoking</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>have</term>
+	<past>had</past>
+	<participle>had</participle>
+	<gerund>having</gerund> 
+	<thirdperson>has</thirdperson>
+</verb>
+<verb>
+	<term>wait</term>
+	<past>waited</past>
+	<participle>waited</participle>
+	<gerund>waiting</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>open</term>
+	<past>opened</past>
+	<participle>opened</participle>
+	<gerund>opening</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>check</term>
+	<past>checked</past>
+	<participle>checked</participle>
+	<gerund>checking</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>uncheck</term>
+	<past>unchecked</past>
+	<participle>unchecked</participle>
+	<gerund>unchecking</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>change</term>
+	<past>changed</past>
+	<participle>changed</participle>
+	<gerund>changing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>edit</term>
+	<past>edited</past>
+	<participle>edited</participle>
+	<gerund>editing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>fill</term>
+	<past>filled</past>
+	<participle>filled</participle>
+	<gerund>filling</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>select</term>
+	<past>selected</past>
+	<participle>selected</participle>
+	<gerund>selecting</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>choose</term>
+	<past>chose</past>
+	<participle>choosen</participle>
+	<gerund>choosing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>unselect</term>
+	<past>unselected</past>
+	<participle>unselected</participle>
+	<gerund>unselecting</gerund> <thirdperson/>
+</verb>
+<!--<verb>
+	<term>highlight</term>
+	<past>highlighted</past>
+	<participle>highlighted</participle>
+	<gerund>highlighting</gerund> <thirdperson/>
+</verb>-->
+<verb>
+	<term>delete</term>
+	<past>deleted</past>
+	<participle>deleted</participle>
+	<gerund>deleting</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>remove</term>
+	<past>removed</past>
+	<participle>removed</participle>
+	<gerund>removing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>verify</term>
+	<past>verified</past>
+	<participle>verified</participle>
+	<gerund>verifying</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>confirm</term>
+	<past>confirmed</past>
+	<participle>confirmed</participle>
+	<gerund>confirming</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>start</term>
+	<past>started</past>
+	<participle>started</participle>
+	<gerund>starting</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>run</term>
+	<past>ran</past>
+	<participle>run</participle>
+	<gerund>running</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>save</term>
+	<past>saved</past>
+	<participle>save</participle>
+	<gerund>saving</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>store</term>
+	<past>stored</past>
+	<participle>stored</participle>
+	<gerund>storing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>create</term>
+	<past>created</past>
+	<participle>created</participle>
+	<gerund>creating</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>send</term>
+	<past>sent</past>
+	<participle>sent</participle>
+	<gerund>sending</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>go</term>
+	<past>went</past>
+	<participle>gone</participle>
+	<gerund>going</gerund> 
+	<thirdperson>goes</thirdperson>
+</verb>
+<!-- Adicionei a partir daqui-->
+<verb>
+	<term>press</term>
+	<past>pressed</past>
+	<participle>pressed</participle>
+	<gerund>pressing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>enter</term>
+	<past>entered</past>
+	<participle>entered</participle>
+	<gerund>entering</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>unlock</term>
+	<past>unlocked</past>
+	<participle>unlocked</participle>
+	<gerund>unlocking</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>reply</term>
+	<past>replied</past>
+	<participle>replied</participle>
+	<gerund>replying</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>execute</term>
+	<past>executed</past>
+	<participle>executed</participle>
+	<gerund>executing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>scroll</term>
+	<past>scrolled</past>
+	<participle>scrolled</participle>
+	<gerund>scrolling</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>flex</term>
+	<past>flexed</past>
+	<participle>flexed</participle>
+	<gerund>flexing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>show</term>
+	<past>showed</past>
+	<participle>shown</participle>
+	<gerund>showing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>stop</term>
+	<past>stopped</past>
+	<participle>stopped</participle>
+	<gerund>stopping</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>cancel</term>
+	<past>canceled</past>
+	<participle>canceled</participle>
+	<gerund>canceling</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>display</term>
+	<past>displayed</past>
+	<participle>displayed</participle>
+	<gerund>displaying</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>play</term>
+	<past>played</past>
+	<participle>played</participle>
+	<gerund>playing</gerund> <thirdperson/>
+</verb>
+
+<verb>
+	<term>ignore</term>
+	<past>ignored</past>
+	<participle>ignored</participle>
+	<gerund>ignoring</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>reject</term>
+	<past>rejected</past>
+	<participle>rejected</participle>
+	<gerund>rejecting</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>reset</term>
+	<past>reset</past>
+	<participle>reset</participle>
+	<gerund>resetting</gerund> <thirdperson/>
+</verb>
+
+<verb>
+	<term>end</term>
+	<past>ended</past>
+	<participle>ended</participle>
+	<gerund>ending</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>replace</term>
+	<past>replaced</past>
+	<participle>replaced</participle>
+	<gerund>replacing</gerund> <thirdperson/>
+</verb>
+
+<verb>
+	<term>read</term>
+	<past>read</past>
+	<participle>read</participle>
+	<gerund>reading</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>move</term>
+	<past>moved</past>
+	<participle>moved</participle>
+	<gerund>moving</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>write</term>
+	<past>wrote</past>
+	<participle>written</participle>
+	<gerund>writing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>type</term>
+	<past>typed</past>
+	<participle>typed</participle>
+	<gerund>typing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>insert</term>
+	<past>inserted</past>
+	<participle>inserted</participle>
+	<gerund>inserting</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>access</term>
+	<past>accessed</past>
+	<participle>accessed</participle>
+	<gerund>accessing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>navigate</term>
+	<past>navigated</past>
+	<participle>navigated</participle>
+	<gerund>navigating</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>navigate</term>
+	<past>navigated</past>
+	<participle>navigated</participle>
+	<gerund>navigating</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>return</term>
+	<past>returned</past>
+	<participle>returned</participle>
+	<gerund>returning</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>reenter</term>
+	<past>reentered</past>
+	<participle>reentered</participle>
+	<gerund>reentering</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>receive</term>
+	<past>received</past>
+	<participle>received</participle>
+	<gerund>receiving</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>forward</term>
+	<past>forwarded</past>
+	<participle>forwarded</participle>
+	<gerund>forwarding</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>lock</term>
+	<past>locked</past>
+	<participle>locked</participle>
+	<gerund>locking</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>invoke</term>
+	<past>invoked</past>
+	<participle>invoked</participle>
+	<gerund>invoking</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>have</term>
+	<past>had</past>
+	<participle>had</participle>
+	<gerund>having</gerund> 
+	<thirdperson>has</thirdperson>
+</verb>
+<verb>
+	<term>wait</term>
+	<past>waited</past>
+	<participle>waited</participle>
+	<gerund>waiting</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>open</term>
+	<past>opened</past>
+	<participle>opened</participle>
+	<gerund>opening</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>check</term>
+	<past>checked</past>
+	<participle>checked</participle>
+	<gerund>checking</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>uncheck</term>
+	<past>unchecked</past>
+	<participle>unchecked</participle>
+	<gerund>unchecking</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>change</term>
+	<past>changed</past>
+	<participle>changed</participle>
+	<gerund>changing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>edit</term>
+	<past>edited</past>
+	<participle>edited</participle>
+	<gerund>editing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>fill</term>
+	<past>filled</past>
+	<participle>filled</participle>
+	<gerund>filling</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>select</term>
+	<past>selected</past>
+	<participle>selected</participle>
+	<gerund>selecting</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>choose</term>
+	<past>chose</past>
+	<participle>choosen</participle>
+	<gerund>choosing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>unselect</term>
+	<past>unselected</past>
+	<participle>unselected</participle>
+	<gerund>unselecting</gerund> <thirdperson/>
+</verb>
+<!--<verb>
+	<term>highlight</term>
+	<past>highlighted</past>
+	<participle>highlighted</participle>
+	<gerund>highlighting</gerund> <thirdperson/>
+</verb>-->
+<verb>
+	<term>delete</term>
+	<past>deleted</past>
+	<participle>deleted</participle>
+	<gerund>deleting</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>remove</term>
+	<past>removed</past>
+	<participle>removed</participle>
+	<gerund>removing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>verify</term>
+	<past>verified</past>
+	<participle>verified</participle>
+	<gerund>verifying</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>confirm</term>
+	<past>confirmed</past>
+	<participle>confirmed</participle>
+	<gerund>confirming</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>start</term>
+	<past>started</past>
+	<participle>started</participle>
+	<gerund>starting</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>run</term>
+	<past>ran</past>
+	<participle>run</participle>
+	<gerund>running</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>save</term>
+	<past>saved</past>
+	<participle>save</participle>
+	<gerund>saving</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>store</term>
+	<past>stored</past>
+	<participle>stored</participle>
+	<gerund>storing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>create</term>
+	<past>created</past>
+	<participle>created</participle>
+	<gerund>creating</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>send</term>
+	<past>sent</past>
+	<participle>sent</participle>
+	<gerund>sending</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>go</term>
+	<past>went</past>
+	<participle>gone</participle>
+	<gerund>going</gerund> 
+	<thirdperson>goes</thirdperson>
+</verb>
+<!-- Adicionei a partir daqui-->
+<verb>
+	<term>press</term>
+	<past>pressed</past>
+	<participle>pressed</participle>
+	<gerund>pressing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>enter</term>
+	<past>entered</past>
+	<participle>entered</participle>
+	<gerund>entering</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>unlock</term>
+	<past>unlocked</past>
+	<participle>unlocked</participle>
+	<gerund>unlocking</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>reply</term>
+	<past>replied</past>
+	<participle>replied</participle>
+	<gerund>replying</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>execute</term>
+	<past>executed</past>
+	<participle>executed</participle>
+	<gerund>executing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>scroll</term>
+	<past>scrolled</past>
+	<participle>scrolled</participle>
+	<gerund>scrolling</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>flex</term>
+	<past>flexed</past>
+	<participle>flexed</participle>
+	<gerund>flexing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>show</term>
+	<past>showed</past>
+	<participle>shown</participle>
+	<gerund>showing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>stop</term>
+	<past>stopped</past>
+	<participle>stopped</participle>
+	<gerund>stopping</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>cancel</term>
+	<past>canceled</past>
+	<participle>canceled</participle>
+	<gerund>canceling</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>display</term>
+	<past>displayed</past>
+	<participle>displayed</participle>
+	<gerund>displaying</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>play</term>
+	<past>played</past>
+	<participle>played</participle>
+	<gerund>playing</gerund> <thirdperson/>
+</verb>
+
+<verb>
+	<term>ignore</term>
+	<past>ignored</past>
+	<participle>ignored</participle>
+	<gerund>ignoring</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>reject</term>
+	<past>rejected</past>
+	<participle>rejected</participle>
+	<gerund>rejecting</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>reset</term>
+	<past>reset</past>
+	<participle>reset</participle>
+	<gerund>resetting</gerund> <thirdperson/>
+</verb>
+
+<verb>
+	<term>end</term>
+	<past>ended</past>
+	<participle>ended</participle>
+	<gerund>ending</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>replace</term>
+	<past>replaced</past>
+	<participle>replaced</participle>
+	<gerund>replacing</gerund> <thirdperson/>
+</verb>
+
+<verb>
+	<term>read</term>
+	<past>read</past>
+	<participle>read</participle>
+	<gerund>reading</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>move</term>
+	<past>moved</past>
+	<participle>moved</participle>
+	<gerund>moving</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>write</term>
+	<past>wrote</past>
+	<participle>written</participle>
+	<gerund>writing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>type</term>
+	<past>typed</past>
+	<participle>typed</participle>
+	<gerund>typing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>insert</term>
+	<past>inserted</past>
+	<participle>inserted</participle>
+	<gerund>inserting</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>access</term>
+	<past>accessed</past>
+	<participle>accessed</participle>
+	<gerund>accessing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>navigate</term>
+	<past>navigated</past>
+	<participle>navigated</participle>
+	<gerund>navigating</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>navigate</term>
+	<past>navigated</past>
+	<participle>navigated</participle>
+	<gerund>navigating</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>return</term>
+	<past>returned</past>
+	<participle>returned</participle>
+	<gerund>returning</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>reenter</term>
+	<past>reentered</past>
+	<participle>reentered</participle>
+	<gerund>reentering</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>receive</term>
+	<past>received</past>
+	<participle>received</participle>
+	<gerund>receiving</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>forward</term>
+	<past>forwarded</past>
+	<participle>forwarded</participle>
+	<gerund>forwarding</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>lock</term>
+	<past>locked</past>
+	<participle>locked</participle>
+	<gerund>locking</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>invoke</term>
+	<past>invoked</past>
+	<participle>invoked</participle>
+	<gerund>invoking</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>have</term>
+	<past>had</past>
+	<participle>had</participle>
+	<gerund>having</gerund> 
+	<thirdperson>has</thirdperson>
+</verb>
+<verb>
+	<term>wait</term>
+	<past>waited</past>
+	<participle>waited</participle>
+	<gerund>waiting</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>open</term>
+	<past>opened</past>
+	<participle>opened</participle>
+	<gerund>opening</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>check</term>
+	<past>checked</past>
+	<participle>checked</participle>
+	<gerund>checking</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>uncheck</term>
+	<past>unchecked</past>
+	<participle>unchecked</participle>
+	<gerund>unchecking</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>change</term>
+	<past>changed</past>
+	<participle>changed</participle>
+	<gerund>changing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>edit</term>
+	<past>edited</past>
+	<participle>edited</participle>
+	<gerund>editing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>fill</term>
+	<past>filled</past>
+	<participle>filled</participle>
+	<gerund>filling</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>select</term>
+	<past>selected</past>
+	<participle>selected</participle>
+	<gerund>selecting</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>choose</term>
+	<past>chose</past>
+	<participle>choosen</participle>
+	<gerund>choosing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>unselect</term>
+	<past>unselected</past>
+	<participle>unselected</participle>
+	<gerund>unselecting</gerund> <thirdperson/>
+</verb>
+<!--<verb>
+	<term>highlight</term>
+	<past>highlighted</past>
+	<participle>highlighted</participle>
+	<gerund>highlighting</gerund> <thirdperson/>
+</verb>-->
+<verb>
+	<term>delete</term>
+	<past>deleted</past>
+	<participle>deleted</participle>
+	<gerund>deleting</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>remove</term>
+	<past>removed</past>
+	<participle>removed</participle>
+	<gerund>removing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>verify</term>
+	<past>verified</past>
+	<participle>verified</participle>
+	<gerund>verifying</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>confirm</term>
+	<past>confirmed</past>
+	<participle>confirmed</participle>
+	<gerund>confirming</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>start</term>
+	<past>started</past>
+	<participle>started</participle>
+	<gerund>starting</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>run</term>
+	<past>ran</past>
+	<participle>run</participle>
+	<gerund>running</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>save</term>
+	<past>saved</past>
+	<participle>save</participle>
+	<gerund>saving</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>store</term>
+	<past>stored</past>
+	<participle>stored</participle>
+	<gerund>storing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>create</term>
+	<past>created</past>
+	<participle>created</participle>
+	<gerund>creating</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>send</term>
+	<past>sent</past>
+	<participle>sent</participle>
+	<gerund>sending</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>go</term>
+	<past>went</past>
+	<participle>gone</participle>
+	<gerund>going</gerund> 
+	<thirdperson>goes</thirdperson>
+</verb>
+<!-- Adicionei a partir daqui-->
+<verb>
+	<term>press</term>
+	<past>pressed</past>
+	<participle>pressed</participle>
+	<gerund>pressing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>enter</term>
+	<past>entered</past>
+	<participle>entered</participle>
+	<gerund>entering</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>unlock</term>
+	<past>unlocked</past>
+	<participle>unlocked</participle>
+	<gerund>unlocking</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>reply</term>
+	<past>replied</past>
+	<participle>replied</participle>
+	<gerund>replying</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>execute</term>
+	<past>executed</past>
+	<participle>executed</participle>
+	<gerund>executing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>scroll</term>
+	<past>scrolled</past>
+	<participle>scrolled</participle>
+	<gerund>scrolling</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>flex</term>
+	<past>flexed</past>
+	<participle>flexed</participle>
+	<gerund>flexing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>show</term>
+	<past>showed</past>
+	<participle>shown</participle>
+	<gerund>showing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>stop</term>
+	<past>stopped</past>
+	<participle>stopped</participle>
+	<gerund>stopping</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>cancel</term>
+	<past>canceled</past>
+	<participle>canceled</participle>
+	<gerund>canceling</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>display</term>
+	<past>displayed</past>
+	<participle>displayed</participle>
+	<gerund>displaying</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>play</term>
+	<past>played</past>
+	<participle>played</participle>
+	<gerund>playing</gerund> <thirdperson/>
+</verb>
+
+<verb>
+	<term>ignore</term>
+	<past>ignored</past>
+	<participle>ignored</participle>
+	<gerund>ignoring</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>reject</term>
+	<past>rejected</past>
+	<participle>rejected</participle>
+	<gerund>rejecting</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>reset</term>
+	<past>reset</past>
+	<participle>reset</participle>
+	<gerund>resetting</gerund> <thirdperson/>
+</verb>
+
+<verb>
+	<term>end</term>
+	<past>ended</past>
+	<participle>ended</participle>
+	<gerund>ending</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>replace</term>
+	<past>replaced</past>
+	<participle>replaced</participle>
+	<gerund>replacing</gerund> <thirdperson/>
+</verb>
+
+<verb>
+	<term>read</term>
+	<past>read</past>
+	<participle>read</participle>
+	<gerund>reading</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>move</term>
+	<past>moved</past>
+	<participle>moved</participle>
+	<gerund>moving</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>write</term>
+	<past>wrote</past>
+	<participle>written</participle>
+	<gerund>writing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>type</term>
+	<past>typed</past>
+	<participle>typed</participle>
+	<gerund>typing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>insert</term>
+	<past>inserted</past>
+	<participle>inserted</participle>
+	<gerund>inserting</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>access</term>
+	<past>accessed</past>
+	<participle>accessed</participle>
+	<gerund>accessing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>navigate</term>
+	<past>navigated</past>
+	<participle>navigated</participle>
+	<gerund>navigating</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>navigate</term>
+	<past>navigated</past>
+	<participle>navigated</participle>
+	<gerund>navigating</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>return</term>
+	<past>returned</past>
+	<participle>returned</participle>
+	<gerund>returning</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>reenter</term>
+	<past>reentered</past>
+	<participle>reentered</participle>
+	<gerund>reentering</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>receive</term>
+	<past>received</past>
+	<participle>received</participle>
+	<gerund>receiving</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>forward</term>
+	<past>forwarded</past>
+	<participle>forwarded</participle>
+	<gerund>forwarding</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>lock</term>
+	<past>locked</past>
+	<participle>locked</participle>
+	<gerund>locking</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>invoke</term>
+	<past>invoked</past>
+	<participle>invoked</participle>
+	<gerund>invoking</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>have</term>
+	<past>had</past>
+	<participle>had</participle>
+	<gerund>having</gerund> 
+	<thirdperson>has</thirdperson>
+</verb>
+<verb>
+	<term>wait</term>
+	<past>waited</past>
+	<participle>waited</participle>
+	<gerund>waiting</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>open</term>
+	<past>opened</past>
+	<participle>opened</participle>
+	<gerund>opening</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>check</term>
+	<past>checked</past>
+	<participle>checked</participle>
+	<gerund>checking</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>uncheck</term>
+	<past>unchecked</past>
+	<participle>unchecked</participle>
+	<gerund>unchecking</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>change</term>
+	<past>changed</past>
+	<participle>changed</participle>
+	<gerund>changing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>edit</term>
+	<past>edited</past>
+	<participle>edited</participle>
+	<gerund>editing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>fill</term>
+	<past>filled</past>
+	<participle>filled</participle>
+	<gerund>filling</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>select</term>
+	<past>selected</past>
+	<participle>selected</participle>
+	<gerund>selecting</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>choose</term>
+	<past>chose</past>
+	<participle>choosen</participle>
+	<gerund>choosing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>unselect</term>
+	<past>unselected</past>
+	<participle>unselected</participle>
+	<gerund>unselecting</gerund> <thirdperson/>
+</verb>
+<!--<verb>
+	<term>highlight</term>
+	<past>highlighted</past>
+	<participle>highlighted</participle>
+	<gerund>highlighting</gerund> <thirdperson/>
+</verb>-->
+<verb>
+	<term>delete</term>
+	<past>deleted</past>
+	<participle>deleted</participle>
+	<gerund>deleting</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>remove</term>
+	<past>removed</past>
+	<participle>removed</participle>
+	<gerund>removing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>verify</term>
+	<past>verified</past>
+	<participle>verified</participle>
+	<gerund>verifying</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>confirm</term>
+	<past>confirmed</past>
+	<participle>confirmed</participle>
+	<gerund>confirming</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>start</term>
+	<past>started</past>
+	<participle>started</participle>
+	<gerund>starting</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>run</term>
+	<past>ran</past>
+	<participle>run</participle>
+	<gerund>running</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>save</term>
+	<past>saved</past>
+	<participle>save</participle>
+	<gerund>saving</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>store</term>
+	<past>stored</past>
+	<participle>stored</participle>
+	<gerund>storing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>create</term>
+	<past>created</past>
+	<participle>created</participle>
+	<gerund>creating</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>send</term>
+	<past>sent</past>
+	<participle>sent</participle>
+	<gerund>sending</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>go</term>
+	<past>went</past>
+	<participle>gone</participle>
+	<gerund>going</gerund> 
+	<thirdperson>goes</thirdperson>
+</verb>
+<!-- Adicionei a partir daqui-->
+<verb>
+	<term>press</term>
+	<past>pressed</past>
+	<participle>pressed</participle>
+	<gerund>pressing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>enter</term>
+	<past>entered</past>
+	<participle>entered</participle>
+	<gerund>entering</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>unlock</term>
+	<past>unlocked</past>
+	<participle>unlocked</participle>
+	<gerund>unlocking</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>reply</term>
+	<past>replied</past>
+	<participle>replied</participle>
+	<gerund>replying</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>execute</term>
+	<past>executed</past>
+	<participle>executed</participle>
+	<gerund>executing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>scroll</term>
+	<past>scrolled</past>
+	<participle>scrolled</participle>
+	<gerund>scrolling</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>flex</term>
+	<past>flexed</past>
+	<participle>flexed</participle>
+	<gerund>flexing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>show</term>
+	<past>showed</past>
+	<participle>shown</participle>
+	<gerund>showing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>stop</term>
+	<past>stopped</past>
+	<participle>stopped</participle>
+	<gerund>stopping</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>cancel</term>
+	<past>canceled</past>
+	<participle>canceled</participle>
+	<gerund>canceling</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>display</term>
+	<past>displayed</past>
+	<participle>displayed</participle>
+	<gerund>displaying</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>play</term>
+	<past>played</past>
+	<participle>played</participle>
+	<gerund>playing</gerund> <thirdperson/>
+</verb>
+
+<verb>
+	<term>ignore</term>
+	<past>ignored</past>
+	<participle>ignored</participle>
+	<gerund>ignoring</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>reject</term>
+	<past>rejected</past>
+	<participle>rejected</participle>
+	<gerund>rejecting</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>reset</term>
+	<past>reset</past>
+	<participle>reset</participle>
+	<gerund>resetting</gerund> <thirdperson/>
+</verb>
+
+<verb>
+	<term>end</term>
+	<past>ended</past>
+	<participle>ended</participle>
+	<gerund>ending</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>replace</term>
+	<past>replaced</past>
+	<participle>replaced</participle>
+	<gerund>replacing</gerund> <thirdperson/>
+</verb>
+
+<verb>
+	<term>read</term>
+	<past>read</past>
+	<participle>read</participle>
+	<gerund>reading</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>move</term>
+	<past>moved</past>
+	<participle>moved</participle>
+	<gerund>moving</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>write</term>
+	<past>wrote</past>
+	<participle>written</participle>
+	<gerund>writing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>type</term>
+	<past>typed</past>
+	<participle>typed</participle>
+	<gerund>typing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>insert</term>
+	<past>inserted</past>
+	<participle>inserted</participle>
+	<gerund>inserting</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>access</term>
+	<past>accessed</past>
+	<participle>accessed</participle>
+	<gerund>accessing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>navigate</term>
+	<past>navigated</past>
+	<participle>navigated</participle>
+	<gerund>navigating</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>navigate</term>
+	<past>navigated</past>
+	<participle>navigated</participle>
+	<gerund>navigating</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>return</term>
+	<past>returned</past>
+	<participle>returned</participle>
+	<gerund>returning</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>reenter</term>
+	<past>reentered</past>
+	<participle>reentered</participle>
+	<gerund>reentering</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>receive</term>
+	<past>received</past>
+	<participle>received</participle>
+	<gerund>receiving</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>forward</term>
+	<past>forwarded</past>
+	<participle>forwarded</participle>
+	<gerund>forwarding</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>lock</term>
+	<past>locked</past>
+	<participle>locked</participle>
+	<gerund>locking</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>invoke</term>
+	<past>invoked</past>
+	<participle>invoked</participle>
+	<gerund>invoking</gerund> <thirdperson/>
+</verb>
+
+<verb>
+	<term>exist</term>
+	<past>existed</past>
+	<participle>existed</participle>
+	<gerund>existing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>exit</term>
+	<past>exited</past>
+	<participle>exited</participle>
+	<gerund>exiting</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>copy</term>
+	<past>copied</past>
+	<participle>copied</participle>
+	<gerund>copying</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>cut</term>
+	<past>cut</past>
+	<participle>cut</participle>
+	<gerund>cutting</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>paste</term>
+	<past>pasted</past>
+	<participle>pasted</participle>
+	<gerund>pasting</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>contain</term>
+	<past>contained</past>
+	<participle>contained</participle>
+	<gerund>containing</gerund> <thirdperson/>
+</verb>
+<verb>
+	<term>view</term>
+	<past>viewed</past>
+	<participle>viewed</participle>
+	<gerund>viewing</gerund>
+	<thirdperson/>
+</verb>
+
+
+<verb>
+	<term>expire</term>
+	<past>expired</past>
+	<participle>expired</participle>
+	<gerund>expiring</gerund>
+	<thirdperson/>
+</verb>
+<verb>
+	<term>synchronize</term>
+	<past>synchronized</past>
+	<participle>synchronized</participle>
+	<gerund>synchronizing</gerund>
+	<thirdperson/>
+</verb>
+<verb>
+	<term>protect</term>
+	<past>protected</past>
+	<participle>protected</participle>
+	<gerund>protecting</gerund>
+	<thirdperson/>
+</verb>
+
+<verb>
+	<term>unsynchronize</term>
+	<past>unsynchronized</past>
+	<participle>unsynchronized</participle>
+	<gerund>unsynchronizing</gerund>
+	<thirdperson/>
+</verb>
+<verb>
+	<term>unprotect</term>
+	<past>unprotected</past>
+	<participle>unprotected</participle>
+	<gerund>unprotecting</gerund>
+	<thirdperson/>
+</verb>
+
+<verb>
+	<term>turn on</term>
+	<past>turned on</past>
+	<participle>turned on</participle>
+	<gerund>turning on</gerund>
+	<thirdperson>turns on</thirdperson>
+</verb>
+<verb>
+	<term>turn off</term>
+	<past>turned off</past>
+	<participle>turned off</participle>
+	<gerund>turning off</gerund>
+	<thirdperson>turns off</thirdperson>
+</verb>
+<verb>
+	<term>base</term>
+	<past>based</past>
+	<participle>based</participle>
+	<gerund>basing</gerund>
+	<thirdperson>bases</thirdperson>
+</verb>
+<verb>
+	<term>subscribe</term>
+	<past>subscribed</past>
+	<participle>subscribed</participle>
+	<gerund>subscribing</gerund>
+	<thirdperson>subscribes</thirdperson>
+</verb>
+<verb>
+	<term>close</term>
+	<past>closed</past>
+	<participle>closed</participle>
+	<gerund>closing</gerund>
+	<thirdperson>closes</thirdperson>
+</verb>
+<verb>
+	<term>bill</term>
+	<past>billed</past>
+	<participle>billed</participle>
+	<gerund>billing</gerund>
+	<thirdperson>bills</thirdperson>
+</verb>
+<verb>
+	<term>require</term>
+	<past>required</past>
+	<participle>required</participle>
+	<gerund>requiring</gerund>
+	<thirdperson>requires</thirdperson>
+</verb>
+<verb>
+	<term>ask</term>
+	<past>asked</past>
+	<participle>asked</participle>
+	<gerund>asking</gerund>
+	<thirdperson>asks</thirdperson>
+</verb>
+<verb>
+	<term>update</term>
+	<past>updated</past>
+	<participle>updated</participle>
+	<gerund>updating</gerund>
+	<thirdperson>updates</thirdperson>
+</verb>
+
+<!--
+DETERMINERS
+-->
+<determiner>
+	<term>a</term>
+</determiner>
+<determiner>
+	<term>an</term>
+</determiner>
+<determiner>
+	<term>the</term>
+</determiner>
+<determiner>
+	<term>some</term>
+</determiner>
+<determiner>
+	<term>any</term>
+</determiner>
+<determiner>
+	<term>another</term>
+</determiner>
+<determiner>
+	<term>all</term>
+</determiner>
+<determiner>
+	<term>more than one</term>
+</determiner>
+<determiner>
+	<term>at least one</term>
+</determiner>
+<determiner>
+	<term>several</term>
+</determiner>
+<determiner>
+	<term>multiple</term>
+</determiner>
+
+<!--
+MODIFIERS
+-->
+<adjective>
+	<term>next</term>
+</adjective>
+<adjective>
+	<term>previous</term>
+</adjective>
+<adjective>
+	<term>right</term>
+</adjective>
+<adjective>
+	<term>valid</term>
+</adjective>
+<adjective>
+	<term>blank</term>
+</adjective>
+<adjective>
+	<term>new</term>
+</adjective>
+<adjective>
+	<term>predefined</term>
+</adjective>
+<adjective>
+	<term>invalid</term>
+</adjective>
+<adjective>
+	<term>original</term>
+</adjective>
+<adjective>
+	<term>current</term>
+</adjective>
+<adjective>
+	<term>unread</term>
+</adjective>
+<!--
+<adjective>
+	<term>saved</term>
+</adjective>
+<adjective>
+	<term>stored</term>
+</adjective>
+<adjective>
+	<term>unlocked</term>
+</adjective>
+<adjective>
+	<term>locked</term>
+</adjective>
+<adjective>
+	<term>selected</term>
+</adjective>
+<adjective>
+	<term>created</term>
+</adjective>
+<adjective>
+	<term>expired</term>
+</adjective>
+<adjective>
+	<term>synchronized</term>
+</adjective>
+<adjective>
+	<term>protected</term>
+</adjective>
+<adjective>
+	<term>related</term>
+</adjective>
+-->
+<adjective>
+	<term>old</term>
+</adjective>
+<adjective>
+	<term>incoming</term>
+</adjective>
+<adjective>
+	<term>predelivery</term>
+</adjective>
+<noun>
+	<term>playlist</term>
+	<plural>playlists</plural>
+</noun>
+<noun>
+	<term>video</term>
+	<plural>videos</plural>
+</noun>
+<adjective>
+	<term>last</term>
+</adjective>
+<adjective>
+	<term>necessary</term>
+</adjective>
+<adjective>
+	<term>enough</term>
+</adjective>
+<noun>
+	<term>message</term>
+	<plural>messages</plural>
+</noun>
+<noun>
+	<term>option</term>
+	<plural>options</plural>
+</noun>
+<noun>
+	<term>time</term>
+	<plural/>
+</noun>
+<noun>
+	<term>base</term>
+	<plural>bases</plural>
+</noun>
+<noun>
+	<term>broadcast</term>
+	<plural>broadcasts</plural>
+</noun>
+<noun>
+	<term>month</term>
+	<plural>months</plural>
+</noun>
+<noun>
+	<term>address</term>
+	<plural>addresses</plural>
+</noun>
+<noun>
+	<term>key</term>
+	<plural>keys</plural>
+</noun>
+<noun>
+	<term>name</term>
+	<plural>names</plural>
+</noun>
+<noun>
+	<term>contact</term>
+	<plural>contacts</plural>
+</noun>
+<verb>
+	<term>highlight</term>
+	<past>highlighted</past>
+	<participle>highlighted</participle>
+	<gerund>highlighting</gerund>
+	<thirdperson>highlights</thirdperson>
+</verb>
+<noun>
+	<term>number</term>
+	<plural>numbers</plural>
+</noun>
+<noun>
+	<term>phonebook</term>
+	<plural>phonebooks</plural>
+</noun>
+<verb>
+	<term>dial</term>
+	<past>dialed</past>
+	<participle>dialed</participle>
+	<gerund>dialing</gerund>
+	<thirdperson>dials</thirdperson>
+</verb>
+<noun>
+	<term>speed</term>
+	<plural>speeds</plural>
+</noun>
+<noun>
+	<term>memory</term>
+	<plural>memories</plural>
+</noun>
+<noun>
+	<term>calendar</term>
+	<plural>calendars</plural>
+</noun>
+<noun>
+	<term>audio</term>
+	<plural>audioes</plural>
+</noun>
+<noun>
+	<term>appilcation</term>
+	<plural>appilcations</plural>
+</noun>
+<noun>
+	<term>camera</term>
+	<plural>cameras</plural>
+</noun>
+
+<noun>
+	<term>application</term>
+	<plural>applications</plural>
+</noun>
+<noun>
+	<term>picture</term>
+	<plural>pictures</plural>
+</noun>
+<noun>
+	<term>add</term>
+	<plural>adds</plural>
+</noun>
+<verb>
+	<term>answer</term>
+	<past>answered</past>
+	<participle>answered</participle>
+	<gerund>answering</gerund>
+	<thirdperson>answers</thirdperson>
+</verb>
+<noun>
+	<term>bluetooth</term>
+	<plural>bluetooths</plural>
+</noun>
+<noun>
+	<term>button</term>
+	<plural>buttons</plural>
+</noun>
+<noun>
+	<term>category</term>
+	<plural>categories</plural>
+</noun>
+<noun>
+	<term>card</term>
+	<plural>cards</plural>
+</noun>
+<noun>
+	<term>charger</term>
+	<plural>chargers</plural>
+</noun>
+<noun>
+	<term>different</term>
+	<plural>differents</plural>
+</noun>
+<noun>
+	<term>email</term>
+	<plural>emails</plural>
+</noun>
+<noun>
+	<term>friend</term>
+	<plural>friends</plural>
+</noun>
+<noun>
+	<term>headset</term>
+	<plural>headsets</plural>
+</noun>
+<noun>
+	<term>screensaver</term>
+	<plural>screensavers</plural>
+</noun>
+<noun>
+	<term>transflash</term>
+	<plural>transflashes</plural>
+</noun>
+<noun>
+	<term>theme</term>
+	<plural>themes</plural>
+</noun>
+<noun>
+	<term>image</term>
+	<plural>images</plural>
+</noun>
+<noun>
+	<term>wallpaper</term>
+	<plural>wallpapers</plural>
+</noun>
+<noun>
+	<term>week</term>
+	<plural>weeks</plural>
+</noun>
+<noun>
+	<term>menu</term>
+	<plural>menus</plural>
+</noun>
+<noun>
+	<term>tool</term>
+	<plural>tools</plural>
+</noun>
+<qualifier>
+	<term>1</term>
+</qualifier>
+<qualifier>
+	<term>able</term>
+</qualifier>
+<verb>
+	<term>abort</term>
+	<past>aborted</past>
+	<participle>aborted</participle>
+	<gerund>aborting</gerund>
+	<thirdperson>aborts</thirdperson>
+</verb>
+<qualifier>
+	<term>about</term>
+</qualifier>
+<qualifier>
+	<term>above</term>
+</qualifier>
+<verb>
+	<term>accelerate</term>
+	<past>accelerated</past>
+	<participle>accelerated</participle>
+	<gerund>accelerating</gerund>
+	<thirdperson>accelerates</thirdperson>
+</verb>
+<verb>
+	<term>take</term>
+	<past>took</past>
+	<participle>taked</participle>
+	<gerund>taking</gerund>
+	<thirdperson>takes</thirdperson>
+</verb>
+<noun>
+	<term>member</term>
+	<plural>members</plural>
+</noun>
+<noun>
+	<term>family</term>
+	<plural>families</plural>
+</noun>
+<verb>
+	<term>try</term>
+	<past>tried</past>
+	<participle>tried</participle>
+	<gerund>trying</gerund>
+	<thirdperson>tries</thirdperson>
+</verb>
+<noun>
+	<term>letter</term>
+	<plural>letters</plural>
+</noun>
+<qualifier>
+	<term>available</term>
+</qualifier>
+<verb>
+	<term>work</term>
+	<past>worked</past>
+	<participle>worked</participle>
+	<gerund>working</gerund>
+	<thirdperson>works</thirdperson>
+</verb>
+<noun>
+	<term>datebook</term>
+	<plural>datebooks</plural>
+</noun>
+<qualifier>
+	<term>medium</term>
+</qualifier>
+<noun>
+	<term>today</term>
+	<plural>todays</plural>
+</noun>
+<noun>
+	<term>twice</term>
+	<plural>twices</plural>
+</noun>
+<noun>
+	<term>page</term>
+	<plural>pages</plural>
+</noun>
+<noun>
+	<term>phone1</term>
+	<plural>phone1s</plural>
+</noun>
+<noun>
+	<term>phone2</term>
+	<plural>phone2s</plural>
+</noun>
+<noun>
+	<term>phone3</term>
+	<plural>phone3s</plural>
+</noun>
+<noun>
+	<term>place</term>
+	<plural>places</plural>
+</noun>
+<verb>
+	<term>assign</term>
+	<past>assigned</past>
+	<participle>assigned</participle>
+	<gerund>assigning</gerund>
+	<thirdperson>assigns</thirdperson>
+</verb>
+<noun>
+	<term>icon</term>
+	<plural>icons</plural>
+</noun>
+<noun>
+	<term>inbox</term>
+	<plural>inboxs</plural>
+</noun>
+<qualifier>
+	<term>it</term>
+</qualifier>
+<noun>
+	<term>item</term>
+	<plural>items</plural>
+</noun>
+<qualifier>
+	<term>able</term>
+</qualifier>
+<qualifier>
+	<term>about</term>
+</qualifier>
+<qualifier>
+	<term>above</term>
+</qualifier>
+<noun>
+	<term>account</term>
+	<plural>accounts</plural>
+</noun>
+<noun>
+	<term>action</term>
+	<plural>actions</plural>
+</noun>
+<qualifier>
+	<term>actual</term>
+</qualifier>
+<verb>
+	<term>adjust</term>
+	<past>adjusted</past>
+	<participle>adjusted</participle>
+	<gerund>adjusting</gerund>
+	<thirdperson>adjusts</thirdperson>
+</verb>
+<verb>
+	<term>add</term>
+	<past>added</past>
+	<participle>added</participle>
+	<gerund>adding</gerund>
+	<thirdperson>adds</thirdperson>
+</verb>
+<qualifier>
+	<term>again</term>
+</qualifier>
+
+<noun>
+	<term>use</term>
+	<plural>used</plural>
+</noun>
+<qualifier>
+	<term>it</term>
+</qualifier>
+<qualifier>
+	<term>large</term>
+</qualifier>
+<noun>
+	<term>list</term>
+	<plural>lists</plural>
+</noun>
+<qualifier>
+	<term>only</term>
+</qualifier>
+<qualifier>
+	<term>back</term>
+</qualifier>
+<qualifier>
+	<term>same</term>
+</qualifier>
+<verb>
+	<term>switch</term>
+	<past>switched</past>
+	<participle>switched</participle>
+	<gerund>switching</gerund>
+	<thirdperson>switches</thirdperson>
+</verb>
+<qualifier>
+	<term>back</term>
+</qualifier>
+<qualifier>
+	<term>it</term>
+</qualifier>
+
+<noun>
+	<term>simcard</term>
+	<plural>simcards</plural>
+</noun>
+<qualifier>
+	<term>security</term>
+</qualifier>
+<qualifier>
+	<term>only</term>
+</qualifier>
+<qualifier>
+	<term>it</term>
+</qualifier>
+<qualifier>
+	<term>same</term>
+</qualifier>
+<qualifier>
+	<term>reminder</term>
+</qualifier>
+<qualifier>
+	<term>tomorrow</term>
+</qualifier>
+<qualifier>
+	<term>quick</term>
+</qualifier>
+<noun>
+	<term>entry</term>
+	<plural>entries</plural>
+</noun>
+<qualifier>
+	<term>up</term>
+</qualifier>
+<noun>
+	<term>day</term>
+	<plural>days</plural>
+</noun>
+<qualifier>
+	<term>down</term>
+</qualifier>
+<verb>
+	<term>block</term>
+	<past>blocked</past>
+	<participle>blocked</participle>
+	<gerund>blocking</gerund>
+	<thirdperson>blocks</thirdperson>
+</verb>
+<noun>
+	<term>behavior</term>
+	<plural>behaviors</plural>
+</noun>
+<verb>
+	<term>see</term>
+	<past>saw</past>
+	<participle>seen</participle>
+	<gerund>seeing</gerund>
+	<thirdperson>sees</thirdperson>
+</verb>
+<qualifier>
+	<term>available</term>
+</qualifier>
+<qualifier>
+	<term>automatic</term>
+</qualifier>
+<noun>
+	<term>creation</term>
+	<plural>creations</plural>
+</noun>
+<noun>
+	<term>softkey</term>
+	<plural>softkeys</plural>
+</noun>
+<noun>
+	<term>form</term>
+	<plural>forms</plural>
+</noun>
+<qualifier>
+	<term>my</term>
+</qualifier>
+<noun>
+	<term>airplane</term>
+	<plural>airplanes</plural>
+</noun>
+<noun>
+	<term>security</term>
+	<plural>securities</plural>
+</noun>
+<noun>
+	<term>reminder</term>
+	<plural>reminders</plural>
+</noun>
+<noun>
+	<term>as</term>
+	<plural>ass</plural>
+</noun>
+<noun>
+	<term>able</term>
+	<plural>ables</plural>
+</noun>
+<noun>
+	<term>accordinglysome</term>
+	<plural>accordinglysomes</plural>
+</noun>
+<noun>
+	<term>around</term>
+	<plural>arounds</plural>
+</noun>
+<noun>
+	<term>always</term>
+	<plural>always</plural>
+</noun>
+<noun>
+	<term>addressthere</term>
+	<plural>addresstheres</plural>
+</noun>
+<noun>
+	<term>calender</term>
+	<plural>calenders</plural>
+</noun>
+<noun>
+	<term>bths</term>
+	<plural>bths</plural>
+</noun>
+<noun>
+	<term>attached</term>
+	<plural>attacheds</plural>
+</noun>
+<noun>
+	<term>together</term>
+	<plural>togethers</plural>
+</noun>
+<noun>
+	<term>offphone2s</term>
+	<plural>offphone2s</plural>
+</noun>
+<noun>
+	<term>msgs</term>
+	<plural>msgs</plural>
+</noun>
+<noun>
+	<term>zone</term>
+	<plural>zones</plural>
+</noun>
+<noun>
+	<term>auto</term>
+	<plural>autoes</plural>
+</noun>
+<noun>
+	<term>available</term>
+	<plural>availables</plural>
+</noun>
+<noun>
+	<term>remindersif</term>
+	<plural>remindersives</plural>
+</noun>
+<noun>
+	<term>yet</term>
+	<plural>yets</plural>
+</noun>
+<noun>
+	<term>wtihin</term>
+	<plural>wtihins</plural>
+</noun>
+<noun>
+	<term>wtihin</term>
+	<plural>wtihins</plural>
+</noun>
+<noun>
+	<term>folder</term>
+	<plural>folders</plural>
+</noun>
+<qualifier>
+	<term>only</term>
+</qualifier>
+<qualifier>
+	<term>only</term>
+</qualifier>
+<noun>
+	<term>user</term>
+	<plural>users</plural>
+</noun>
+<noun>
+	<term>again</term>
+	<plural>agains</plural>
+</noun>
+<verb>
+	<term>clear</term>
+	<past>cleared</past>
+	<participle>cleared</participle>
+	<gerund>clearing</gerund>
+	<thirdperson>clears</thirdperson>
+</verb>
+<qualifier>
+	<term>and</term>
+</qualifier>
+<qualifier>
+	<term>when</term>
+</qualifier>
+<verb>
+	<term>make</term>
+	<past>maked</past>
+	<participle>maked</participle>
+	<gerund>making</gerund>
+	<thirdperson>makes</thirdperson>
+</verb>
+
+<qualifier>
+	<term>make</term>
+</qualifier>
+
+<noun>
+	<term>master</term>
+	<plural>masters</plural>
+</noun>
+<qualifier>
+	<term>only</term>
+</qualifier>
+<qualifier>
+	<term>or</term>
+</qualifier>
+<qualifier>
+	<term>and</term>
+</qualifier>
+<qualifier>
+	<term>so</term>
+</qualifier>
+<noun>
+	<term>it</term>
+	<plural>its</plural>
+</noun>
+<verb>
+	<term>back</term>
+	<past>backed</past>
+	<participle>backed</participle>
+	<gerund>backing</gerund>
+	<thirdperson>backs</thirdperson>
+</verb>
+<qualifier>
+	<term>installed</term>
+</qualifier>
+<qualifier>
+	<term>my</term>
+</qualifier>
+<qualifier>
+	<term>my</term>
+</qualifier>
+<noun>
+	<term>my</term>
+	<plural>mys</plural>
+</noun>
+</lexicon>

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/cinspg/!svn/ver/3677/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeHTML/src/TaRGeT%20Monitoring%20Plugin/src/br/ufpe/cin/target/monitoring
+END
+ExceptionMonitoring.aj
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/cinspg/!svn/ver/3677/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeHTML/src/TaRGeT%20Monitoring%20Plugin/src/br/ufpe/cin/target/monitoring/ExceptionMonitoring.aj
+END
+AbstractListener.aj
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/cinspg/!svn/ver/3677/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeHTML/src/TaRGeT%20Monitoring%20Plugin/src/br/ufpe/cin/target/monitoring/AbstractListener.aj
+END
+TestCaseGenerationLogging.aj
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/cinspg/!svn/ver/3677/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeHTML/src/TaRGeT%20Monitoring%20Plugin/src/br/ufpe/cin/target/monitoring/TestCaseGenerationLogging.aj
+END
+BdConnetionControl.aj
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/cinspg/!svn/ver/3677/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeHTML/src/TaRGeT%20Monitoring%20Plugin/src/br/ufpe/cin/target/monitoring/BdConnetionControl.aj
+END
+ProjectMonitoring.aj
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/cinspg/!svn/ver/3677/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeHTML/src/TaRGeT%20Monitoring%20Plugin/src/br/ufpe/cin/target/monitoring/ProjectMonitoring.aj
+END
+JdbcConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/cinspg/!svn/ver/3677/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeHTML/src/TaRGeT%20Monitoring%20Plugin/src/br/ufpe/cin/target/monitoring/JdbcConnection.java
+END
+FilterMonitoring.aj
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/cinspg/!svn/ver/3677/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeHTML/src/TaRGeT%20Monitoring%20Plugin/src/br/ufpe/cin/target/monitoring/FilterMonitoring.aj
+END
+TestCaseMonitoring.aj
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/cinspg/!svn/ver/3677/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeHTML/src/TaRGeT%20Monitoring%20Plugin/src/br/ufpe/cin/target/monitoring/TestCaseMonitoring.aj
+END
+Util.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/cinspg/!svn/ver/3677/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeHTML/src/TaRGeT%20Monitoring%20Plugin/src/br/ufpe/cin/target/monitoring/Util.java
+END

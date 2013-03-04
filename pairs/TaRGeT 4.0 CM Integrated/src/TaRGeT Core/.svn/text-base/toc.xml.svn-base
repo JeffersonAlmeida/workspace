@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+
+<toc label="Sample Table of Contents">
+	<topic label="Environment"  href="html/Environment.htm"/>
+	<topic label="TaRGeT Workspace"  href="html/TaRGeTWorkspace.htm"/> 
+	<topic label="Handling Projects"  href="html/HandlingProjects.htm"> 
+		<topic label="Creating a Project"  href="html/CreatingProject.htm"/>
+		<topic label="Opening a Project"  href="html/OpeningProject.htm"/>
+		<topic label="Closing a Project" href="html/ClosingProject.htm"/>
+		<topic label="Refreshing a Document"  href="html/RefreshProject.htm"/>
+	</topic>
+	<topic label="Handling Artifacts"  href="html/HandlingArtifacts.htm">
+		<topic label="Opening an Artifact"  href="html/OpeningArtifacts.htm"/>
+		<topic label="Renaming an Artifact" href="html/RenamingArtifacts.htm"/>
+		<topic label="Deleting an Artifact"  href="html/DeletingArtifacts.htm"/>
+	</topic>
+	<topic label="Use Case Documents"  href="html/UseCaseDocuments.htm">
+		<topic label="Document Structure"  href="html/UseCaseDocStructure.htm">
+			<topic label="Errors in Document"  href="html/UseCaseDocError.htm"/>
+		</topic>
+		<topic label="Importing Documents"   href="html/ImportingDocument.htm"/>
+		<topic label="Use Case Preview"      href="html/UCPreview.htm"/>		
+	</topic>
+	<topic label="On The Fly Generation"  href="html/OnTheFlyGeneration.htm">
+		<topic label="On The Fly Generation Editor"  href="html/OnTheFlyGenerationEditor.htm">
+        	<topic label="Test Selection Page"  href="html/TestSelectionPage.htm"/>
+			<topic label="Test Cases Page"  href="html/TestCasesViewer.htm"/>
+			<topic label="Traceability Matrix Page"  href="html/TraceabilityMatrixPage.htm"/>
+			<topic label="Included or Excluded Test Cases"  href="html/IncludedOrExcludedPage.htm"/>
+        </topic>
+		<topic label="Test Suite"  href="html/TestSuite.htm">
+			<topic label="Test Suite Format"  href="html/TestSuiteFormat.htm"/>
+			<topic label="Traceability Matrix"  href="html/TraceabilityMatrix.htm"/>
+			<topic label="Test Suite Preferences"  href="html/TestSuitePreferences.htm"/>
+		</topic>
+			
+	</topic>
+
+	<topic label="Searching for Use Cases" href="html/SearchHelp.htm" />
+	
+	<topic label="FAQ"  href="html/FAQ.htm" />
+</toc>

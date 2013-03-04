@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+   <extension-point id="views" name="TaRGeT Project Manager Views" schema="schema/views.exsd"/>
+   <extension-point id="input" name="Target Input Extension Point" schema="schema/input.exsd"/>
+   <extension
+   		point="org.eclipse.ui.commands">
+   		<category
+         	description="Customized actions."
+         	id="pm.commands.categories"
+         	name="Custom">
+   		</category>
+   		<command
+        	id="pm.project.commands.NewProject"
+        	categoryId="pm.commands.categories"
+        	description="Opens The New Project Wizard"      	
+        	name="New Project"/>
+       	<command
+        	id="pm.project.commands.OpenProject"
+        	categoryId="pm.commands.categories"
+        	description="Opens The Open Project Wizard"
+        	name="Open Project"/>
+        <command
+        	id="pm.project.commands.CloseProject"
+        	categoryId="pm.commands.categories"
+        	description="Close Project"
+        	name="Close Project"/>
+        <command
+        	id="pm.commands.ImportDocuments"
+        	categoryId="pm.commands.categories"
+        	description="Import Use Case Documents"
+        	name="Import Use Case Documents"/>
+		<command
+        	id="pm.commands.SearchCommand"
+        	categoryId="pm.commands.categories"
+        	description="Search Use Case Documents"
+        	name="Search Command"/>
+  <command
+        categoryId="pm.commands.categories"
+        description="Refresh the TaRGeT project"
+        id="pm.commands.RefreshProjectCommand"
+        name="Refresh Project">
+  </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.bindings">
+      <key
+            sequence="CTRL+F"
+            contextId="org.eclipse.ui.contexts.window"
+            commandId="pm.commands.SearchCommand"
+            schemeId="br.ufpe.cin.target.scheme"
+            />
+      <key
+            sequence="CTRL+N"
+            contextId="org.eclipse.ui.contexts.window"
+            commandId="pm.project.commands.NewProject"
+            schemeId="br.ufpe.cin.target.scheme"
+            />
+      <key
+            sequence="CTRL+O"
+            contextId="org.eclipse.ui.contexts.window"
+            commandId="pm.project.commands.OpenProject"
+            schemeId="br.ufpe.cin.target.scheme"
+            />
+      <key
+            sequence="CTRL+W"
+            contextId="org.eclipse.ui.contexts.window"
+            commandId="pm.project.commands.CloseProject"
+            schemeId="br.ufpe.cin.target.scheme"
+            />
+      <key
+            sequence="CTRL+I"
+            contextId="org.eclipse.ui.contexts.window"
+            commandId="pm.commands.ImportDocuments"
+            schemeId="br.ufpe.cin.target.scheme"
+            />
+      <key
+            commandId="pm.commands.RefreshProjectCommand"
+            contextId="org.eclipse.ui.contexts.window"
+            schemeId="br.ufpe.cin.target.scheme"
+            sequence="CTRL+R">
+      </key>
+   </extension>
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            id="br.ufpe.cin.target.pm.FileActionSet"
+            label="File"
+            visible="true">
+         <action
+               class="br.ufpe.cin.target.pm.actions.CloseProjectAction"
+               definitionId="pm.project.commands.CloseProject"
+               id="br.ufpe.cin.target.pm.actions.CloseProjectAction"
+               enablesFor="+"
+               label="Close &amp;Project"
+               menubarPath="file/"
+               tooltip="Close Project"/>
+         <action
+               class="br.ufpe.cin.target.pm.actions.OpenProjectAction"
+               definitionId="pm.project.commands.OpenProject"
+               id="br.ufpe.cin.target.pm.actions.OpenProjectAction"
+               label="Open &amp;Project"
+               menubarPath="file/"
+               tooltip="Open Project"/>
+         <action
+               class="br.ufpe.cin.target.pm.actions.NewProjectAction"
+               definitionId="pm.project.commands.NewProject"
+               id="br.ufpe.cin.target.pm.actions.NewProjectAction"
+               label="New &amp;Project"
+               menubarPath="file/"
+               tooltip="New project..."/>
+      </actionSet>
+      <actionSet
+            id="br.ufpe.cin.target.pm.ImportActionSet"
+            label="Artifacts"
+            visible="true">
+            <action
+                  class="br.ufpe.cin.target.pm.actions.ImportDocumentsAction"
+                  definitionId="pm.commands.ImportDocuments"
+                  enablesFor="+"
+                  id="br.ufpe.cin.target.pm.ImportDocumentsAction"
+                  label="&amp;Import Use Case Documents"
+                  menubarPath="artifacts/"
+                  tooltip="Import Use Case Documents"/>
+      </actionSet>
+      <actionSet
+            id="br.ufpe.cin.target.pm.ToolsActionSet"
+             label="Tools"
+            visible="true">
+         <action
+               class="br.ufpe.cin.target.pm.actions.SearchAction"
+               definitionId="pm.commands.SearchCommand"
+               enablesFor="+"
+               id="br.ufpe.cin.target.pm.actions.SearchAction"
+               label="&amp;Search"
+               menubarPath="tools/"
+               tooltip="Search documents">
+         </action>
+   	  </actionSet>
+      <actionSet
+            id="br.ufpe.cin.target.pm.ProjectActionSet"
+             label="Project"
+            visible="true">
+         <action
+               class="br.ufpe.cin.target.pm.actions.RefreshProjectAction"
+               definitionId="pm.commands.RefreshProjectCommand"
+               enablesFor="+"
+               id="br.ufpe.cin.target.pm.actions.RefreshProjectAction"
+               label="Refresh Project"
+               menubarPath="project/"
+               tooltip="Refresh the TaRGeT project">
+         </action>
+         <action
+               class="br.ufpe.cin.target.pm.actions.RefreshAutomaticallyAction"
+               definitionId="pm.commands.RefreshAutomaticallyCommand"
+               enablesFor="+"
+               id="br.ufpe.cin.target.pm.actions.RefreshAutomaticallyAction"
+               label="Refresh Automatically"
+               menubarPath="project/"
+               state="true"
+               style="toggle"
+               tooltip="Refresh TaRGeT project automatically">
+         </action>
+      </actionSet>
+   </extension>
+            
+   <extension
+         point="org.eclipse.ui.views">
+         <category
+            id="target.ui.category.views"
+            name="Target UI Category"/>
+      <view
+            category="target.ui.category.views"
+            class="br.ufpe.cin.target.pm.views.features.FeaturesView"
+            icon="icons/view_icon.jpg"
+            id="br.ufpe.cin.target.pm.views.features.FeaturesView"
+            name="Use Cases"
+            />
+      <view
+            category="target.ui.category.views"
+            class="br.ufpe.cin.target.pm.views.artifacts.ArtifactsView"
+            icon="icons/view_icon.jpg"
+            id="br.ufpe.cin.target.pm.views.artifacts.ArtifactsView"
+            name="Artifacts"
+            />
+      <view
+            allowMultiple="false"
+            class="br.ufpe.cin.target.pm.views.ErrorView"
+            icon="icons/error_view.gif"
+            id="br.ufpe.cin.target.pm.views.ErrorView"
+            name="Errors"
+            />
+      <view
+            allowMultiple="false"
+            class="br.ufpe.cin.target.pm.views.SearchResultsView"
+            icon="icons/search.gif"
+            id="br.ufpe.cin.target.pm.views.SearchResultsView"
+            name="Search Results"
+            />
+   </extension>
+   <extension
+         id="br.ufpe.cin.target.pm.perspectives"
+         name="br.ufpe.cin.target.pm.perspectives"
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            class="br.ufpe.cin.target.pm.perspectives.RequirementPerspective"
+            id="br.ufpe.cin.target.pm.ui.RequirementPerspective"
+            name="Document Manager"/>
+   </extension>
+   <extension
+         id="br.ufpe.cin.target.pm.editors"
+         name="br.ufpe.cin.target.pm.editors"
+         point="org.eclipse.ui.editors">
+      <editor
+            class="br.ufpe.cin.target.pm.editors.UseCaseViewer"
+            default="false"
+            icon="icons/view_icon.jpg"
+            id="br.ufpe.cin.target.pm.editors.UseCaseViewer"
+            name="Use Case"/>
+   </extension>
+</plugin>

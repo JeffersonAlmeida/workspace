@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: TaRGeT XML Input Plug-in
+Bundle-SymbolicName: br.ufpe.cin.target.xmlinput;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: br.ufpe.cin.target.xmlinput.XMLInputActivator
+Require-Bundle: org.eclipse.core.runtime,
+ br.ufpe.cin.target.common,
+ br.ufpe.cin.target.pm
+Eclipse-LazyStart: true
+Bundle-Vendor: CIN-BTC

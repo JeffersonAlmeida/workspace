@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/cinspg/!svn/ver/3706/SafeRefactor/trunk/Exemplos/MobileMedia04_OO_Refactored_2miss/src/lancs/mobilemedia/core/ui/controller
+END
+ScreenSingleton.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/cinspg/!svn/ver/3706/SafeRefactor/trunk/Exemplos/MobileMedia04_OO_Refactored_2miss/src/lancs/mobilemedia/core/ui/controller/ScreenSingleton.java
+END
+AbstractController.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/cinspg/!svn/ver/3706/SafeRefactor/trunk/Exemplos/MobileMedia04_OO_Refactored_2miss/src/lancs/mobilemedia/core/ui/controller/AbstractController.java
+END
+PhotoController.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/cinspg/!svn/ver/3706/SafeRefactor/trunk/Exemplos/MobileMedia04_OO_Refactored_2miss/src/lancs/mobilemedia/core/ui/controller/PhotoController.java
+END
+ControllerInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/cinspg/!svn/ver/3706/SafeRefactor/trunk/Exemplos/MobileMedia04_OO_Refactored_2miss/src/lancs/mobilemedia/core/ui/controller/ControllerInterface.java
+END
+BaseController.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/cinspg/!svn/ver/3706/SafeRefactor/trunk/Exemplos/MobileMedia04_OO_Refactored_2miss/src/lancs/mobilemedia/core/ui/controller/BaseController.java
+END
+PhotoListController.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/cinspg/!svn/ver/3706/SafeRefactor/trunk/Exemplos/MobileMedia04_OO_Refactored_2miss/src/lancs/mobilemedia/core/ui/controller/PhotoListController.java
+END
+AlbumController.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/cinspg/!svn/ver/3706/SafeRefactor/trunk/Exemplos/MobileMedia04_OO_Refactored_2miss/src/lancs/mobilemedia/core/ui/controller/AlbumController.java
+END
+PhotoViewController.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/cinspg/!svn/ver/3706/SafeRefactor/trunk/Exemplos/MobileMedia04_OO_Refactored_2miss/src/lancs/mobilemedia/core/ui/controller/PhotoViewController.java
+END

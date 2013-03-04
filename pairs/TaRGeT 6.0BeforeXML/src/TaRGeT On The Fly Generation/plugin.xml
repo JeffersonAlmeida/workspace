@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            categoryId="tcg.commands.categories"
+            description="On The Fly Test Case Generation Command"
+            id="onthefly.project.commands.OnTheFlyGeneration"
+            name="On The Fly Generation Command">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.bindings">
+      <key
+            commandId="onthefly.project.commands.OnTheFlyGeneration"
+            contextId="org.eclipse.ui.contexts.window"
+            schemeId="br.ufpe.cin.target.scheme"
+            sequence="CTRL+Y">
+      </key>
+   </extension>
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="br.ufpe.cin.target.onthefly.editors.OnTheFlyMultiPageEditor"
+            icon="icons/on_the_fly_editor_icon.gif"
+            id="br.ufpe.cin.target.onthefly.editors.OnTheFlyMultiPageEditor"
+            name="On The Fly Generation Editor">
+      </editor>
+   </extension>
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            id="br.ufpe.cin.target.onthefly.actionSet"
+            label="Tools"
+            visible="true">
+         <action
+               class="br.ufpe.cin.target.onthefly.actions.OnTheFlyTCGActionDelegate"
+               definitionId="onthefly.project.commands.OnTheFlyGeneration"
+               enablesFor="+"
+               id="br.ufpe.cin.target.onthefly.action.OnTheFlyGeneration"
+#if($ptbr)
+			   label="Geração On The Fl&amp;y"
+#elseif($enus)
+               label="On The Fl&amp;y Generation"
+#end
+               menubarPath="tools/"
+               tooltip="On The Fly Test Case Generation">
+         </action>
+      </actionSet>
+   </extension>
+   <extension
+         point="org.eclipse.help.toc">
+      <toc
+            file="toc.xml"
+            primary="true">
+      </toc>
+   </extension>
+
+</plugin>

@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: TaRGeT CNL Plug-in
+Bundle-SymbolicName: br.ufpe.cin.target.cnl;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: br.ufpe.cin.target.cnl.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ br.ufpe.cin.target.core,
+ br.ufpe.cin.target.common,
+ br.ufpe.cin.target.pm,
+ br.ufpe.cin.target.tcg,
+ br.ufpe.cin.cnlframework
+Eclipse-LazyStart: true
+Bundle-ClassPath: .,
+ lib/wordnet_jwi_api_2.1.5.jar

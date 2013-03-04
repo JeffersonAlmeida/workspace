@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="br.ufpe.cin.target.cm.editor.ConsistencyManagementMultiPageEditor"
+            icon="icons/consitency_manager_ico_16_16.png"
+            id="br.ufpe.cin.target.cm.editor.ConsistencyManagementMultiPageEditor"
+            name="Consistency Management Editor">
+      </editor>
+   </extension>
+   <extension
+         point="br.ufpe.cin.target.tcg.cm">
+      <cmExtension
+            cmImplementation="br.ufpe.cin.target.cm.ConsistencyManagerExtensionImplementation">
+      </cmExtension>
+   </extension>
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="br.ufpe.cin.target.core.application"
+            name="TaRGeT">
+         <property
+               name="windowImages"
+               value="platform:/plugin/br.ufpe.cin.target.core/icons/icon_128_128.gif">
+         </property>
+         <property
+               name="aboutText"
+               value="TaRGeT - Test and Requirements Generation Tool&#x0A;Version: 01.00.03I&#x0A;Label: RSCH-TARGT_N_01.00.03I&#x0A;&#x0A;(c) Copyright CIn-UFPE and Motorola, Inc. 2006-2008.&#x0A;All rights reserved.&#x0A;&#x0A;Credits to BTC Research Team.">
+         </property>
+         <property
+               name="aboutImage"
+               value="platform:/plugin/br.ufpe.cin.target.core/icons/about.gif">
+         </property>
+         <property
+               name="appName"
+               value="TaRGeT">
+         </property>
+      </product>
+   </extension>
+   <extension
+         point="org.eclipse.help.toc">
+      <toc
+            file="toc.xml"
+            primary="true">
+      </toc>
+   </extension>
+
+</plugin>

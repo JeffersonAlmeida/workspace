@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="book.css"/> 
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>TaRGeT - Creating Project</title>
+</head>
+
+<body>
+<h1>Creating a Project</h1>
+<p>You can create a new project by using the <b>File</b> menu on the Workbench menu bar:</p>
+<OL>
+  <LI>Select <b>File > New Project</b> from the menu bar. You can also access
+    the <b>New Project Wizard</b> via shortcut 'CTRL+N'.
+      <p> <img src="Images/creatingProjectNew.PNG"> </p>
+  <LI> Type the <b>Project Name</b> and click on <b>Browse...</b> button to select the <b>Destination Folder</b>. The <b>Project Name</b> does not accept any of the characters \ / : * ? &quot; &lt; &gt; |.&nbsp;
+        <p><img src="Images/creatingProjectNewBrowser.PNG" ></p>
+  <p align="left"> In order to create the new project, the user must have permission to write in the specified destination folder . Otherwise, an error dialog will be displayed. If the selected destination contains a project, a message dialog will be displayed asking if the user wants to overwrite the existing project.</p>  
+ <p align="left"> <img src="Images/creatingProjectNewName.PNG" width="441" height="146"></p>
+  <LI> Click on <b>Finish</b> button.&nbsp;The <a href="TaRGeTWorkspace.htm">TaRGeT Workspace</a> is showed with an empty project. If any error is encountered during the project creation, a message dialog will be displayed.
+</OL>
+<p>&nbsp;</p>
+</body>
+</html>

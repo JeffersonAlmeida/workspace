@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            id="br.ufpe.cin.target.xmleditor.actionSet"
+            label="Tools"
+            visible="true">
+         <action
+               class="br.ufpe.cin.target.uceditor.actions.OpenUseCaseEditorActionDelegate"
+               definitionId="xmleditor.commands.XMLEditor"
+               enablesFor="+"
+               id="br.ufpe.cin.target.xmleditor.actions.EditorXMLDelegate"
+               label="Use Case Editor"
+               menubarPath="tools/"
+               tooltip="Use Case Editor">
+         </action>
+      </actionSet>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            categoryId="xmleditor.commands.categories"
+            description="XML Editor  Command"
+            id="xmleditor.commands.XMLEditor"
+            name="XML Editor Command">
+      </command>
+      <category
+            description="Customized actions."
+            id="xmleditor.commands.categories"
+            name="Custom">
+      </category>
+   </extension>
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="br.ufpe.cin.target.uceditor.editor.UseCaseEditor"
+            icon="icons/uc_icon_16_16.png"
+            id="br.ufpe.cin.target.uceditor.editor.UseCaseEditor"
+            name="Use Case Editor">
+      </editor>
+   </extension>
+   <extension
+         point="org.eclipse.ui.bindings">
+      <key
+            commandId="xmleditor.commands.XMLEditor"
+            contextId="org.eclipse.ui.contexts.window"
+            schemeId="br.ufpe.cin.target.scheme"
+            sequence="CTRL+E">
+      </key>
+   </extension>
+   <extension
+         point="org.eclipse.ui.popupMenus">
+      <objectContribution
+            adaptable="true"
+            id="br.ufpe.cin.target.xmleditor.contributions"
+            nameFilter="UC_*"
+            objectClass="br.ufpe.cin.target.pm.common.TreeObject">
+         <action
+               class="br.ufpe.cin.target.uceditor.actions.OpenImportedUseCaseInEditorActionDelegate"
+               enablesFor="?"
+               id="br.ufpe.cin.target.xmleditor.ucimported.OpenImportedUseCase"
+               label="Edit with Use Case Editor"
+               menubarPath="target.xmleditor.editoroptions">
+         </action>
+         <menu
+               id="target.xmleditor.editoroptions"
+               label="editorOptions">
+         </menu>
+      </objectContribution>
+   </extension>
+   <extension
+         point="org.eclipse.help.toc">
+      <toc
+            file="toc.xml"
+            primary="true">
+      </toc>
+   </extension>
+</plugin>

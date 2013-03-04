@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Common Plug-in
+Bundle-SymbolicName: br.ufpe.cin.target.common
+Bundle-Version: 1.0.0
+Bundle-Activator: br.ufpe.cin.target.common.Activator
+Bundle-Vendor: CIN-BTC
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.aspectj.runtime;bundle-version="1.6.4",
+ org.eclipse.aspectj;bundle-version="1.6.4"
+Eclipse-LazyStart: true
+Export-Package: br.ufpe.cin.target.common,
+ br.ufpe.cin.target.common.actions,
+ br.ufpe.cin.target.common.exceptions,
+ br.ufpe.cin.target.common.lts,
+ br.ufpe.cin.target.common.tuclientagent,
+ br.ufpe.cin.target.common.ucdoc,
+#if($interruption)
+ br.ufpe.cin.target.common.interruption,
+ br.ufpe.cin.target.common.ucdoc.interruption,
+#end
+ br.ufpe.cin.target.common.ucdoc.xml,
+ br.ufpe.cin.target.common.util
+Bundle-ClassPath: .,
+ lib/aspectjrt.jar,
+ lib/xercesImpl-2.7.1.jar
+ 
+

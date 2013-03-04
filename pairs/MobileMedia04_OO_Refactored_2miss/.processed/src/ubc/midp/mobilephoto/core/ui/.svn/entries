@@ -1,0 +1,71 @@
+10
+
+dir
+3776
+https://svn.cin.ufpe.br/svn/cinspg/SafeRefactor/trunk/Exemplos/MobileMedia04_OO_Refactored_2miss/.processed/src/ubc/midp/mobilephoto/core/ui
+https://svn.cin.ufpe.br/svn/cinspg
+
+
+
+2011-05-07T20:19:57.947029Z
+3706
+fsf2
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+d69a6c6a-caee-dd11-b87f-0019d1013b4f
+
+MainUIMidlet.java
+file
+
+
+
+
+2011-05-17T11:15:56.000000Z
+0f7c2c014e83ccfefb43b1283a0cd841
+2011-05-07T20:19:57.947029Z
+3706
+fsf2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2356
+
+controller
+dir
+
+datamodel
+dir
+
+screens
+dir
+

@@ -1,0 +1,4 @@
+tcg.tescase_id=<tc_featureid>_MM_Func_<tc_id>
+tcg.empty_field=None.
+tcg.objective_prefix=OBJECTIVE_PREFIX: 
+tcg.componentKeyword= 

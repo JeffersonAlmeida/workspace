@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<configurationModel>
+
+	<configuration>
+		<expression>targett</expression>
+		<required></required>
+		<provided>
+			TaRGeTCommon,TaRGeTCore,TaRGeTProjectManager,TaRGeTTCGenerationGUI
+		</provided>
+	</configuration>
+	
+</configurationModel>

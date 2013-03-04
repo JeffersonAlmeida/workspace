@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/cinspg/!svn/ver/3692/SafeRefactor/trunk/Exemplos/TaRGeT%206.0AfterXMLTestLinkBug/src/TaRGeT%20TC%20Generation%20GUI/src/java/br/ufpe/cin/target/tcg/filters
+END
+TestSuiteFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 181
+/svn/cinspg/!svn/ver/3692/SafeRefactor/trunk/Exemplos/TaRGeT%206.0AfterXMLTestLinkBug/src/TaRGeT%20TC%20Generation%20GUI/src/java/br/ufpe/cin/target/tcg/filters/TestSuiteFilter.java
+END
+DefaultTestSuiteFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 188
+/svn/cinspg/!svn/ver/3692/SafeRefactor/trunk/Exemplos/TaRGeT%206.0AfterXMLTestLinkBug/src/TaRGeT%20TC%20Generation%20GUI/src/java/br/ufpe/cin/target/tcg/filters/DefaultTestSuiteFilter.java
+END
+TestPurpose.java
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/svn/cinspg/!svn/ver/3692/SafeRefactor/trunk/Exemplos/TaRGeT%206.0AfterXMLTestLinkBug/src/TaRGeT%20TC%20Generation%20GUI/src/java/br/ufpe/cin/target/tcg/filters/TestPurpose.java
+END
+ORTestSuiteFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 183
+/svn/cinspg/!svn/ver/3692/SafeRefactor/trunk/Exemplos/TaRGeT%206.0AfterXMLTestLinkBug/src/TaRGeT%20TC%20Generation%20GUI/src/java/br/ufpe/cin/target/tcg/filters/ORTestSuiteFilter.java
+END
+SimilarityFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 182
+/svn/cinspg/!svn/ver/3692/SafeRefactor/trunk/Exemplos/TaRGeT%206.0AfterXMLTestLinkBug/src/TaRGeT%20TC%20Generation%20GUI/src/java/br/ufpe/cin/target/tcg/filters/SimilarityFilter.java
+END
+RequirementsFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 184
+/svn/cinspg/!svn/ver/3692/SafeRefactor/trunk/Exemplos/TaRGeT%206.0AfterXMLTestLinkBug/src/TaRGeT%20TC%20Generation%20GUI/src/java/br/ufpe/cin/target/tcg/filters/RequirementsFilter.java
+END
+PurposeFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 179
+/svn/cinspg/!svn/ver/3692/SafeRefactor/trunk/Exemplos/TaRGeT%206.0AfterXMLTestLinkBug/src/TaRGeT%20TC%20Generation%20GUI/src/java/br/ufpe/cin/target/tcg/filters/PurposeFilter.java
+END
+UseCasesFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 180
+/svn/cinspg/!svn/ver/3692/SafeRefactor/trunk/Exemplos/TaRGeT%206.0AfterXMLTestLinkBug/src/TaRGeT%20TC%20Generation%20GUI/src/java/br/ufpe/cin/target/tcg/filters/UseCasesFilter.java
+END
+CompositionTestSuiteFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 192
+/svn/cinspg/!svn/ver/3692/SafeRefactor/trunk/Exemplos/TaRGeT%206.0AfterXMLTestLinkBug/src/TaRGeT%20TC%20Generation%20GUI/src/java/br/ufpe/cin/target/tcg/filters/CompositionTestSuiteFilter.java
+END
+TestSuiteFilterAssembler.java
+K 25
+svn:wc:ra_dav:version-url
+V 190
+/svn/cinspg/!svn/ver/3692/SafeRefactor/trunk/Exemplos/TaRGeT%206.0AfterXMLTestLinkBug/src/TaRGeT%20TC%20Generation%20GUI/src/java/br/ufpe/cin/target/tcg/filters/TestSuiteFilterAssembler.java
+END

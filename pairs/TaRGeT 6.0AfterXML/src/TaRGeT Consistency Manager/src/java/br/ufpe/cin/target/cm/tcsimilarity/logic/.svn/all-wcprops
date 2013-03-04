@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/cinspg/!svn/ver/3682/SafeRefactor/trunk/Exemplos/TaRGeT%206.0AfterXML/src/TaRGeT%20Consistency%20Manager/src/java/br/ufpe/cin/target/cm/tcsimilarity/logic
+END
+StepSimilarity.java
+K 25
+svn:wc:ra_dav:version-url
+V 179
+/svn/cinspg/!svn/ver/3682/SafeRefactor/trunk/Exemplos/TaRGeT%206.0AfterXML/src/TaRGeT%20Consistency%20Manager/src/java/br/ufpe/cin/target/cm/tcsimilarity/logic/StepSimilarity.java
+END
+SimilarTC.java
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/cinspg/!svn/ver/3682/SafeRefactor/trunk/Exemplos/TaRGeT%206.0AfterXML/src/TaRGeT%20Consistency%20Manager/src/java/br/ufpe/cin/target/cm/tcsimilarity/logic/SimilarTC.java
+END
+TestCaseMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/cinspg/!svn/ver/3682/SafeRefactor/trunk/Exemplos/TaRGeT%206.0AfterXML/src/TaRGeT%20Consistency%20Manager/src/java/br/ufpe/cin/target/cm/tcsimilarity/logic/TestCaseMap.java
+END
+Comparison.java
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/cinspg/!svn/ver/3682/SafeRefactor/trunk/Exemplos/TaRGeT%206.0AfterXML/src/TaRGeT%20Consistency%20Manager/src/java/br/ufpe/cin/target/cm/tcsimilarity/logic/Comparison.java
+END
+ComparisonResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 181
+/svn/cinspg/!svn/ver/3682/SafeRefactor/trunk/Exemplos/TaRGeT%206.0AfterXML/src/TaRGeT%20Consistency%20Manager/src/java/br/ufpe/cin/target/cm/tcsimilarity/logic/ComparisonResult.java
+END
+TestCaseSimilarity.java
+K 25
+svn:wc:ra_dav:version-url
+V 183
+/svn/cinspg/!svn/ver/3682/SafeRefactor/trunk/Exemplos/TaRGeT%206.0AfterXML/src/TaRGeT%20Consistency%20Manager/src/java/br/ufpe/cin/target/cm/tcsimilarity/logic/TestCaseSimilarity.java
+END

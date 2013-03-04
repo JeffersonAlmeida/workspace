@@ -1,0 +1,41 @@
+In order to deploy TaRGeT, it is necessary to install some extra software and to set some environment variables.
+
+EXTRA SOFTWARE
+
+	It is necessary to install the following software:
+	
+	Mandatory:
+		-> Install the Eclipse 3.2.x (found in http://www.eclipse.org)
+		-> AspectJ Eclipse plugin 1.4.x (found in http://www.eclipse.org/downloads/download.php?file=/tools/ajdt/32/update/ajdt_1.4.1_for_eclipse_3.2.zip)
+	Optional:
+		-> Install4J (3.2.5) for windows
+
+SETTING ENVIRONMENT VARIABLES
+
+	It is necessary to set the following environment variables:
+	
+	-> ECLIPSE_HOME: A folder that contains the eclipse installation
+
+	If you are deploying with Install4J, it is also necessary to set the following environment variables:
+	
+	-> INSTALL4J_HOME: The Install4J installation folder.
+	-> TARGET_VERSION: The version that will be displayed in the launcher of the tool.
+	
+STARTING THE BUILD
+
+	Build without Install4J:
+		-> Execute the "installer/project/build.xml" file and the tool will be deployed in the release folder.
+
+		Eg.:
+		
+				$> cd installer/project
+				$> ant
+		
+
+	Build with Install4J:
+		-> Execute the build file "installer/project/build_with_install4j.xml" and the tool will be deployed in the release folder.
+
+		Eg.:
+		
+				$> cd installer/project
+				$> ant -buildfile build_with_install4j.xml

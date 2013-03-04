@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: TaRGeT_Test_Center_4_Output_Plug_in Plug-in
+Bundle-SymbolicName: com.motorola.btc.research.target.tc4output;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: com.motorola.btc.research.target.tc4output.Activator
+Require-Bundle: org.eclipse.core.runtime,
+ com.motorola.btc.research.target.common,
+ com.motorola.btc.research.target.tcg,
+ com.motorola.btc.research.target.pm
+Eclipse-LazyStart: true
+Bundle-ClassPath: .,
+ lib/poi-3.2-FINAL.jar

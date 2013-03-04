@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: TaRGeT Test Central 3 Output Plug-in
+Bundle-SymbolicName: br.ufpe.cin.target.tc3output;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: br.ufpe.cin.target.tc3output.Activator
+Require-Bundle: org.eclipse.core.runtime,
+ br.ufpe.cin.target.common,
+ br.ufpe.cin.target.tcg,
+ br.ufpe.cin.target.pm
+Eclipse-LazyStart: true
+Bundle-ClassPath: .
+Bundle-Vendor: CIN-BTC

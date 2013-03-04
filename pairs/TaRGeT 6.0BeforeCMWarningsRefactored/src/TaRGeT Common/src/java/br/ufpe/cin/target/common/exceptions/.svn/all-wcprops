@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/cinspg/!svn/ver/3690/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeCMWarningsRefactored/src/TaRGeT%20Common/src/java/br/ufpe/cin/target/common/exceptions
+END
+TargetException.java
+K 25
+svn:wc:ra_dav:version-url
+V 179
+/svn/cinspg/!svn/ver/3690/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeCMWarningsRefactored/src/TaRGeT%20Common/src/java/br/ufpe/cin/target/common/exceptions/TargetException.java
+END
+UseCaseDocumentXMLException.java
+K 25
+svn:wc:ra_dav:version-url
+V 191
+/svn/cinspg/!svn/ver/3690/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeCMWarningsRefactored/src/TaRGeT%20Common/src/java/br/ufpe/cin/target/common/exceptions/UseCaseDocumentXMLException.java
+END

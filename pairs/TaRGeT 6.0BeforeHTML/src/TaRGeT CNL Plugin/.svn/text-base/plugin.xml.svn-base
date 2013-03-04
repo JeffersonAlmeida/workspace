@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+
+   <extension
+         id="eclipseviewextension"
+         name="Eclipse View Extension"
+         point="org.eclipse.ui.views">
+      <view
+            allowMultiple="false"
+            class="br.ufpe.cin.target.cnl.views.CNLView"
+            icon="icons/viewIcon.bmp"
+            id="br.ufpe.cin.target.cnl.views.CNLView"
+            name="CNL Advisor">
+      </view>
+   </extension>
+   <extension
+         id="pmviewsextension"
+         name="Views Added To TaRGeT Workspace"
+         point="br.ufpe.cin.target.pm.views">
+      <viewExtension
+            name="CNL View Advisor"
+            viewId="br.ufpe.cin.target.cnl.views.CNLView">
+      </viewExtension>
+   </extension>
+   <extension
+         id="cnpluginlviewactions"
+         name="View Actions from CNL Plugins"
+         point="org.eclipse.ui.viewActions">
+      <viewContribution
+            id="br.ufpe.cin.target.views.CNLViewActionContribution"
+            targetID="br.ufpe.cin.target.cnl.views.CNLView">
+         <action
+               class="br.ufpe.cin.target.cnl.actions.ReloadBasesActionDelegate"
+               icon="icons/reloadBases.png"
+               id="br.ufpe.cin.target.cnl.views.cnlview.ReloadBasesAction"
+               label="Reload Bases"
+               menubarPath="terms/"
+               toolbarPath="."
+               tooltip="Reload the grammar and the lexicon bases">
+         </action>
+         <action
+               class="br.ufpe.cin.target.cnl.actions.ShowActionSentencesActionDelegate"
+               icon="icons/showActions.png"
+               id="br.ufpe.cin.target.cnl.views.cnlview.ShowActionSentences"
+               label="Show Action Sentences"
+               state="true"
+               style="toggle"
+               toolbarPath="."
+               tooltip="Show the results for action sentences.">
+         </action>
+         <action
+               class="br.ufpe.cin.target.cnl.actions.ShowConditionSentencesActionDelegate"
+               icon="icons/showConditions.png"
+               id="br.ufpe.cin.target.cnl.views.cnlview.ShowConditionSentences"
+               label="Show Condition Sentences"
+               state="true"
+               style="toggle"
+               toolbarPath=".">
+         </action>
+         <action
+               class="br.ufpe.cin.target.cnl.actions.ShowResponseSentencesActionDelegate"
+               icon="icons/showResponses.png"
+               id="br.ufpe.cin.target.cnl.views.cnlview.ShowResponseSentences"
+               label="Show Response Sentences"
+               state="true"
+               style="toggle"
+               toolbarPath=".">
+         </action>
+         <action
+               class="br.ufpe.cin.target.cnl.actions.ShowParsingErrorsActionDelegate"
+               icon="icons/smallGrammarFaultIcon.png"
+               id="br.ufpe.cin.target.cnl.views.cnlview.ShowParsingErrorsActionDelegate"
+               label="Show Sintax Errors"
+               toolbarPath="."
+               tooltip="Show the Syntax Errors Details">
+         </action>
+      </viewContribution>
+   </extension>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            locationURI="br.ufpe.cin.target.cnl.views.CNLView">
+         <toolbar
+               id="br.ufpe.cin.target.cnl.views.toolbar.CNLView">
+         </toolbar>
+      </menuContribution>
+   </extension>
+   <extension
+         id="target"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="br.ufpe.cin.target.research.target.core.application"
+            name="TaRGeT CNL">
+         <property
+               name="aboutText"
+               value="TaRGeT - Test and Requirements Generation Tool Version: 01.00.03I Label: RSCH-TARGT_N_01.00.03I  (c) Copyright CIn-UFPE and Motorola, Inc. 2006-2008. All rights reserved.  Credits to BTC Research Team.">
+         </property>
+         <property
+               name="aboutImage"
+               value="platform:/plugin/br.ufpe.cin.target.research.target.core/icons/about.gif">
+         </property>
+         <property
+               name="appName"
+               value="TaRGeT CNL">
+         </property>
+      </product>
+   </extension>
+   <extension
+         point="org.eclipse.help.toc">
+      <toc
+            file="toc.xml"
+            primary="true">
+      </toc>
+   </extension>
+
+</plugin>

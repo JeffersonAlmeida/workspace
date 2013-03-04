@@ -1,0 +1,70 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="book.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Help - Test and Requirements Generation Tool - TaRGeT</title>
+</head>
+<body>
+<h1>Errors and Warnings in Documents </h1>
+<p>In TaRGeT, the document defects are classified in errors <img border="0" src="Images/error.gif" width="16" height="16">
+and warnings <img border="0" src="Images/warning.gif" width="16" height="16">. If the
+project contains any type of error, TaRGeT will not generate tests. On the other
+hand, TaRGeT generates tests from projects that contain warnings.&nbsp;</p>
+<p> There are two
+kinds of errors in TaRGeT. They are listed below:.</p>
+<ul>
+  <li><b>Simple error</b> - The simple errors do not compromise  the processing of the document. They are:
+    <ul>
+      <li><b>Duplicated Step Id Error - </b> Occurs when more than one step, inside the same use
+        case, presents the same ID.</li>
+      <li><b>Empty Field Error</b> - Occurs when   the step id, action or response are empty. If
+        a use case has more than one error, only one will be displayed
+        in the <b>Errors</b> view.</li>
+      <li><b>Invalid Step Id Reference Error</b> - Occurs when the document (in the
+      <b>To Steps</b> and/or <b>From Steps</b> fields) has an invalid step reference.</li>
+      <li><b>Invalid To/From Steps Error</b> -&nbsp; Occurs when To/From Steps
+        are not in the Step ID format.</li>
+    </ul>
+  </li>
+  <li><b>Fatal error</b> - The fatal errors compromise the processing of the document,
+   so its contents will not be displayed in the <a href="TaRGeTWorkspace.htm">TaRGeT Workspace</a>. They are:
+    <ul>
+      <li><b>Unable To Load Document Error - </b> Occurs when the document is not 
+      a Microsoft Word, or it is Microsoft Word but does not have attached XML, or it is Microsoft Word but the XML is not 
+      according to the pre-defined template. </li>
+      <li><b>Duplicate Use Case Id Error - </b> Occurs when there is more than one 
+      use case, inside the same Feature, with the same ID.</li>
+      <li><b>Empty Use Case Id Error - </b> Occurs when one 
+      use case ID 
+      is empty.</li>
+      <li><b>Invalid Use Case ID Error -</b> Occurs when the Use Case ID field
+        is composed by symbols or &quot;numbers_letters&quot;, e.g.
+        &quot;01_UC&quot;.</li>
+      <li><b>Duplicate Feature Id Inside Document Error</b> -  Occurs when there 
+      is more than one
+      feature,
+      inside the same document, with equal IDs. </li>
+      <li><b>Empty Feature Id Inside Document Error</b> -  Occurs when the
+        feature ID 
+      is empty. </li>
+      <li><b>Invalid Feature ID Error </b>- Occurs when there are any content
+        different from numbers in the Feature ID. </li>
+      <li><b>Empty To/From Steps Error </b>- Occurs when From Step ot To Step
+        fields are empty. </li>
+      <li><b>Invalid Step ID Error </b>- Occurs when it is not in the Step ID
+        format (Numbers + Uppercase Letters) </li>
+    </ul>
+  </li>
+</ul>
+<p>Regarding the warnings, TaRGeT consider the follow ones:</p>
+<ul>
+  <li><b>Features With Same Id But Different Names</b> - TaRGeT accepts two or
+    more features with same Id that are placed in different documents. Actually,
+    TaRGeT considers the features as only one. Although the features have the
+    same Id, they may have different names, which sounds mistaken in the TaRGeT
+    environment. So, the user is notified with a warning message. </li>
+</ul>
+</body>
+</html>

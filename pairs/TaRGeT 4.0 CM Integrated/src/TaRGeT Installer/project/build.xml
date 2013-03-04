@@ -1,0 +1,86 @@
+<!--
+ * @(#)build_without_install4j.xml
+ *
+ * (c) COPYRIGHT 2005 MOTOROLA INC.
+ * MOTOROLA CONFIDENTIAL PROPIETARY
+ * Template ID and version: IL93-TMP-01-0112  Version 1.10
+ *
+ * REVISION HISTORY:
+ * Author    Date           CR Number    Brief Description
+ *  dhq348   Mar 29, 2007   LIBll54549   Initial creation.
+ *  dhq348   Apr 03, 2007   LIBll54549   Rework of inspection LX158543
+ *  dhq348   Sep 03, 2007   LIBnn24462   Set all verbose to 'off'.
+ -->
+
+<!-- ======================================================================
+	This is the TaRGeT main script to build the tool without any 
+	installation of Install4J.
+
+	In order to run this build script, it is necessary to set the following 
+	environment variables:
+	
+	-> ECLIPSE_HOME: A folder that contains an eclipse installation
+	======================================================================
+-->
+<project name="build_without_install4j" default="main">
+
+	<!-- Release folder -->
+	<property name="release.folder" value="../release" />
+	<!-- Temp folder -->
+	<property name="tmp.folder" value="${release.folder}/temp" />
+
+	<!-- =================================================
+			    target: main
+				The main target. Depends on init, external and zipFiles 
+				 ================================================= -->
+	<target name="main" depends="init, external, zipFiles" />
+
+	<!-- =================================================
+		target: init
+		The init target. It only creates the temporary folder.
+		================================================= -->
+	<target name="init">
+		<echo message="Initializing . . ." />
+		<mkdir dir="${tmp.folder}" />
+	</target>
+
+	<!-- =========================================================
+				 target: external
+				 This target calls all the other tool build scripts. 
+				 It first builds the tool, compiling all classes, then 
+				 creates the tool installer and later creates the javadoc. 
+				 ========================================================= -->
+	<target name="external">
+		<echo message="Invoking build_TaRGeT.xml . . ." />
+		<ant antfile="build_TaRGeT.xml" dir="." target="main" />
+		<echo message="Invoking build_javadoc.xml . . ." />
+		<ant antfile="build_javadoc.xml" dir="." target="main" />
+	</target>
+
+	<!-- =========================================================
+				target: zipFiles
+				This target zips all files generated. 
+				========================================================= -->
+	<target name="zipFiles" description="Zips the installer and all necesssary files">
+		<!-- Copies the 'HowToInstall.txt' file -->
+		<copy todir="${tmp.folder}">
+			<fileset dir="../../">
+				<include name="HowToInstall.txt" />
+			</fileset>
+		</copy>
+		<!-- Zips the content of the release folder -->
+		<zip destfile="${release.folder}/TaRGeT.zip" basedir="${tmp.folder}" />
+
+		<delete dir="${tmp.folder}" />
+	</target>
+
+	<target name="clean">
+		<ant antfile="build.xml" target="clean" dir="../../common/project" />
+		<ant antfile="build.xml" target="clean" dir="../../core/project" />
+		<ant antfile="build.xml" target="clean" dir="../../pm/project" />
+		<ant antfile="build.xml" target="clean" dir="../../tcg/project" />
+	</target>
+
+	<target name="all" depends="main" />
+
+</project>

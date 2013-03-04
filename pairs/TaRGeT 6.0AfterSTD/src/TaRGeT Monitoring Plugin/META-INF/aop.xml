@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aspectj>
+    <aspects>
+        <aspect
+        name="com.motorola.btc.research.target.monitoring.AbstractListener" />
+        <aspect
+        name="com.motorola.btc.research.target.monitoring.ProjectMonitoring" />
+        <aspect
+        name="com.motorola.btc.research.target.monitoring.ExceptionMonitoring" />
+        <aspect
+        name="com.motorola.btc.research.target.monitoring.TestCaseMonitoring" />
+        <aspect
+        name="com.motorola.btc.research.target.monitoring.FilterMonitoring" />
+    </aspects>
+</aspectj>

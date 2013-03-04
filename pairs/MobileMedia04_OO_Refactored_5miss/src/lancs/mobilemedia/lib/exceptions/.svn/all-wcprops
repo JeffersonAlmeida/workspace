@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/cinspg/!svn/ver/3708/SafeRefactor/trunk/Exemplos/MobileMedia04_OO_Refactored_5miss/src/lancs/mobilemedia/lib/exceptions
+END
+InvalidPhotoAlbumNameException.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/cinspg/!svn/ver/3708/SafeRefactor/trunk/Exemplos/MobileMedia04_OO_Refactored_5miss/src/lancs/mobilemedia/lib/exceptions/InvalidPhotoAlbumNameException.java
+END
+NullAlbumDataReference.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/cinspg/!svn/ver/3708/SafeRefactor/trunk/Exemplos/MobileMedia04_OO_Refactored_5miss/src/lancs/mobilemedia/lib/exceptions/NullAlbumDataReference.java
+END
+ImagePathNotValidException.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/cinspg/!svn/ver/3708/SafeRefactor/trunk/Exemplos/MobileMedia04_OO_Refactored_5miss/src/lancs/mobilemedia/lib/exceptions/ImagePathNotValidException.java
+END
+InvalidArrayFormatException.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/cinspg/!svn/ver/3708/SafeRefactor/trunk/Exemplos/MobileMedia04_OO_Refactored_5miss/src/lancs/mobilemedia/lib/exceptions/InvalidArrayFormatException.java
+END
+PersistenceMechanismException.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/cinspg/!svn/ver/3708/SafeRefactor/trunk/Exemplos/MobileMedia04_OO_Refactored_5miss/src/lancs/mobilemedia/lib/exceptions/PersistenceMechanismException.java
+END
+ImageNotFoundException.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/cinspg/!svn/ver/3708/SafeRefactor/trunk/Exemplos/MobileMedia04_OO_Refactored_5miss/src/lancs/mobilemedia/lib/exceptions/ImageNotFoundException.java
+END
+InvalidImageFormatException.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/cinspg/!svn/ver/3708/SafeRefactor/trunk/Exemplos/MobileMedia04_OO_Refactored_5miss/src/lancs/mobilemedia/lib/exceptions/InvalidImageFormatException.java
+END
+UnavailablePhotoAlbumException.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/cinspg/!svn/ver/3708/SafeRefactor/trunk/Exemplos/MobileMedia04_OO_Refactored_5miss/src/lancs/mobilemedia/lib/exceptions/UnavailablePhotoAlbumException.java
+END
+InvalidImageDataException.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/cinspg/!svn/ver/3708/SafeRefactor/trunk/Exemplos/MobileMedia04_OO_Refactored_5miss/src/lancs/mobilemedia/lib/exceptions/InvalidImageDataException.java
+END

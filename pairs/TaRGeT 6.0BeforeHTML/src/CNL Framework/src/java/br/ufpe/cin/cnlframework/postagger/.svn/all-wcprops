@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/cinspg/!svn/ver/3677/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeHTML/src/CNL%20Framework/src/java/br/ufpe/cin/cnlframework/postagger
+END
+TaggedSentence.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/cinspg/!svn/ver/3677/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeHTML/src/CNL%20Framework/src/java/br/ufpe/cin/cnlframework/postagger/TaggedSentence.java
+END
+lexicon.xml
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/cinspg/!svn/ver/3677/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeHTML/src/CNL%20Framework/src/java/br/ufpe/cin/cnlframework/postagger/lexicon.xml
+END
+POSTagger.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/cinspg/!svn/ver/3677/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeHTML/src/CNL%20Framework/src/java/br/ufpe/cin/cnlframework/postagger/POSTagger.java
+END
+TaggedTerm.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/cinspg/!svn/ver/3677/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeHTML/src/CNL%20Framework/src/java/br/ufpe/cin/cnlframework/postagger/TaggedTerm.java
+END
+POSUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/cinspg/!svn/ver/3677/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeHTML/src/CNL%20Framework/src/java/br/ufpe/cin/cnlframework/postagger/POSUtil.java
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/cinspg/!svn/ver/3671/SafeRefactor/trunk/Exemplos/TaRGeT%206.0%20FMBeforeRefactoring/src/TaRGeT%20CNL%20Plugin/src/java/br/ufpe/cin/target/cnl/dialogs
+END
+LexicalDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/cinspg/!svn/ver/3671/SafeRefactor/trunk/Exemplos/TaRGeT%206.0%20FMBeforeRefactoring/src/TaRGeT%20CNL%20Plugin/src/java/br/ufpe/cin/target/cnl/dialogs/LexicalDialog.java
+END
+LexicalFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/cinspg/!svn/ver/3671/SafeRefactor/trunk/Exemplos/TaRGeT%206.0%20FMBeforeRefactoring/src/TaRGeT%20CNL%20Plugin/src/java/br/ufpe/cin/target/cnl/dialogs/LexicalFilter.java
+END
+LexicalTemsLabelProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 184
+/svn/cinspg/!svn/ver/3671/SafeRefactor/trunk/Exemplos/TaRGeT%206.0%20FMBeforeRefactoring/src/TaRGeT%20CNL%20Plugin/src/java/br/ufpe/cin/target/cnl/dialogs/LexicalTemsLabelProvider.java
+END
+EditRemoveLexicalTermDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 187
+/svn/cinspg/!svn/ver/3671/SafeRefactor/trunk/Exemplos/TaRGeT%206.0%20FMBeforeRefactoring/src/TaRGeT%20CNL%20Plugin/src/java/br/ufpe/cin/target/cnl/dialogs/EditRemoveLexicalTermDialog.java
+END
+AddLexicalTermDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 180
+/svn/cinspg/!svn/ver/3671/SafeRefactor/trunk/Exemplos/TaRGeT%206.0%20FMBeforeRefactoring/src/TaRGeT%20CNL%20Plugin/src/java/br/ufpe/cin/target/cnl/dialogs/AddLexicalTermDialog.java
+END
+ShowParsingErrorsDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 183
+/svn/cinspg/!svn/ver/3671/SafeRefactor/trunk/Exemplos/TaRGeT%206.0%20FMBeforeRefactoring/src/TaRGeT%20CNL%20Plugin/src/java/br/ufpe/cin/target/cnl/dialogs/ShowParsingErrorsDialog.java
+END
+LexicalTermsSort.java
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/cinspg/!svn/ver/3671/SafeRefactor/trunk/Exemplos/TaRGeT%206.0%20FMBeforeRefactoring/src/TaRGeT%20CNL%20Plugin/src/java/br/ufpe/cin/target/cnl/dialogs/LexicalTermsSort.java
+END

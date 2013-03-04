@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Consistency Manager Plug-in
+Bundle-SymbolicName: com.motorola.btc.research.target.cm;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Vendor: CIn-BTC
+Require-Bundle: com.motorola.btc.research.target.tcg,
+ com.motorola.btc.research.target.pm,
+ com.motorola.btc.research.target.common,
+ org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.nebula.widgets.grid,
+ org.eclipse.ui.forms

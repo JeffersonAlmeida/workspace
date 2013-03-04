@@ -1,0 +1,117 @@
+10
+
+dir
+3776
+https://svn.cin.ufpe.br/svn/cinspg/SafeRefactor/trunk/Exemplos/TaRGeT%204.0/src/TaRGeT%20Installer
+https://svn.cin.ufpe.br/svn/cinspg
+
+
+
+2011-05-15T20:59:33.788743Z
+3744
+fsf2
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+d69a6c6a-caee-dd11-b87f-0019d1013b4f
+
+.classpath
+file
+
+
+
+
+2011-05-17T11:14:29.000000Z
+a0540e3071074af19ddc8183008e6452
+2011-05-08T23:23:53.489300Z
+3710
+fsf2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+615
+
+.project
+file
+
+
+
+
+2011-05-17T11:14:29.000000Z
+1d031b4e92963070ac52727058eb8b20
+2011-05-08T23:23:53.489300Z
+3710
+fsf2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+392
+
+build
+dir
+
+installer_directory
+dir
+
+lib
+dir
+
+project
+dir
+
+release
+dir
+
+resources
+dir
+
+src
+dir
+

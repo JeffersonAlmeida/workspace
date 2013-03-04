@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/cinspg/!svn/ver/3704/SafeRefactor/trunk/Exemplos/MobileMedia04_OO/midp-preprocessed/src/lancs/mobilemedia/core/ui/screens
+END
+NewLabelScreen.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/cinspg/!svn/ver/3704/SafeRefactor/trunk/Exemplos/MobileMedia04_OO/midp-preprocessed/src/lancs/mobilemedia/core/ui/screens/NewLabelScreen.java
+END
+PhotoListScreen.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/cinspg/!svn/ver/3704/SafeRefactor/trunk/Exemplos/MobileMedia04_OO/midp-preprocessed/src/lancs/mobilemedia/core/ui/screens/PhotoListScreen.java
+END
+AlbumListScreen.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/cinspg/!svn/ver/3704/SafeRefactor/trunk/Exemplos/MobileMedia04_OO/midp-preprocessed/src/lancs/mobilemedia/core/ui/screens/AlbumListScreen.java
+END
+PhotoViewScreen.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/cinspg/!svn/ver/3704/SafeRefactor/trunk/Exemplos/MobileMedia04_OO/midp-preprocessed/src/lancs/mobilemedia/core/ui/screens/PhotoViewScreen.java
+END
+AddPhotoToAlbum.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/cinspg/!svn/ver/3704/SafeRefactor/trunk/Exemplos/MobileMedia04_OO/midp-preprocessed/src/lancs/mobilemedia/core/ui/screens/AddPhotoToAlbum.java
+END
+SplashScreen.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/cinspg/!svn/ver/3704/SafeRefactor/trunk/Exemplos/MobileMedia04_OO/midp-preprocessed/src/lancs/mobilemedia/core/ui/screens/SplashScreen.java
+END

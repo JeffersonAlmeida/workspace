@@ -1,0 +1,110 @@
+\\ Grammar Response
+
+Sentence = SRSentence, AndSRSentences?
+
+SRSentence = SRNucleus, SRComplementList?
+
+AndSRSentences = 'and', SRSentence
+ 
+
+----------------------------------------------------------------------------------------------------------
+\\Nucleus
+
+SRNucleus = ActiveVoiceSentence | PassiveVoiceSentence | ThereBeSentence | VerbToBeSentence | PossibleSentence
+
+
+--------------------------------------------------------------------------------------------------------
+\\ Complements
+
+
+SRComplementList = SRComplement, SRComplementList?
+
+SRComplement = ToComplement
+\\ It is not possible to launch the gallery slideshow
+\\ It is possible to write in the agenda (in order) to insert a new entry
+
+
+SRComplement = PrepositionalPhraseList, ADV? 
+  \\ the message was correctly received by the user 1 and by the user 2
+
+SRComplement = 'indicating', 'that', SRNucleus
+  \\ (mensagem de erro) A toast message is displayed, indicating the current USB mode 
+  \\                    A toast message is displayed to indicate the current USB mode
+
+SRComplement = CJ, SRNucleus
+  \\ the “myprofiles” is shown in the contact applications only when the “myfave” service is enabled 
+  \\ The phone wakes up if some requests arrive such as BT
+
+
+
+The "install time dialog" box appears (indicating that the applications already exists 
+on the phone and asking if the user wants to reinstall the application.)
+
+
+
+--------------------------------------------------------------------------------------------------------
+\\Rule TOComplement
+
+ToComplement = 'to', VB, NounPhrase?, ADV?
+
+
+----------------------------------------------------------------------------------------------------------
+\\ Rule ActiveVoiceSentence 
+
+
+ActiveVoiceSentence = NounPhrase, NegDo?, ADV?, ActiveVerbPresent, ADV?, SimpleVC?, ADV?
+NegDo = ('do' | 'does'), 'not'
+
+\\ The connection error screen pops up
+\\ The connection error screen does not pop up
+\\ All receivers get the email correctly
+\\ The user enters in the checking incoming server connection screen
+
+----------------------------------------------------------------------------------------------------------
+\\Rule PassiveVoiceSentence 
+
+PassiveVoiceSentence = NounPhrase, VerbToBe, ADV?, VBN, ADV?
+
+Testar – 
+\\ the dialog is displayed (in order) to notify the failure 
+\\The user is allowed to add the maximum number of the panels to the home screen 
+
+\\ testar = the message was correctly received by the user 1 and by the user 2
+
+
+----------------------------------------------------------------------------------------------------------
+\\ Rule ThereBeSentence 
+
+ThereBeSentence = EX, VerbToBePresent, NG?, NounPhrase
+
+\\There are no pictures to show
+\\ there is no mechanism to add the chip
+
+
+----------------------------------------------------------------------------------------------------------
+\\Rule VerbToBeSentence 
+
+VerbToBeSentence = NounPhrase, VerbToBePresent, NounPhrase
+\\ the music is an MP3 file (SER)
+
+VerbToBeSentence = NounPhrase, VerbToBePresent, PrepositionalPhrase
+\\ The phone (PUT) is in idle state (ESTAR)
+
+VerbToBeSentence = NounPhrase, VerbToBePresent, QualifierList
+
+\\ The message is long AND new 
+\\ The message is not long AND very new 
+\\ The audio quality is still good
+
+
+----------------------------------------------------------------------------------------------------------
+\\Rule PossibleSentence 
+
+PossibleSentence = 'it', 'is', NG?, ('possible' | 'functional'), ToComplement
+
+\\ it is possible to write in the agenda
+\\ It is not possible to launch the gallery slideshow
+
+
+----------------------------------------------------------------------------------------------------------
+

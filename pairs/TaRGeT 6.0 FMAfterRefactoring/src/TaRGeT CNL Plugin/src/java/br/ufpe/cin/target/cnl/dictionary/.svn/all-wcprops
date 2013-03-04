@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/cinspg/!svn/ver/3672/SafeRefactor/trunk/Exemplos/TaRGeT%206.0%20FMAfterRefactoring/src/TaRGeT%20CNL%20Plugin/src/java/br/ufpe/cin/target/cnl/dictionary
+END
+ICNLDictionary.java
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/cinspg/!svn/ver/3672/SafeRefactor/trunk/Exemplos/TaRGeT%206.0%20FMAfterRefactoring/src/TaRGeT%20CNL%20Plugin/src/java/br/ufpe/cin/target/cnl/dictionary/ICNLDictionary.java
+END
+InvalidPartsOfSpeechException.java
+K 25
+svn:wc:ra_dav:version-url
+V 191
+/svn/cinspg/!svn/ver/3672/SafeRefactor/trunk/Exemplos/TaRGeT%206.0%20FMAfterRefactoring/src/TaRGeT%20CNL%20Plugin/src/java/br/ufpe/cin/target/cnl/dictionary/InvalidPartsOfSpeechException.java
+END
+CNLSynonym.java
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/cinspg/!svn/ver/3672/SafeRefactor/trunk/Exemplos/TaRGeT%206.0%20FMAfterRefactoring/src/TaRGeT%20CNL%20Plugin/src/java/br/ufpe/cin/target/cnl/dictionary/CNLSynonym.java
+END
+WordNetDictionary.java
+K 25
+svn:wc:ra_dav:version-url
+V 179
+/svn/cinspg/!svn/ver/3672/SafeRefactor/trunk/Exemplos/TaRGeT%206.0%20FMAfterRefactoring/src/TaRGeT%20CNL%20Plugin/src/java/br/ufpe/cin/target/cnl/dictionary/WordNetDictionary.java
+END

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<configurationModel>
+	<configuration>
+		<expression>game</expression>
+		<required></required>
+		<provided>Game</provided>
+	</configuration>
+	<configuration>
+		<expression>startup</expression>
+		<required></required>
+		<provided>
+			Startup
+		</provided>
+	</configuration>
+	<configuration>
+		<expression>multiplayer</expression>
+		<required></required>
+		<provided>Multiplayer</provided>
+	</configuration>
+		<configuration>
+		<expression>internet</expression>
+		<required></required>
+		<provided>Internet</provided>
+	</configuration>
+	<configuration>
+		<expression>connection</expression>
+		<required></required>
+		<provided>Connection</provided>
+	</configuration>
+		<configuration>
+		<expression>bluetooth</expression>
+		<required></required>
+		<provided>Bluetooth</provided>
+	</configuration>
+</configurationModel>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="br.ufpe.cin.target.tcg.output">
+      <outputDocumentExtension
+            outputDocumentImplementation="br.ufpe.cin.target.stdoutput.excel.ExcelFileFormatter">
+      </outputDocumentExtension>
+   </extension>
+   <extension
+         point="org.eclipse.help.toc">
+      <toc
+            file="toc.xml"
+            primary="true">
+      </toc>
+   </extension>
+
+
+</plugin>

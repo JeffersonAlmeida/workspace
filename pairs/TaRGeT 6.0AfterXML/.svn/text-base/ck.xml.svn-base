@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<configurationModel>
+
+	<configuration>
+		<expression>targett</expression>
+		<required></required>
+		<provided>
+			TaRGeTCommon,TaRGeTCore,TaRGeTProjectManager,TaRGeTTCGenerationGUI
+		</provided>
+	</configuration>
+
+	<configuration>
+		<expression>cnl</expression>
+		<required></required>
+		<provided>CNLFramework,TaRGeTCNLPlugin
+		</provided>
+	</configuration>
+
+	<configuration>
+		<expression>cm</expression>
+		<required></required>
+		<provided>ConsistencyManager</provided>
+	</configuration>
+
+	<configuration>
+		<expression>html</expression>
+		<required></required>
+		<provided>TaRGeTHTMLOutputPlugin</provided>
+	</configuration>
+
+	<configuration>
+		<expression>ontheflygeneration</expression>
+		<required></required>
+		<provided>TaRGeTOnTheFlyGeneration,PreferencesOnTheFlyAspect</provided>
+	</configuration>
+
+
+	
+	<configuration>
+		<expression>tc4</expression>
+		<required></required>
+		<provided>TaRGeTTestCentral4OutputPlugin
+		</provided>
+	</configuration>
+	
+	<configuration>
+		<expression>tc3</expression>
+		<required></required>
+		<provided>TaRGeTTestCentral3OutputPlugin
+		</provided>
+	</configuration>
+	
+	
+	
+	<configuration>
+		<expression>mswordinput</expression>
+		<required></required>
+		<provided>TaRGeTMSWordInput</provided>
+	</configuration>
+
+
+	<configuration>
+		<expression>xmlinput</expression>
+		<required></required>
+		<provided>TaRGeTXMLInputPlugin</provided>
+	</configuration>
+
+	<configuration>
+		<expression>xmloutput</expression>
+		<required></required>
+		<provided>TaRGeTXMLOutputPlugin</provided>
+	</configuration>
+	
+</configurationModel>

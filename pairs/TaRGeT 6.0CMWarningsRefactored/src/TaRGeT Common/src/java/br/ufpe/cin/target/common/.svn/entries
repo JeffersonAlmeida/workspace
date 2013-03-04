@@ -1,0 +1,80 @@
+10
+
+dir
+3776
+https://svn.cin.ufpe.br/svn/cinspg/SafeRefactor/trunk/Exemplos/TaRGeT%206.0CMWarningsRefactored/src/TaRGeT%20Common/src/java/br/ufpe/cin/target/common
+https://svn.cin.ufpe.br/svn/cinspg
+
+
+
+2011-05-04T13:52:12.326365Z
+3674
+fsf2
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+d69a6c6a-caee-dd11-b87f-0019d1013b4f
+
+Activator.java
+file
+
+
+
+
+2011-05-17T11:18:16.000000Z
+dd88f46be6c007645ef6f559623c8ab1
+2011-05-04T13:52:12.326365Z
+3674
+fsf2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2101
+
+actions
+dir
+
+exceptions
+dir
+
+lts
+dir
+
+tuclientagent
+dir
+
+ucdoc
+dir
+
+util
+dir
+

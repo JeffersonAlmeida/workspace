@@ -1,0 +1,11 @@
+source.. = src/java
+output.. = build/
+bin.includes = META-INF/,\
+               .,\
+               plugin.xml,\
+               icons/,\
+               src/,\
+               build.properties,\
+               build/,\
+               .project,\
+               .classpath

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/cinspg/!svn/ver/3671/SafeRefactor/trunk/Exemplos/TaRGeT%206.0%20FMBeforeRefactoring/src/TaRGeT%20TC%20Generation%20GUI/src/java/br/ufpe/cin/target/tcg/wizards
+END
+PageCompletionListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 191
+/svn/cinspg/!svn/ver/3671/SafeRefactor/trunk/Exemplos/TaRGeT%206.0%20FMBeforeRefactoring/src/TaRGeT%20TC%20Generation%20GUI/src/java/br/ufpe/cin/target/tcg/wizards/PageCompletionListener.java
+END
+TCGUseCaseSelectionPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 192
+/svn/cinspg/!svn/ver/3671/SafeRefactor/trunk/Exemplos/TaRGeT%206.0%20FMBeforeRefactoring/src/TaRGeT%20TC%20Generation%20GUI/src/java/br/ufpe/cin/target/tcg/wizards/TCGUseCaseSelectionPage.java
+END
+TestPurposeCreationPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 192
+/svn/cinspg/!svn/ver/3671/SafeRefactor/trunk/Exemplos/TaRGeT%206.0%20FMBeforeRefactoring/src/TaRGeT%20TC%20Generation%20GUI/src/java/br/ufpe/cin/target/tcg/wizards/TestPurposeCreationPage.java
+END
+TCGPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/cinspg/!svn/ver/3671/SafeRefactor/trunk/Exemplos/TaRGeT%206.0%20FMBeforeRefactoring/src/TaRGeT%20TC%20Generation%20GUI/src/java/br/ufpe/cin/target/tcg/wizards/TCGPage.java
+END
+FeatureUseCaseLabelProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 196
+/svn/cinspg/!svn/ver/3671/SafeRefactor/trunk/Exemplos/TaRGeT%206.0%20FMBeforeRefactoring/src/TaRGeT%20TC%20Generation%20GUI/src/java/br/ufpe/cin/target/tcg/wizards/FeatureUseCaseLabelProvider.java
+END
+TCGRequirementsSelectionPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 197
+/svn/cinspg/!svn/ver/3671/SafeRefactor/trunk/Exemplos/TaRGeT%206.0%20FMBeforeRefactoring/src/TaRGeT%20TC%20Generation%20GUI/src/java/br/ufpe/cin/target/tcg/wizards/TCGRequirementsSelectionPage.java
+END
+FeatureUseCaseViewer.java
+K 25
+svn:wc:ra_dav:version-url
+V 189
+/svn/cinspg/!svn/ver/3671/SafeRefactor/trunk/Exemplos/TaRGeT%206.0%20FMBeforeRefactoring/src/TaRGeT%20TC%20Generation%20GUI/src/java/br/ufpe/cin/target/tcg/wizards/FeatureUseCaseViewer.java
+END
+TabFolderPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 182
+/svn/cinspg/!svn/ver/3671/SafeRefactor/trunk/Exemplos/TaRGeT%206.0%20FMBeforeRefactoring/src/TaRGeT%20TC%20Generation%20GUI/src/java/br/ufpe/cin/target/tcg/wizards/TabFolderPage.java
+END

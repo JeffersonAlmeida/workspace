@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/cinspg/!svn/ver/3744/SafeRefactor/trunk/Exemplos/TaRGeT%204.0/src/TaRGeT%20TC%20Generation%20GUI/src/java/com/motorola/btc/research/target/tcg/filters
+END
+TestSuiteFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/cinspg/!svn/ver/3744/SafeRefactor/trunk/Exemplos/TaRGeT%204.0/src/TaRGeT%20TC%20Generation%20GUI/src/java/com/motorola/btc/research/target/tcg/filters/TestSuiteFilter.java
+END
+DefaultTestSuiteFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 183
+/svn/cinspg/!svn/ver/3744/SafeRefactor/trunk/Exemplos/TaRGeT%204.0/src/TaRGeT%20TC%20Generation%20GUI/src/java/com/motorola/btc/research/target/tcg/filters/DefaultTestSuiteFilter.java
+END
+TestPurpose.java
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/cinspg/!svn/ver/3744/SafeRefactor/trunk/Exemplos/TaRGeT%204.0/src/TaRGeT%20TC%20Generation%20GUI/src/java/com/motorola/btc/research/target/tcg/filters/TestPurpose.java
+END
+SimilarityFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/svn/cinspg/!svn/ver/3744/SafeRefactor/trunk/Exemplos/TaRGeT%204.0/src/TaRGeT%20TC%20Generation%20GUI/src/java/com/motorola/btc/research/target/tcg/filters/SimilarityFilter.java
+END
+RequirementsFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 179
+/svn/cinspg/!svn/ver/3744/SafeRefactor/trunk/Exemplos/TaRGeT%204.0/src/TaRGeT%20TC%20Generation%20GUI/src/java/com/motorola/btc/research/target/tcg/filters/RequirementsFilter.java
+END
+PurposeFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/cinspg/!svn/ver/3744/SafeRefactor/trunk/Exemplos/TaRGeT%204.0/src/TaRGeT%20TC%20Generation%20GUI/src/java/com/motorola/btc/research/target/tcg/filters/PurposeFilter.java
+END
+UseCasesFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/cinspg/!svn/ver/3744/SafeRefactor/trunk/Exemplos/TaRGeT%204.0/src/TaRGeT%20TC%20Generation%20GUI/src/java/com/motorola/btc/research/target/tcg/filters/UseCasesFilter.java
+END
+CompositionTestSuiteFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 187
+/svn/cinspg/!svn/ver/3744/SafeRefactor/trunk/Exemplos/TaRGeT%204.0/src/TaRGeT%20TC%20Generation%20GUI/src/java/com/motorola/btc/research/target/tcg/filters/CompositionTestSuiteFilter.java
+END
+TestSuiteFilterAssembler.java
+K 25
+svn:wc:ra_dav:version-url
+V 185
+/svn/cinspg/!svn/ver/3744/SafeRefactor/trunk/Exemplos/TaRGeT%204.0/src/TaRGeT%20TC%20Generation%20GUI/src/java/com/motorola/btc/research/target/tcg/filters/TestSuiteFilterAssembler.java
+END

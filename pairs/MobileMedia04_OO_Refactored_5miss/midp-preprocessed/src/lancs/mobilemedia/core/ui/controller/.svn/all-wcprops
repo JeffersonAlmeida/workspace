@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/cinspg/!svn/ver/3708/SafeRefactor/trunk/Exemplos/MobileMedia04_OO_Refactored_5miss/midp-preprocessed/src/lancs/mobilemedia/core/ui/controller
+END
+ScreenSingleton.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/cinspg/!svn/ver/3708/SafeRefactor/trunk/Exemplos/MobileMedia04_OO_Refactored_5miss/midp-preprocessed/src/lancs/mobilemedia/core/ui/controller/ScreenSingleton.java
+END
+AbstractController.java
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/cinspg/!svn/ver/3708/SafeRefactor/trunk/Exemplos/MobileMedia04_OO_Refactored_5miss/midp-preprocessed/src/lancs/mobilemedia/core/ui/controller/AbstractController.java
+END
+PhotoController.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/cinspg/!svn/ver/3708/SafeRefactor/trunk/Exemplos/MobileMedia04_OO_Refactored_5miss/midp-preprocessed/src/lancs/mobilemedia/core/ui/controller/PhotoController.java
+END
+ControllerInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/cinspg/!svn/ver/3708/SafeRefactor/trunk/Exemplos/MobileMedia04_OO_Refactored_5miss/midp-preprocessed/src/lancs/mobilemedia/core/ui/controller/ControllerInterface.java
+END
+BaseController.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/cinspg/!svn/ver/3708/SafeRefactor/trunk/Exemplos/MobileMedia04_OO_Refactored_5miss/midp-preprocessed/src/lancs/mobilemedia/core/ui/controller/BaseController.java
+END
+PhotoListController.java
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/cinspg/!svn/ver/3708/SafeRefactor/trunk/Exemplos/MobileMedia04_OO_Refactored_5miss/midp-preprocessed/src/lancs/mobilemedia/core/ui/controller/PhotoListController.java
+END
+AlbumController.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/cinspg/!svn/ver/3708/SafeRefactor/trunk/Exemplos/MobileMedia04_OO_Refactored_5miss/midp-preprocessed/src/lancs/mobilemedia/core/ui/controller/AlbumController.java
+END
+PhotoViewController.java
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/cinspg/!svn/ver/3708/SafeRefactor/trunk/Exemplos/MobileMedia04_OO_Refactored_5miss/midp-preprocessed/src/lancs/mobilemedia/core/ui/controller/PhotoViewController.java
+END

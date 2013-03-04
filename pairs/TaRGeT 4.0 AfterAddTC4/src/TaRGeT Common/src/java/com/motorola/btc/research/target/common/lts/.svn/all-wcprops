@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/cinspg/!svn/ver/3709/SafeRefactor/trunk/Exemplos/TaRGeT%204.0%20AfterAddTC4/src/TaRGeT%20Common/src/java/com/motorola/btc/research/target/common/lts
+END
+LTSToTGF.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/cinspg/!svn/ver/3709/SafeRefactor/trunk/Exemplos/TaRGeT%204.0%20AfterAddTC4/src/TaRGeT%20Common/src/java/com/motorola/btc/research/target/common/lts/LTSToTGF.java
+END
+TGFToLTS.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/cinspg/!svn/ver/3709/SafeRefactor/trunk/Exemplos/TaRGeT%204.0%20AfterAddTC4/src/TaRGeT%20Common/src/java/com/motorola/btc/research/target/common/lts/TGFToLTS.java
+END
+LTS.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/cinspg/!svn/ver/3709/SafeRefactor/trunk/Exemplos/TaRGeT%204.0%20AfterAddTC4/src/TaRGeT%20Common/src/java/com/motorola/btc/research/target/common/lts/LTS.java
+END
+UserViewLTSGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 179
+/svn/cinspg/!svn/ver/3709/SafeRefactor/trunk/Exemplos/TaRGeT%204.0%20AfterAddTC4/src/TaRGeT%20Common/src/java/com/motorola/btc/research/target/common/lts/UserViewLTSGenerator.java
+END
+Transition.java
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/cinspg/!svn/ver/3709/SafeRefactor/trunk/Exemplos/TaRGeT%204.0%20AfterAddTC4/src/TaRGeT%20Common/src/java/com/motorola/btc/research/target/common/lts/Transition.java
+END
+State.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/cinspg/!svn/ver/3709/SafeRefactor/trunk/Exemplos/TaRGeT%204.0%20AfterAddTC4/src/TaRGeT%20Common/src/java/com/motorola/btc/research/target/common/lts/State.java
+END

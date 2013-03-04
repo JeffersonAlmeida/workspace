@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Equinox Aspects Demo - Hello aspects
+Bundle-SymbolicName: br.ufpe.cin.target.monitoring
+Bundle-Version: 1.0.0
+Bundle-Vendor: jp
+Require-Bundle: org.aspectj.runtime;bundle-version="1.6.1";visibility:=reexport,
+ br.ufpe.cin.target.common;bundle-version="1.0.0",
+ br.ufpe.cin.target.tcg;bundle-version="1.0.0",
+ br.ufpe.cin.target.pm;bundle-version="1.0.0",
+  br.ufpe.cin.target.onthefly;bundle-version="1.0.0",
+ org.eclipse.swt,
+ 
+ org.eclipse.ui.forms,
+ org.eclipse.ui
+Export-Package: br.ufpe.cin.target.monitoring
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Import-Package: org.osgi.framework;version="1.4.0"
+Eclipse-SupplementBundle: br.ufpe.cin.target.core,
+ br.ufpe.cin.target.mswordinput, br.ufpe.cin.target.tcg, br.ufpe.cin.target.tc3output,  br.ufpe.cin.target.pm
+Bundle-ClassPath: .,
+ sqljdbc4.jar
+

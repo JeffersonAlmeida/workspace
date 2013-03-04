@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: TaRGeT CNL Plug-in
+Bundle-SymbolicName: com.motorola.btc.research.cnl;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: com.motorola.btc.research.target.cnl.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ com.motorola.btc.research.target.core,
+ com.motorola.btc.research.target.common,
+ com.motorola.btc.research.target.pm,
+ com.motorola.btc.research.target.tcg,
+ com.motorola.btc.research.cnlframework
+Eclipse-LazyStart: true
+Bundle-ClassPath: .

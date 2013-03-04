@@ -1,0 +1,35 @@
+#ConsistencyManager
+src/TaRGeT Consistency Manager
+
+#TaRGeTCommon
+src/TaRGeT Common
+
+#TaRGeTCore
+src/TaRGeT Core
+
+#TaRGeTTCGenerationGUI
+src/TaRGeT TC Generation GUI
+
+#TaRGeTProjectManager
+src/TaRGeT Project Manager
+
+#TaRGeTOnTheFlyGeneration
+src/TaRGeT On The Fly Generation
+
+#TaRGeTTestCentral3OutputPlugin
+src/TaRGeT Test Central 3 Output Plug-in
+
+#TaRGeTTestCentral4OutputPlugin
+src/TaRGeT Test Central 4 Output Plug-in
+
+#TaRGeTMSWordInput
+src/TaRGeT MSWord Input
+
+#TaRGeTXMLInputPlugin
+src/TaRGeT XML Input Plug-in
+
+#PreferencesOnTheFlyAspect
+src/TaRGeT TC Generation GUI/src/aspects/br/ufpe/cin/target/tcg/preferences/onTheFly/PreferencesOnTheFlyAspect.aj
+
+
+

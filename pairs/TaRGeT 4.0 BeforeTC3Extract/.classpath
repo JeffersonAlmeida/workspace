@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/TaRGeT Common/src/java"/>
+	<classpathentry kind="src" path="src/TaRGeT Core/src/java"/>
+	<classpathentry kind="src" path="src/TaRGeT Project Manager/src/java"/>
+	<classpathentry kind="src" path="src/TaRGeT TC Generation GUI/src/java"/>
+	<classpathentry kind="lib" path="lib/Junit.jar"/>
+	<classpathentry kind="lib" path="src/TaRGeT Project Manager/lib/aspectjrt.jar"/>
+	<classpathentry kind="lib" path="src/TaRGeT Project Manager/lib/lucene-core-2.1.0.jar"/>
+	<classpathentry kind="lib" path="src/TaRGeT TC Generation GUI/lib/aspectjrt.jar"/>
+	<classpathentry kind="lib" path="src/TaRGeT TC Generation GUI/lib/poi-2.5.1-final-20040804.jar"/>
+	<classpathentry kind="lib" path="src/TaRGeT TC Generation GUI/lib/poi-3.2-FINAL.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

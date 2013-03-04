@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: TaRGeT XML Input Plug-in
+Bundle-SymbolicName: com.motorola.btc.research.target.xmlinput;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: com.motorola.btc.research.target.xmlinput.XMLInputActivator
+Require-Bundle: org.eclipse.core.runtime,
+ com.motorola.btc.research.target.common,
+ com.motorola.btc.research.target.pm
+Eclipse-LazyStart: true

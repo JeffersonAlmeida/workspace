@@ -1,0 +1,175 @@
+10
+
+dir
+3776
+https://svn.cin.ufpe.br/svn/cinspg/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeSTD/src/TaRGeT%20Project%20Manager/src/java/br/ufpe/cin/target/pm
+https://svn.cin.ufpe.br/svn/cinspg
+
+
+
+2011-05-03T17:03:12.972968Z
+3658
+fsf2
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+d69a6c6a-caee-dd11-b87f-0019d1013b4f
+
+GUIManager.java
+file
+
+
+
+
+2011-05-17T11:14:24.000000Z
+efbdf2d127cec650dc0311e60b524394
+2011-05-03T17:03:12.972968Z
+3658
+fsf2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+12459
+
+PMActivator.java
+file
+
+
+
+
+2011-05-17T11:14:24.000000Z
+36aba1814a20530f80db2987166545e7
+2011-05-03T17:03:12.972968Z
+3658
+fsf2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2225
+
+ReloadProjectShellListener.java
+file
+
+
+
+
+2011-05-17T11:14:24.000000Z
+b8f2bdc2fa94a7fbe9706a2317c779d5
+2011-05-03T17:03:12.972968Z
+3658
+fsf2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4058
+
+actions
+dir
+
+common
+dir
+
+controller
+dir
+
+editors
+dir
+
+errors
+dir
+
+exceptions
+dir
+
+export
+dir
+
+extensions
+dir
+
+perspectives
+dir
+
+progressbars
+dir
+
+search
+dir
+
+util
+dir
+
+views
+dir
+
+wizards
+dir
+
+xml
+dir
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension
+         point="com.motorola.btc.research.target.pm.input">
+      <inputDocumentExtension
+            inputDocumentErrorIcon="icons/word_icon_error_32_32.bmp"
+            inputDocumentIcon="icons/word_icon_32_32.bmp"
+            inputDocumentImplementation="com.motorola.btc.research.target.mswordinput.controller.MSWordDocumentExtensionImplementation"
+            inputDocumentType="doc"
+            inputDocumentTypeFilter="*.doc"
+            name="MS Word Documents">
+      </inputDocumentExtension>
+   </extension>
+   <extension
+         point="com.motorola.btc.research.target.core.startingOperations">
+      <startingOperationsExtension
+            startingOperationsImplementation="com.motorola.btc.research.target.mswordinput.controller.MSWordStartingOperationsExtensionImplementation">
+      </startingOperationsExtension>
+   </extension>
+
+</plugin>

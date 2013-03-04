@@ -1,0 +1,139 @@
+<!--
+ * @(#)build_Installer.xml
+ *
+ * (c) COPYRIGHT 2005 MOTOROLA INC.
+ * MOTOROLA CONFIDENTIAL PROPIETARY
+ * Template ID and version: IL93-TMP-01-0112  Version 1.10
+ *
+ * REVISION HISTORY:
+ * Author    Date           CR Number    Brief Description
+ *  dhq348   Mar 01, 2007   LIBll54505   Initial creation.
+ *  dhq348   Mar 27, 2007   LIBll54549   Modifications according to CR LIBll54549.
+ *  dhq348   Apr 03, 2007   LIBll54549   Rework of inspection LX158543
+ -->
+
+<!-- ===========================================================
+	This is the script that builds and zips a TaRGeT installer.
+	It is not necessary to edit any property.
+	======================================================= -->
+<project name="TaRGeT installer" default="main" basedir="..">
+
+	<!-- Sets the property name to access the environment variables -->
+	<property environment="env" />
+
+	<!-- The refence to the install4J ant jar file, it has to be modified 
+		 depending on the install4J installation folder -->
+	<property name="install4jFolder" value="${env.INSTALL4J_HOME}\bin\ant.jar" />
+
+	<!-- The folder in which the installer will be generated -->
+	<property name="installerFolder" value="${tmp.folder}" />
+	<!-- The folder where the external resources are located -->
+	<property name="common.home" value="../../common" />
+	<property name="externalResourcesFolder" value="${common.home}/resources" />
+
+	<property name="TaRGeTInstallerFolder" value="${installerFolder}/TaRGeT" />
+	<!-- The folder where the install4j script is located -->
+	<property name="resourcesFolder" value="../resources" />
+	<!-- The folder that will contain the resources inside the installer directory -->
+	<property name="newResourcesFolder" value="${TaRGeTInstallerFolder}/resources" />
+	<!-- The reference to the install4J script that is responsible for the customization of the generated installer -->
+	<property name="install4jScript" value="${resourcesFolder}/TaRGeT_installer_configuration.install4j" />
+
+	<!-- ================================= 
+          target: main
+          This is the main target of the script. It zips all files then cleans all temporary files.
+          Depends on: zipFiles and clean
+         ================================= -->
+	<target name="main" depends="compile, install4jTask, clean" description="The main target" />
+
+	<target name="compile" description="Compiles the installer classes">
+		<delete dir="../build/classes" />
+		<mkdir dir="../build/classes" />
+		<path id="path_bootclasspath">
+			<fileset dir="${java.home}/lib">
+				<include name="*.jar" />
+			</fileset>
+		</path>
+		<path id="first.classpath">
+			<pathelement path="../lib/i4jruntime.jar" />
+			<pathelement path="../lib/aspectjrt.jar" />
+			<pathelement path="../../common/build/classes/" />
+		</path>
+		<path id="ajde.classpath">
+			<pathelement path="${env.ECLIPSE_HOME}/plugins/org.aspectj.ajde_1.5.3.200611221118/ajde.jar" />
+			<pathelement path="${env.ECLIPSE_HOME}/plugins/org.eclipse.core.resources_3.2.0.v20060603.jar" />
+			<pathelement path="${env.ECLIPSE_HOME}/plugins/org.eclipse.core.runtime.compatibility_3.1.100.v20060603.jar" />
+			<pathelement path="${env.ECLIPSE_HOME}/plugins/org.eclipse.core.runtime_3.2.0.v20060603.jar" />
+			<pathelement path="${env.ECLIPSE_HOME}/plugins/org.eclipse.osgi_3.2.0.v20060601.jar" />
+			<pathelement path="${env.ECLIPSE_HOME}/plugins/org.eclipse.equinox.common_3.2.0.v20060603.jar" />
+			<pathelement path="${env.ECLIPSE_HOME}/plugins/org.eclipse.core.jobs_3.2.0.v20060603.jar" />
+			<pathelement path="${env.ECLIPSE_HOME}/plugins/org.eclipse.equinox.registry_3.2.0.v20060601.jar" />
+			<pathelement path="${env.ECLIPSE_HOME}/plugins/org.eclipse.equinox.preferences_3.2.0.v20060601.jar" />
+			<pathelement path="${env.ECLIPSE_HOME}/plugins/org.eclipse.core.contenttype_3.2.0.v20060603.jar" />
+			<pathelement path="${env.ECLIPSE_HOME}/plugins/org.eclipse.core.runtime.compatibility.auth_3.2.0.v20060601.jar" />
+			<pathelement path="${env.ECLIPSE_HOME}/plugins/org.eclipse.update.configurator_3.2.0.v20060605.jar" />
+			<pathelement path="${env.ECLIPSE_HOME}/plugins/org.eclipse.ant.core_3.1.100.v20060531.jar" />
+			<pathelement path="${env.ECLIPSE_HOME}/plugins/org.eclipse.core.variables_3.1.100.v20060605.jar" />
+			<pathelement path="${env.ECLIPSE_HOME}/plugins/org.eclipse.core.expressions_3.2.0.v20060605-1400.jar" />
+			<pathelement path="${env.ECLIPSE_HOME}/plugins/org.eclipse.core.filesystem_1.0.0.v20060603.jar" />
+			<pathelement path="${env.ECLIPSE_HOME}/plugins/org.eclipse.text_3.2.0.v20060605-1400.jar" />
+			<pathelement path="${env.ECLIPSE_HOME}/plugins/org.eclipse.core.commands_3.2.0.I20060605-1400.jar" />
+			<pathelement path="${env.ECLIPSE_HOME}/plugins/org.aspectj.weaver_1.5.3.200611221118/aspectjweaver.jar" />
+			<pathelement path="${env.ECLIPSE_HOME}/plugins/org.aspectj.runtime_1.5.3.200611221118/aspectjrt.jar" />
+		</path>
+		<property name="bootclasspath" refid="path_bootclasspath" />
+		<taskdef resource="org/aspectj/tools/ant/taskdefs/aspectjTaskdefs.properties">
+			<classpath refid="ajde.classpath" />
+		</taskdef>
+		<iajc destDir="../build/classes" failonerror="true" argfiles="" verbose="true" fork="true" maxmem="512m" debug="on" bootclasspath="${bootclasspath}" source="1.5" target="1.5">
+			<forkclasspath refid="first.classpath" />
+			<forkclasspath refid="ajde.classpath" />
+			<src path="../src/java/" />
+			<src path="../src/aspects/" />
+		</iajc>
+	</target>
+
+	<!-- References an internal install4J task -->
+	<taskdef name="install4j" classname="com.install4j.Install4JTask" classpath="${install4jFolder}" />
+
+	<!-- ================================= 
+			target: install4jTask
+			Executes the specified istall4j script ${install4jScript}.
+		================================= -->
+	<target name="install4jTask">
+		<echo message="install4j task. destination folder: ${TaRGeTInstallerFolder} " />
+		<install4j destination="${TaRGeTInstallerFolder}" projectfile="${install4jScript}">
+			<variable name="COMMON_NAME_ANT" value="common" />
+			<variable name="TARGET_VERSION_ANT" value="${env.TARGET_VERSION}" />
+		</install4j>
+
+		<echo message="before cleaning ............................................................" />
+
+		<!-- Cleans the release folder -->
+		<delete>
+			<fileset dir="${tmp.folder}" includes="*" />
+		</delete>
+		<delete dir="${tmp.folder}/configuration" />
+		<delete dir="${tmp.folder}/dll" />
+		<delete dir="${tmp.folder}/plugins" />
+
+		<!-- Copies the generated installer to the release folder -->
+		<move todir="${tmp.folder}">
+			<fileset dir="${TaRGeTInstallerFolder}">
+				<include name="*" />
+			</fileset>
+		</move>
+
+		<!-- Deletes the TaRGeT folder -->
+		<delete dir="${TaRGeTInstallerFolder}" />
+
+	</target>
+
+	<!-- ================================= 
+          target: clean
+          Cleans all generated files.
+         ================================= -->
+	<target name="clean" description="Cleans all temporary files">
+	</target>
+
+</project>

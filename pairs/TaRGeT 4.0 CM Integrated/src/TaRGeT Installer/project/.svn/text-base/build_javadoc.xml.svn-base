@@ -1,0 +1,42 @@
+<!--
+ * @(#)build.xml
+ *
+ * (c) COPYRIGHT 2005 MOTOROLA INC.
+ * MOTOROLA CONFIDENTIAL PROPIETARY
+ * Template ID and version: IL93-TMP-01-0112  Version 1.10
+ *
+ * REVISION HISTORY:
+ * Author    Date           CR Number    Brief Description
+ *  dhq348   Mar 27, 2007   LIBll54549   Initial creation.
+ *  dhq348   Apr 03, 2007   LIBll54549   Rework of inspection LX158543
+ -->
+
+<!-- =======================================================
+	 Builds the javadoc files for the TaRGeT project files.
+	 ======================================================= -->
+<project basedir="." name="build_javadoc" default="main">
+	<!-- Sets the property name to access the environment variables -->
+	<property environment="env" />
+
+	<!-- =======================================================
+		 target: main
+		 The main target. Create a javadoc folder and generates all javadoc files.
+		 ======================================================= -->
+	<target name="main">
+		<mkdir dir="${tmp.folder}/javadoc" />
+		<javadoc verbose="off" destdir="${tmp.folder}/javadoc">
+			<packageset dir="../../common/src/java">
+				<include name="com/**" />
+			</packageset>
+			<packageset dir="../../core/src/java">
+				<include name="com/**" />
+			</packageset>
+			<packageset dir="../../pm/src/java">
+				<include name="com/**" />
+			</packageset>
+			<packageset dir="../../tcg/src/java">
+				<include name="com/**" />
+			</packageset>
+		</javadoc>
+	</target>
+</project>

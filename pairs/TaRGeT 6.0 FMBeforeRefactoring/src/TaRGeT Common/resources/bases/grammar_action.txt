@@ -1,0 +1,33 @@
+// User Action Grammar
+
+Sentence = UASentenceList
+\\ permite lista de UA sentences
+
+\\A-Sentence = UASentence, AndUASentence?
+\\ Permite apenas duas UAsentences ligadas por AND
+
+
+UASentence = ImperativeSentence | NegativeImperativeSentence | SubordinatedImperativeSentence
+
+AndUASentence = 'and', UASentence
+
+UASentenceList = UASentence, UASentenceList?, AndUASentence?
+
+
+---------------------------------------------------------------------------------------
+
+ImperativeSentence = VB, VerbComplement, ToComplement?, ADV?
+
+ToComplement = 'to', VB, NounPhrase?
+
+---------------------------------------------------------------------------------------
+NegativeImperativeSentence = DO, NG, ImperativeSentence, ADV?
+
+
+---------------------------------------------------------------------------------------
+SubordinatedImperativeSentence = CJ, GerundPhrase, (ImperativeSentence | NegativeImperativeSentence)
+
+
+
+// TODO
+// Non imperative sentences: Select the message. The message is/was sent by the user. 

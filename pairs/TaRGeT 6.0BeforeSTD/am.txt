@@ -1,0 +1,50 @@
+#CNLFramework
+src/CNL Framework
+
+#TaRGeTCNLPlugin
+src/TaRGeT CNL Plugin
+
+#ConsistencyManager
+src/TaRGeT Consistency Manager
+
+#TaRGeTCommon
+src/TaRGeT Common
+
+#TaRGeTCore
+src/TaRGeT Core
+
+#TaRGeTTCGenerationGUI
+src/TaRGeT TC Generation GUI
+
+#TaRGeTProjectManager
+src/TaRGeT Project Manager
+
+#TaRGeTHTMLOutputPlugin
+src/TaRGeT HTML Output Plug-in
+
+#TaRGeTOnTheFlyGeneration
+src/TaRGeT On The Fly Generation
+
+#TaRGeTTC4InputTemplatePlugin
+src/TaRGeT Test Central 4 Input Template Plug-in
+
+#TaRGeTTestCentral3OutputPlugin
+src/TaRGeT Test Central 3 Output Plug-in
+
+#TaRGeTTestCentral4OutputPlugin
+src/TaRGeT Test Central 4 Output Plug-in
+
+#TaRGeTMSWordInput
+src/TaRGeT MSWord Input
+
+#TaRGeTXLSInputPlugin
+src/TaRGeT XLS Input Plug-in
+
+#TaRGeTXMLInputPlugin
+src/TaRGeT XML Input Plug-in
+
+#TaRGeTXMLOutputPlugin
+src/TaRGeT XML Output Plug-in
+
+#PreferencesOnTheFlyAspect
+src/TaRGeT TC Generation GUI/src/aspects/br/ufpe/cin/target/tcg/preferences/onTheFly/PreferencesOnTheFlyAspect.aj

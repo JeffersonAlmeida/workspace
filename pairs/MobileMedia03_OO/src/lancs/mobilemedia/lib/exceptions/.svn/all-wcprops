@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/cinspg/!svn/ver/3703/SafeRefactor/trunk/Exemplos/MobileMedia03_OO/src/lancs/mobilemedia/lib/exceptions
+END
+InvalidPhotoAlbumNameException.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/cinspg/!svn/ver/3703/SafeRefactor/trunk/Exemplos/MobileMedia03_OO/src/lancs/mobilemedia/lib/exceptions/InvalidPhotoAlbumNameException.java
+END
+NullAlbumDataReference.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/cinspg/!svn/ver/3703/SafeRefactor/trunk/Exemplos/MobileMedia03_OO/src/lancs/mobilemedia/lib/exceptions/NullAlbumDataReference.java
+END
+ImagePathNotValidException.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/cinspg/!svn/ver/3703/SafeRefactor/trunk/Exemplos/MobileMedia03_OO/src/lancs/mobilemedia/lib/exceptions/ImagePathNotValidException.java
+END
+InvalidArrayFormatException.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/cinspg/!svn/ver/3703/SafeRefactor/trunk/Exemplos/MobileMedia03_OO/src/lancs/mobilemedia/lib/exceptions/InvalidArrayFormatException.java
+END
+PersistenceMechanismException.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/cinspg/!svn/ver/3703/SafeRefactor/trunk/Exemplos/MobileMedia03_OO/src/lancs/mobilemedia/lib/exceptions/PersistenceMechanismException.java
+END
+ImageNotFoundException.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/cinspg/!svn/ver/3703/SafeRefactor/trunk/Exemplos/MobileMedia03_OO/src/lancs/mobilemedia/lib/exceptions/ImageNotFoundException.java
+END
+InvalidImageFormatException.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/cinspg/!svn/ver/3703/SafeRefactor/trunk/Exemplos/MobileMedia03_OO/src/lancs/mobilemedia/lib/exceptions/InvalidImageFormatException.java
+END
+UnavailablePhotoAlbumException.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/cinspg/!svn/ver/3703/SafeRefactor/trunk/Exemplos/MobileMedia03_OO/src/lancs/mobilemedia/lib/exceptions/UnavailablePhotoAlbumException.java
+END
+InvalidImageDataException.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/cinspg/!svn/ver/3703/SafeRefactor/trunk/Exemplos/MobileMedia03_OO/src/lancs/mobilemedia/lib/exceptions/InvalidImageDataException.java
+END

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/cinspg/!svn/ver/3658/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeSTD/src/TaRGeT%20Project%20Manager/src/java/br/ufpe/cin/target/pm/errors
+END
+DuplicatedFeatureIdBetweenDocumentsError.java
+K 25
+svn:wc:ra_dav:version-url
+V 190
+/svn/cinspg/!svn/ver/3658/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeSTD/src/TaRGeT%20Project%20Manager/src/java/br/ufpe/cin/target/pm/errors/DuplicatedFeatureIdBetweenDocumentsError.java
+END
+DuplicatedUseCaseIdErrorBetweenDocuments.java
+K 25
+svn:wc:ra_dav:version-url
+V 190
+/svn/cinspg/!svn/ver/3658/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeSTD/src/TaRGeT%20Project%20Manager/src/java/br/ufpe/cin/target/pm/errors/DuplicatedUseCaseIdErrorBetweenDocuments.java
+END
+DuplicatedUseCaseIdError.java
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/cinspg/!svn/ver/3658/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeSTD/src/TaRGeT%20Project%20Manager/src/java/br/ufpe/cin/target/pm/errors/DuplicatedUseCaseIdError.java
+END
+DifferentMergedFeatureNameError.java
+K 25
+svn:wc:ra_dav:version-url
+V 181
+/svn/cinspg/!svn/ver/3658/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeSTD/src/TaRGeT%20Project%20Manager/src/java/br/ufpe/cin/target/pm/errors/DifferentMergedFeatureNameError.java
+END
+InvalidStepIdReferenceError.java
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/svn/cinspg/!svn/ver/3658/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeSTD/src/TaRGeT%20Project%20Manager/src/java/br/ufpe/cin/target/pm/errors/InvalidStepIdReferenceError.java
+END
+UnableToLoadDocumentError.java
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/cinspg/!svn/ver/3658/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeSTD/src/TaRGeT%20Project%20Manager/src/java/br/ufpe/cin/target/pm/errors/UnableToLoadDocumentError.java
+END
+DuplicatedFeatureIdInsideDocumentError.java
+K 25
+svn:wc:ra_dav:version-url
+V 188
+/svn/cinspg/!svn/ver/3658/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeSTD/src/TaRGeT%20Project%20Manager/src/java/br/ufpe/cin/target/pm/errors/DuplicatedFeatureIdInsideDocumentError.java
+END
+DuplicatedStepIdError.java
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/cinspg/!svn/ver/3658/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeSTD/src/TaRGeT%20Project%20Manager/src/java/br/ufpe/cin/target/pm/errors/DuplicatedStepIdError.java
+END
+EmptyUseCaseFieldError.java
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/cinspg/!svn/ver/3658/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeSTD/src/TaRGeT%20Project%20Manager/src/java/br/ufpe/cin/target/pm/errors/EmptyUseCaseFieldError.java
+END
+Error.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/cinspg/!svn/ver/3658/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeSTD/src/TaRGeT%20Project%20Manager/src/java/br/ufpe/cin/target/pm/errors/Error.java
+END
+FeatureError.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/cinspg/!svn/ver/3658/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeSTD/src/TaRGeT%20Project%20Manager/src/java/br/ufpe/cin/target/pm/errors/FeatureError.java
+END
+UseCaseError.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/cinspg/!svn/ver/3658/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeSTD/src/TaRGeT%20Project%20Manager/src/java/br/ufpe/cin/target/pm/errors/UseCaseError.java
+END

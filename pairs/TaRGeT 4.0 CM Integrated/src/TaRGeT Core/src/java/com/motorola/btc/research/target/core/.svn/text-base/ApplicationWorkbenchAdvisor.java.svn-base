@@ -1,0 +1,64 @@
+/*
+ * @(#)ApplicationWorkbenchAdvisor.java
+ *
+ * (c) COPYRIGHT 2005 MOTOROLA INC.
+ * MOTOROLA CONFIDENTIAL PROPIETARY
+ * Template ID and version: IL93-TMP-01-0112  Version 1.10
+ *
+ * REVISION HISTORY:
+ * Author    Date           CR Number    Brief Description
+ * -------   ------------   ----------   ----------------------------
+ * dhq348         -         LIBkk11577   Initial creation.
+ * dhq348    Jan 6, 2006    LIBkk11577   Added JavaDoc.
+ */
+package com.motorola.btc.research.target.core;
+
+import org.eclipse.ui.application.IWorkbenchConfigurer;
+import org.eclipse.ui.application.IWorkbenchWindowConfigurer;
+import org.eclipse.ui.application.WorkbenchAdvisor;
+import org.eclipse.ui.application.WorkbenchWindowAdvisor;
+
+/**
+ * This class is responsible for creating the initial window perspective.
+ * 
+ * <pre>
+ * CLASS:
+ * This class is responsible for creating the initial window perspective.
+ * 
+ * RESPONSIBILITIES:
+ * 1) Create the initial window perspective.
+ *
+ * USAGE:
+ * The class is used by TargetApplication.
+ * E.g. PlatformUI.createAndRunWorkbench(display, new ApplicationWorkbenchAdvisor());
+ */
+public class ApplicationWorkbenchAdvisor extends WorkbenchAdvisor
+{
+
+    /**
+     * Creates the workbench window advisor.
+     * 
+     * @param configurer The workbench window configurer.
+     * @return The workbench advisor.
+     */
+    public WorkbenchWindowAdvisor createWorkbenchWindowAdvisor(IWorkbenchWindowConfigurer configurer)
+    {
+        return new ApplicationWorkbenchWindowAdvisor(configurer);
+    }
+
+    /**
+     * Returns the initial window perspective id.
+     * 
+     * @return The initial window perspective id.
+     */
+    public String getInitialWindowPerspectiveId()
+    {
+        return Perspective.ID;
+    }
+
+    
+    public void initialize(IWorkbenchConfigurer configurer)
+    {
+        super.initialize(configurer);
+    }
+}

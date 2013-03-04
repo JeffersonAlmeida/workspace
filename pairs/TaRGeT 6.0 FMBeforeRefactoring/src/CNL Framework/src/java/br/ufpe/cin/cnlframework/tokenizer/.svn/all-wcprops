@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/cinspg/!svn/ver/3671/SafeRefactor/trunk/Exemplos/TaRGeT%206.0%20FMBeforeRefactoring/src/CNL%20Framework/src/java/br/ufpe/cin/cnlframework/tokenizer
+END
+TokenizedSentence.java
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/cinspg/!svn/ver/3671/SafeRefactor/trunk/Exemplos/TaRGeT%206.0%20FMBeforeRefactoring/src/CNL%20Framework/src/java/br/ufpe/cin/cnlframework/tokenizer/TokenizedSentence.java
+END
+TextTokenizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/cinspg/!svn/ver/3671/SafeRefactor/trunk/Exemplos/TaRGeT%206.0%20FMBeforeRefactoring/src/CNL%20Framework/src/java/br/ufpe/cin/cnlframework/tokenizer/TextTokenizer.java
+END
+TokenizedText.java
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/cinspg/!svn/ver/3671/SafeRefactor/trunk/Exemplos/TaRGeT%206.0%20FMBeforeRefactoring/src/CNL%20Framework/src/java/br/ufpe/cin/cnlframework/tokenizer/TokenizedText.java
+END

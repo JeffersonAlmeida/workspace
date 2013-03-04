@@ -1,0 +1,52 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="book.css"/>
+<link rel="stylesheet" type="text/css" href="book.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>TaRGeT - Opening an Existing Project</title>
+</head>
+
+<body>
+<h1>Opening a Project</h1>
+<p>You can open a  project by using the <b>File</b> menu on the Workbench menu bar:</p>
+<ol>
+  <li>Select <b>File > Open Project</b> from the menu bar. You can also access
+    the <b>Open Project Wizard</b> via shortcut 'CTRL+O'. </li>
+  <p><img src="Images/openProject_File.png" width="360" height="165" ></p>
+</ol>
+
+
+  <OL start="2">
+  <LI>Click on <b>Browse...</b> button to select the <b>Destination Folder</b>. TaRGeT project
+  files have the <i>tgt</i> extension.</LI>
+  </OL>
+  <blockquote>
+    <p><img border="0" src="Images/openProject_File_Browser.png" width="437" height="239"></p>
+    <p>If a project is already opened, a confirmation screen will be presented asking if the opened project must be closed in order to open a new one. </p>
+    <p><img src="Images/openingCloseConfirmation.PNG" width="440" height="144"></p>
+    <p>If the selected project contains a <a href="UseCaseDocError.htm">fatal error</a>, 
+    an error message will be displayed, and the project will not be opened. You need
+    to fix all damaged documents in order to open the project.</p>
+    <p><img src="Images/fatalErrorOpenning.PNG" width="438" height="145"></p>
+    <p>If the selected project contains a use case document with a <a href="UseCaseDocError.htm">simple error</a>, the project will
+    be opened and the damaged use case will be displayed, in the <b>Use
+    Cases</b> view, with an error icon. Also, the <b>Errors</b> view (bottom panel) will
+    detail that error. </p>
+    <p><img src="Images/openProject_SimpleError.PNG" width="229" height="89"></p>
+    <p><img border="0" src="Images/bottomPanelError.PNG" width="591" height="216"></p>
+    <p>&nbsp; </p>
+  </blockquote>
+  <ol start="3">
+  <li>Click on <b>Finish</b> button.&nbsp;The <a href="TaRGeTWorkspace.htm">TaRGeT Workspace</a> 
+  displays the contents of the selected project.</li>
+  </ol>
+  <p>&nbsp;</p>
+<blockquote>
+  <p>&nbsp;</p>
+</blockquote>
+<p>&nbsp;</p>
+<p align="center">&nbsp;</p>
+</body>
+</html>

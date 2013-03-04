@@ -1,0 +1,93 @@
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="book.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Searching for Use Cases</title>
+</head>
+
+<body>
+
+<h1>Searching for Use Cases</h1>
+<p>The mechanism for searching for use cases in TaRGeT uses the <a href="http://lucene.apache.org/java/docs/" target="_blank">Apache
+Lucene</a> search engine.
+<p>&nbsp;</p>
+<h2>Basic Search</h2>
+<p>To perform a search for use cases use the shortcut 'CTRL+F' or access it by
+the tools menu as represented below:
+<p>&nbsp;<img src="Images/invokeSearchDialog.PNG" border="0" width="432" height="168">
+<p>&nbsp;</p>
+<p>The search dialog will appear and the user can type the query in the input
+area.
+<p><img src="Images/searchDialog.PNG" width="400" height="135">
+<p>&nbsp;</p>
+<p>After clicking the <b>Search</b> button the results will appear in the
+results view.
+<p><img height="225" src="Images/searchResults.PNG" width="550">
+<p>The use cases shown in the results can be visualized by double clicking them.
+<p>&nbsp;
+<h2>Advanced Search</h2>
+<p>The user can also perform advanced searches. Such advanced searches can use <b>boolean
+operators</b>, <b>phrase queries</b>, <b>specific fields</b>, <b>wildcards</b>
+etc.
+<p>&nbsp;
+<h3>Boolean Operators</h3>
+<p>The user can also use boolean operators (AND, NOT, OR) to perform more
+accurate search.
+<p>For example:
+<p><img src="Images/booleanSearch.PNG" width="401" height="136">
+<p>In the above example, the search will try to look for use cases that contain
+both the string &quot;Main Functionalities&quot; AND &quot;UC_02&quot; in its
+content.
+<p>&nbsp;
+<h3>Phrase queries</h3>
+<p>By the previous query, it is possible to see that quotation can be used to
+search for specific strings (strings that contain white spaces). The previous
+examples searched for the strings &quot;Main Functionalities&quot; as a single
+string.
+<p>&nbsp;
+<h3>Specific fields</h3>
+<p>The use cases are indexed in fields in a way that is possible to search for
+specific fields. The index fields are:
+<ul>
+  <li>Use Case Identifier. Label: ucid
+  <li>Use Case Name. Label: ucname
+  <li>Use Case Description. Label: ucdesc
+  <li>Feature Identifier. Label: featureid
+  <li>Flow Description. Label: flowdesc
+  <li>From Step. Label: fromstep
+  <li>To Step. Label: tostep
+  <li>Step Identifier. Label: stepid
+  <li>Step Action. Label: stepaction
+  <li>Step Condition. Label: stepcond
+  <li>Step Response. Label: stepresponse</li>
+</ul>
+<p>So, to perform a search using the indexed fileds the query must have the
+format
+<p><center><font face="arial"><i>Label:<b>QUERY</b></i></font></center>
+<p>&nbsp;</p>
+<p>The following query will search for use cases whose name are &quot;IM Main
+Funcionalities&quot;:
+<p><img src="Images/searchUcname.PNG" width="400" height="135">
+<p>&nbsp;
+<h3>Using Wildcards</h3>
+<p>It is also possible to search using single and multiple character wildcard
+searches within single terms (not within phrase queries).
+<p>To perform a single character wildcard search use the &quot;?&quot; symbol.
+<p>To perform a multiple character wildcard search use the &quot;*&quot; symbol.
+<p>The single character wildcard search looks for terms that match the single
+character replaced. For example, to search for &quot;text&quot; or
+&quot;test&quot; you can use the query:
+<p><center><font face="arial"><i>te?t</i></font></center>
+<p>Multiple character wildcard searches looks for 0 or more characters. For
+example, to search for test, tests or tester, you can use the query:
+<p><center><font face="arial"><i>test*</i></font></center>
+<p>You can also use the wildcard searches in the middle of a term.
+<p><center><font face="arial"><i>te*t</i></font></center>
+<p>For more information about advanced search see <a href="http://lucene.apache.org/java/docs/queryparsersyntax.html" target="_blank">http://lucene.apache.org/java/docs/queryparsersyntax.html</a></p>
+
+</body>
+
+</html>

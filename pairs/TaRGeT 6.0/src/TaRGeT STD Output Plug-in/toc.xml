@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+
+<toc label="TaRGeT for the System Test Development Team" topic="html/STD_Introduction.htm">
+<topic href="html/STD_InputFormat.htm" label="Use Case Input">
+ </topic>
+<topic href="html/STD_TestSuitePreferences.htm" label="Test Suite Preferences">
+</topic>
+</toc>

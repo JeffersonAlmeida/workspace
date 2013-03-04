@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            id="br.ufpe.cin.target.cnl.generatetestsuite.ToolsActionSet"
+            label="Tools"
+            visible="true">
+         <action
+               class="br.ufpe.cin.target.cnl.generatetestsuite.actions.NewTCGActionDelegate"
+               definitionId="br.ufpe.cin.target.cnl.NewTCGCommand"
+               enablesFor="+"
+               id="br.ufpe.cin.target.cnl.generatetestsuite.newtcg"
+               label="Generate Test Suite"
+               menubarPath="tools/"
+               tooltip="Generate Test Suite">
+         </action>
+      </actionSet>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            description="Test Generation"
+            id="br.ufpe.cin.target.cnl.NewTCGCommand"
+            name="Test Generation">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.bindings">
+      <key
+            commandId="tcg.project.commands.Generate"
+            contextId="org.eclipse.ui.contexts.window"
+            schemeId="br.ufpe.cin.target.scheme"
+            sequence="CTRL+G">
+      </key>
+   </extension>
+
+
+</plugin>

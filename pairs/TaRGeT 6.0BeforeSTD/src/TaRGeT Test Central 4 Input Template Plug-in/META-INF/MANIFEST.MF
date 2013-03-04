@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: TaRGeT Test Central 4 Input Tempalte Plug-in
+Bundle-SymbolicName: br.ufpe.cin.target.tc4inputtemplate;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: br.ufpe.cin.target.tc4input.Activator
+Require-Bundle: org.eclipse.core.runtime,
+ br.ufpe.cin.target.tcg;bundle-version="1.0.0",
+ br.ufpe.cin.target.common;bundle-version="1.0.0"
+Eclipse-LazyStart: true
+Bundle-ClassPath: .
+Bundle-Vendor: CIN-BTC
+Import-Package: br.ufpe.cin.target.pm.controller,
+ br.ufpe.cin.target.pm.export
+

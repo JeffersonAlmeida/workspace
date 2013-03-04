@@ -1,0 +1,32 @@
+<feature min="1" max="1" name="targett" type="NONE" id="targett">
+  <feature min="0" max="1" name="cm" type="NONE" id="cm">
+  </feature>
+  <feature min="1" max="1" name="input" type="NONE" id="input">
+    <featureGroup min="1" max="2" id="group1">
+      <feature min="0" max="1" name="mswordinput" type="NONE" id="mswordinput">
+      </feature>
+      <feature min="0" max="1" name="xmlinput" type="NONE" id="xmlinput">
+      </feature>
+    </featureGroup>
+  </feature>
+  <feature min="1" max="1" name="language" type="NONE" id="language">
+    <featureGroup min="1" max="1" id="group4">
+      <feature min="1" max="1" name="enus" type="NONE" id="enus">
+      </feature>
+    </featureGroup>
+  </feature>
+  <feature min="1" max="1" name="output" type="NONE" id="output">
+    <featureGroup min="1" max="1" id="group">
+      <feature min="0" max="1" name="tc3" type="NONE" id="tc3">
+      </feature>
+      <feature min="0" max="1" name="tc4" type="NONE" id="tc4">
+      </feature>
+    </featureGroup>
+  </feature>
+  <feature min="1" max="1" name="testCaseGenerator" type="NONE" id="testCaseGenerator">
+    <featureGroup min="1" max="1" id="group2">
+      <feature min="1" max="1" name="ontheflygeneration" type="NONE" id="ontheflygeneration">
+      </feature>
+    </featureGroup>
+  </feature>
+</feature>

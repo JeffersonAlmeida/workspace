@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+   <extension-point id="input" name="Target Input Extension Point" schema="schema/input.exsd"/>
+   <extension
+   		point="org.eclipse.ui.commands">
+   		<category
+         	description="Customized actions."
+         	id="pm.commands.categories"
+         	name="Custom">
+   		</category>
+   		<command
+        	id="pm.project.commands.NewProject"
+        	categoryId="pm.commands.categories"
+        	description="Opens The New Project Wizard"
+        	name="New Project"/>
+       	<command
+        	id="pm.project.commands.OpenProject"
+        	categoryId="pm.commands.categories"
+        	description="Opens The Open Project Wizard"
+        	name="Open Project"/>
+        <command
+        	id="pm.project.commands.CloseProject"
+        	categoryId="pm.commands.categories"
+        	description="Close Project"
+        	name="Close Project"/>
+        <command
+        	id="pm.commands.ImportDocuments"
+        	categoryId="pm.commands.categories"
+        	description="Import Use Case Documents"
+        	name="Import Use Case Documents"/>
+		<command
+        	id="pm.commands.SearchCommand"
+        	categoryId="pm.commands.categories"
+        	description="Search Use Case Documents"
+        	name="Search Command"/>
+  <command
+        categoryId="pm.commands.categories"
+        description="Refresh the TaRGeT project"
+        id="pm.commands.RefreshProjectCommand"
+        name="Refresh Project">
+  </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.bindings">
+      <key
+            sequence="CTRL+F"
+            contextId="org.eclipse.ui.contexts.window"
+            commandId="pm.commands.SearchCommand"
+            schemeId="com.motorola.btc.research.target.scheme"
+            />
+      <key
+            sequence="CTRL+N"
+            contextId="org.eclipse.ui.contexts.window"
+            commandId="pm.project.commands.NewProject"
+            schemeId="com.motorola.btc.research.target.scheme"
+            />
+      <key
+            sequence="CTRL+O"
+            contextId="org.eclipse.ui.contexts.window"
+            commandId="pm.project.commands.OpenProject"
+            schemeId="com.motorola.btc.research.target.scheme"
+            />
+      <key
+            sequence="CTRL+W"
+            contextId="org.eclipse.ui.contexts.window"
+            commandId="pm.project.commands.CloseProject"
+            schemeId="com.motorola.btc.research.target.scheme"
+            />
+      <key
+            sequence="CTRL+I"
+            contextId="org.eclipse.ui.contexts.window"
+            commandId="pm.commands.ImportDocuments"
+            schemeId="com.motorola.btc.research.target.scheme"
+            />
+      <key
+            commandId="pm.commands.RefreshProjectCommand"
+            contextId="org.eclipse.ui.contexts.window"
+            schemeId="com.motorola.btc.research.target.scheme"
+            sequence="CTRL+R">
+      </key>
+   </extension>
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            id="com.motorola.btc.research.target.pm.FileActionSet"
+            label="File"
+            visible="true">
+         <action
+               class="com.motorola.btc.research.target.pm.actions.CloseProjectAction"
+               definitionId="pm.project.commands.CloseProject"
+               id="com.motorola.btc.research.target.pm.actions.CloseProjectAction"
+               enablesFor="+"
+               label="Close &amp;Project"
+               menubarPath="file/"
+               tooltip="Close Project"/>
+         <action
+               class="com.motorola.btc.research.target.pm.actions.OpenProjectAction"
+               definitionId="pm.project.commands.OpenProject"
+               id="com.motorola.btc.research.target.pm.actions.OpenProjectAction"
+               label="Open &amp;Project"
+               menubarPath="file/"
+               tooltip="Open Project"/>
+         <action
+               class="com.motorola.btc.research.target.pm.actions.NewProjectAction"
+               definitionId="pm.project.commands.NewProject"
+               id="com.motorola.btc.research.target.pm.actions.NewProjectAction"
+               label="New &amp;Project"
+               menubarPath="file/"
+               tooltip="New project..."/>
+      </actionSet>
+      <actionSet
+            id="com.motorola.btc.research.target.pm.ImportActionSet"
+            label="Artifacts"
+            visible="true">
+            <action
+                  class="com.motorola.btc.research.target.pm.actions.ImportDocumentsAction"
+                  definitionId="pm.commands.ImportDocuments"
+                  enablesFor="+"
+                  id="com.motorola.btc.research.target.pm.ImportDocumentsAction"
+                  label="&amp;Import Use Case Documents"
+                  menubarPath="artifacts/"
+                  tooltip="Import Use Case Documents"/>
+      </actionSet>
+      <actionSet
+            id="com.motorola.btc.research.target.pm.ToolsActionSet"
+            label="Tools"
+            visible="true">
+         <action
+               class="com.motorola.btc.research.target.pm.actions.SearchAction"
+               definitionId="pm.commands.SearchCommand"
+               enablesFor="+"
+               id="com.motorola.btc.research.target.pm.actions.SearchAction"
+               label="&amp;Search"
+               menubarPath="tools/"
+               tooltip="Search documents">
+         </action>
+   	  </actionSet>
+      <actionSet
+            id="com.motorola.btc.research.target.pm.ProjectActionSet"
+            label="Project"
+            visible="true">
+         <action
+               class="com.motorola.btc.research.target.pm.actions.RefreshProjectAction"
+               definitionId="pm.commands.RefreshProjectCommand"
+               enablesFor="+"
+               id="com.motorola.btc.research.target.pm.actions.RefreshProjectAction"
+               label="Refresh Project"
+               menubarPath="project/"
+               tooltip="Refresh the TaRGeT project">
+         </action>
+         <action
+               class="com.motorola.btc.research.target.pm.actions.RefreshAutomaticallyAction"
+               definitionId="pm.commands.RefreshAutomaticallyCommand"
+               enablesFor="+"
+               id="com.motorola.btc.research.target.pm.actions.RefreshAutomaticallyAction"
+               label="Refresh Automatically"
+               menubarPath="project/"
+               state="true"
+               style="toggle"
+               tooltip="Refresh TaRGeT project automatically">
+         </action>
+      </actionSet>
+   </extension>
+            
+   <extension
+         point="org.eclipse.ui.views">
+         <category
+            id="target.ui.category.views"
+            name="Target UI Category"/>
+      <view
+            category="target.ui.category.views"
+            class="com.motorola.btc.research.target.pm.views.features.FeaturesView"
+            icon="icons/view_icon.jpg"
+            id="com.motorola.btc.research.target.pm.views.features.FeaturesView"
+            name="Use Cases"/>
+      <view
+            category="target.ui.category.views"
+            class="com.motorola.btc.research.target.pm.views.artifacts.ArtifactsView"
+            icon="icons/view_icon.jpg"
+            id="com.motorola.btc.research.target.pm.views.artifacts.ArtifactsView"
+            name="Artifacts"/>
+      <view
+            allowMultiple="false"
+            class="com.motorola.btc.research.target.pm.views.ErrorView"
+            icon="icons/error_view.gif"
+            id="com.motorola.btc.research.target.pm.views.ErrorView"
+            name="Errors"/>
+      <view
+            allowMultiple="false"
+            class="com.motorola.btc.research.target.pm.views.SearchResultsView"
+            icon="icons/search.gif"
+            id="com.motorola.btc.research.target.pm.views.SearchResultsView"
+            name="Search Results"/>
+   </extension>
+   <extension
+         id="com.motorola.btc.research.target.pm.perspectives"
+         name="com.motorola.btc.research.target.pm.perspectives"
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            class="com.motorola.btc.research.target.pm.perspectives.RequirementPerspective"
+            id="com.motorola.btc.research.target.pm.ui.RequirementPerspective"
+            name="Document Manager"/>
+   </extension>
+   <extension
+         id="com.motorola.btc.research.target.pm.editors"
+         name="com.motorola.btc.research.target.pm.editors"
+         point="org.eclipse.ui.editors">
+      <editor
+            class="com.motorola.btc.research.target.pm.editors.UseCaseEditor"
+            default="false"
+            icon="icons/view_icon.jpg"
+            id="com.motorola.btc.research.target.pm.editors.UseCaseEditor"
+            name="Use Case"/>
+   </extension>
+</plugin>

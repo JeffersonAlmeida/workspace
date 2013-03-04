@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/cinspg/!svn/ver/3658/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeSTD/src/CNL%20Framework/src/java/br/ufpe/cin/cnlframework/vocabulary/terms
+END
+LexicalEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/cinspg/!svn/ver/3658/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeSTD/src/CNL%20Framework/src/java/br/ufpe/cin/cnlframework/vocabulary/terms/LexicalEntry.java
+END
+AdverbTerm.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/cinspg/!svn/ver/3658/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeSTD/src/CNL%20Framework/src/java/br/ufpe/cin/cnlframework/vocabulary/terms/AdverbTerm.java
+END
+CardinalTerm.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/cinspg/!svn/ver/3658/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeSTD/src/CNL%20Framework/src/java/br/ufpe/cin/cnlframework/vocabulary/terms/CardinalTerm.java
+END
+DeterminerTerm.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/cinspg/!svn/ver/3658/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeSTD/src/CNL%20Framework/src/java/br/ufpe/cin/cnlframework/vocabulary/terms/DeterminerTerm.java
+END
+VerbTerm.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/cinspg/!svn/ver/3658/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeSTD/src/CNL%20Framework/src/java/br/ufpe/cin/cnlframework/vocabulary/terms/VerbTerm.java
+END
+PrepositionTerm.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/cinspg/!svn/ver/3658/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeSTD/src/CNL%20Framework/src/java/br/ufpe/cin/cnlframework/vocabulary/terms/PrepositionTerm.java
+END
+NounTerm.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/cinspg/!svn/ver/3658/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeSTD/src/CNL%20Framework/src/java/br/ufpe/cin/cnlframework/vocabulary/terms/NounTerm.java
+END
+AdjectiveTerm.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/cinspg/!svn/ver/3658/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeSTD/src/CNL%20Framework/src/java/br/ufpe/cin/cnlframework/vocabulary/terms/AdjectiveTerm.java
+END

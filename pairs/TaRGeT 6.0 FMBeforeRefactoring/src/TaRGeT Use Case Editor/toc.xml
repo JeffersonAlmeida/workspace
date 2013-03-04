@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+
+<toc label="TaRGeT Use Case Editor" topic="html/TaRGeTUseCaseEditor.htm">
+<topic href="html/CreatingNewUseCase.htm" label="Creating a New Use Case">
+    <topic href="html/AddingNewUseCase.htm" label="Add Use Case to an Old Use Case Document">
+    </topic>
+    <topic href="html/CreatingNewUseCaseDoc.htm" label="Creating a New Use Case Document">
+    </topic>
+    <topic href="html/errors.htm" label="Error Messages">
+    </topic>
+ </topic>
+<topic href="html/EditingUseCase.htm" label="Editing a Use Case">
+</topic>
+<topic href="html/AlernativeFlows.htm" label="Adding Alternative Flows">
+</topic>
+<topic href="html/RemovingAlernativeFlows.htm" label="Removing Alternative Flows">
+</topic>
+<topic href="html/AddingSteps.htm" label="Adding Steps">
+</topic>
+<topic href="html/RemovingSteps.htm" label="Removing Steps">
+</topic>
+<topic href="html/EditingSteps.htm" label="Editing Steps">
+</topic>
+<topic href="html/SearchingWords.htm" label="Searching Words">
+</topic>
+<topic href="html/ExportingDoc.htm" label="Exporting a Use Case Document">
+</topic>
+</toc>

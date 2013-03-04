@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<configurationModel>
+	<configuration>
+		<expression>MobileMedia</expression>
+		<required></required>
+		<provided>BaseThread,MainUIMidlet,BaseController,ControllerInterface,PhotoController,AlbumData,ImageAccessor,ImageData,AlbumListScreen,NewLabelScreen,AddPhotoToAlbum,PhotoListScreen,PhotoViewScreen,SplashScreen,Constants,ImageUtil,ImageNotFoundException,ImagePathNotValidException,InvalidArrayFormatException,InvalidImageDataException,InvalidImageFormatException,NullAlbumDataReference,PersistenceMechanismException,UnavailablePhotoAlbumException,InvalidPhotoAlbumNameException</provided>
+	</configuration>
+</configurationModel>
+
+

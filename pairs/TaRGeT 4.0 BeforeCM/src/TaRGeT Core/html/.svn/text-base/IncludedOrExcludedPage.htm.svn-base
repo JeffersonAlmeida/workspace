@@ -1,0 +1,57 @@
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="book.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Included or Excluded Test Cases</title>
+</head>
+
+<body>
+
+<h1>Included or Excluded Test Cases</h1>
+<p>In this page you can visualize all test cases included and/or excluded
+permanently from the test suite. For example, besides the filters mentioned in
+the <a href="TestSelectionPage.htm">Test Selection Page</a>, you can include or
+exclude some test cases permanently, independently from the filters results.&nbsp;&nbsp;</p>
+<ol>
+  <li>Go to the <b>Test Cases</b> tab and&nbsp; <b>Include Test Case Permanently</b>
+    or <b>Exclude Test Case Permanently</b> of the <b>Generated Test Cases </b>list
+    in the <font color="#0000ff"><a href="TestCasesViewer.htm">Test Cases Viewer</a>
+    </font>clicking on right button of the mouse in the test case. The same
+    behavior can be executed in the <a href="TraceabilityMatrixPage.htm">Traceability
+    Matrix</a> page. The all test included/excluded permanently&nbsp; appear in
+    the <b>Included or Excluded Test Cases</b> tab.</li>
+</ol>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="Images/Include_ExcludeTestCasesPermanently.PNG" border="0" width="645" height="184"></p>
+<p>&nbsp;</p>
+<ol start="2">
+  <li>The all test included/excluded permanently&nbsp; appear in the <b>Included
+    Test Cases or Excluded Test Cases</b> areas.</li>
+</ol>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="Images/IncludedOrExcludedTestCases.PNG" border="0" width="953" height="528"></p>
+<p>&nbsp;</p>
+<ol start="3">
+  <li>In this tab you can also exclude a test case or cancel a test case
+    inclusion in the <b>Included Test Cases</b> area and include a test case or
+    cancel a test case exclusion in the <b>Excluded Test Cases</b> area:</li>
+</ol>
+<ul>
+  <li>Clicking on right button of the mouse in a test case of the <b>Included
+    Test Cases</b> area you can visualize the <b>Exclude Test Case</b> and <b>Cancel
+    Test Case Inclusion </b>option.</li>
+</ul>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="Images/IncludedTestCasesArea.PNG" border="0" width="953" height="530">&nbsp;</p>
+<ul>
+  <li>Clicking on right button of the mouse in a test case of the <b>Excluded
+    Test Cases</b> area you can visualize the <b>Include Test Case</b> and <b>Cancel
+    Test Case Exclusion </b>option.&nbsp;&nbsp;&nbsp;&nbsp;</li>
+</ul>
+<blockquote>
+  <p>&nbsp;<img src="Images/ExcludedTestCasesArea.PNG" border="0" width="954" height="530"></p>
+</blockquote>
+
+</body>
+
+</html>

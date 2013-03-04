@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+   <extension-point id="cm" name="Consistency Manager" schema="schema/cm.exsd"/>
+   <extension-point id="output" name="Target Output Extension Point" schema="schema/output.exsd"/>
+   <extension-point id="extractor" name="Target Extractor Extension Point" schema="schema/extractor.exsd"/>
+   <extension-point id="inputTemplate" name="Target Input Template Extension Point" schema="schema/inputTemplate.exsd"/>
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            id="br.ufpe.cin.target.tcg.actionSet"
+            label="Tools"
+            visible="true">
+         <action
+               class="br.ufpe.cin.target.tcg.actions.PreferencesActionDelegate"
+               enablesFor="+"
+               id="br.ufpe.cin.target.onthefly.action.Preferences"
+               label="Preferences"
+               menubarPath="tools/"
+               tooltip="Preferences">
+         </action>
+      </actionSet>
+   </extension>
+
+</plugin>

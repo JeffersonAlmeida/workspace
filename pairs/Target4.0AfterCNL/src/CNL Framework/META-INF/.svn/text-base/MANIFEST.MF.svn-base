@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CNLFramework
+Bundle-SymbolicName: com.motorola.btc.research.cnlframework
+Bundle-Version: 1.0.0
+Export-Package: com.motorola.btc.research.cnlframework.exceptions,
+ com.motorola.btc.research.cnlframework.grammar,
+ com.motorola.btc.research.cnlframework.postagger,
+ com.motorola.btc.research.cnlframework.tokenizer,
+ com.motorola.btc.research.cnlframework.util,
+ com.motorola.btc.research.cnlframework.vocabulary,
+ com.motorola.btc.research.cnlframework.vocabulary.base,
+ com.motorola.btc.research.cnlframework.vocabulary.terms,
+ com.motorola.btc.research.cnlframework.vocabulary.trie,
+ com.motorola.btc.research.cnlframework.preprocessor

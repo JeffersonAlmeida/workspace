@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/cinspg/!svn/ver/3660/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeXML/src/TaRGeT%20Consistency%20Manager/src/java/br/ufpe/cin/target/cm/tcsimilarity/metrics
+END
+Metrics2.java
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/cinspg/!svn/ver/3660/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeXML/src/TaRGeT%20Consistency%20Manager/src/java/br/ufpe/cin/target/cm/tcsimilarity/metrics/Metrics2.java
+END
+LevenshteinDistance.java
+K 25
+svn:wc:ra_dav:version-url
+V 187
+/svn/cinspg/!svn/ver/3660/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeXML/src/TaRGeT%20Consistency%20Manager/src/java/br/ufpe/cin/target/cm/tcsimilarity/metrics/LevenshteinDistance.java
+END
+Metrics.java
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/cinspg/!svn/ver/3660/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeXML/src/TaRGeT%20Consistency%20Manager/src/java/br/ufpe/cin/target/cm/tcsimilarity/metrics/Metrics.java
+END
+LevenshteinDistanceWordByWord.java
+K 25
+svn:wc:ra_dav:version-url
+V 197
+/svn/cinspg/!svn/ver/3660/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeXML/src/TaRGeT%20Consistency%20Manager/src/java/br/ufpe/cin/target/cm/tcsimilarity/metrics/LevenshteinDistanceWordByWord.java
+END

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+
+<toc label="TaRGeT Import Template" topic="html/TaRGeTImportTemplate.htm">
+	<topic label="Importing templates"  href="html/ImportingTemplates.htm"> 
+		<topic label="Importing a template" href="html/ImportingATemplate.htm"/> 
+	</topic>
+</toc>

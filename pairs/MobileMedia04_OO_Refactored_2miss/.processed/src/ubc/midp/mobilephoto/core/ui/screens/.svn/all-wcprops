@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/cinspg/!svn/ver/3706/SafeRefactor/trunk/Exemplos/MobileMedia04_OO_Refactored_2miss/.processed/src/ubc/midp/mobilephoto/core/ui/screens
+END
+PhotoListScreen.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/cinspg/!svn/ver/3706/SafeRefactor/trunk/Exemplos/MobileMedia04_OO_Refactored_2miss/.processed/src/ubc/midp/mobilephoto/core/ui/screens/PhotoListScreen.java
+END
+NewAlbumScreen.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/cinspg/!svn/ver/3706/SafeRefactor/trunk/Exemplos/MobileMedia04_OO_Refactored_2miss/.processed/src/ubc/midp/mobilephoto/core/ui/screens/NewAlbumScreen.java
+END
+AlbumListScreen.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/cinspg/!svn/ver/3706/SafeRefactor/trunk/Exemplos/MobileMedia04_OO_Refactored_2miss/.processed/src/ubc/midp/mobilephoto/core/ui/screens/AlbumListScreen.java
+END
+PhotoViewScreen.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/cinspg/!svn/ver/3706/SafeRefactor/trunk/Exemplos/MobileMedia04_OO_Refactored_2miss/.processed/src/ubc/midp/mobilephoto/core/ui/screens/PhotoViewScreen.java
+END
+AddPhotoToAlbum.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/cinspg/!svn/ver/3706/SafeRefactor/trunk/Exemplos/MobileMedia04_OO_Refactored_2miss/.processed/src/ubc/midp/mobilephoto/core/ui/screens/AddPhotoToAlbum.java
+END
+SplashScreen.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/cinspg/!svn/ver/3706/SafeRefactor/trunk/Exemplos/MobileMedia04_OO_Refactored_2miss/.processed/src/ubc/midp/mobilephoto/core/ui/screens/SplashScreen.java
+END

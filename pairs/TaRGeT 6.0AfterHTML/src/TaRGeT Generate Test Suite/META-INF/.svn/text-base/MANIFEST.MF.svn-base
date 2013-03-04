@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: TaRGeT_Generate_Test_Suite Plug-in
+Bundle-SymbolicName: br.ufpe.cin.target.generateTestSuite;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: br.ufpe.cin.target.cnl.generatetestsuite.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ br.ufpe.cin.target.tcg,
+ br.ufpe.cin.target.common,
+ br.ufpe.cin.target.pm,
+ br.ufpe.cin.target.core
+Eclipse-LazyStart: true

@@ -1,0 +1,36 @@
+source.. = src/java/
+output.. = bin/
+bin.includes = plugin.xml,\
+               META-INF/,\
+               .,\
+               icons/icon_128_128.gif,\
+               icons/about.png,\
+               build/,\
+               icons/view_icon.jpg,\
+               icons/logo_TaRGeT.bmp,\
+               splash.bmp,\
+               toc.xml,\
+               TaRGeTToc.xml,\
+               html/,\
+               plugin_customization.ini,\
+               target.product,\
+               schema/,\
+               project/,\
+               lib/,\
+               build.properties,\
+               src/,\
+               icons/icon_128_128.icns
+src.includes = build/,\
+               build.properties,\
+               icons/,\
+               lib/,\
+               html/,\
+               plugin.xml,\
+               plugin_customization.ini,\
+               project/,\
+               schema/,\
+               splash.bmp,\
+               src/,\
+               target.product,\
+               toc.xml,\
+               META-INF/

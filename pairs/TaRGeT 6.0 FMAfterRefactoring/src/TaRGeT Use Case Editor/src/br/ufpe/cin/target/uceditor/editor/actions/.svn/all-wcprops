@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/cinspg/!svn/ver/3671/SafeRefactor/trunk/Exemplos/TaRGeT%206.0%20FMAfterRefactoring/src/TaRGeT%20Use%20Case%20Editor/src/br/ufpe/cin/target/uceditor/editor/actions
+END
+SearchAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 185
+/svn/cinspg/!svn/ver/3671/SafeRefactor/trunk/Exemplos/TaRGeT%206.0%20FMAfterRefactoring/src/TaRGeT%20Use%20Case%20Editor/src/br/ufpe/cin/target/uceditor/editor/actions/SearchAction.java
+END
+AddStepBellowAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 192
+/svn/cinspg/!svn/ver/3671/SafeRefactor/trunk/Exemplos/TaRGeT%206.0%20FMAfterRefactoring/src/TaRGeT%20Use%20Case%20Editor/src/br/ufpe/cin/target/uceditor/editor/actions/AddStepBellowAction.java
+END
+ExportUseCaseAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 192
+/svn/cinspg/!svn/ver/3671/SafeRefactor/trunk/Exemplos/TaRGeT%206.0%20FMAfterRefactoring/src/TaRGeT%20Use%20Case%20Editor/src/br/ufpe/cin/target/uceditor/editor/actions/ExportUseCaseAction.java
+END
+AddStepAboveAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 191
+/svn/cinspg/!svn/ver/3671/SafeRefactor/trunk/Exemplos/TaRGeT%206.0%20FMAfterRefactoring/src/TaRGeT%20Use%20Case%20Editor/src/br/ufpe/cin/target/uceditor/editor/actions/AddStepAboveAction.java
+END
+RemoveStepAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 189
+/svn/cinspg/!svn/ver/3671/SafeRefactor/trunk/Exemplos/TaRGeT%206.0%20FMAfterRefactoring/src/TaRGeT%20Use%20Case%20Editor/src/br/ufpe/cin/target/uceditor/editor/actions/RemoveStepAction.java
+END
+AddNewFlowAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 189
+/svn/cinspg/!svn/ver/3671/SafeRefactor/trunk/Exemplos/TaRGeT%206.0%20FMAfterRefactoring/src/TaRGeT%20Use%20Case%20Editor/src/br/ufpe/cin/target/uceditor/editor/actions/AddNewFlowAction.java
+END
+SaveAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 183
+/svn/cinspg/!svn/ver/3671/SafeRefactor/trunk/Exemplos/TaRGeT%206.0%20FMAfterRefactoring/src/TaRGeT%20Use%20Case%20Editor/src/br/ufpe/cin/target/uceditor/editor/actions/SaveAction.java
+END

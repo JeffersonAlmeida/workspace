@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/cinspg/!svn/ver/3744/SafeRefactor/trunk/Exemplos/TaRGeT%204.0/src/TargetUnitTests/src/java/com/motorola/btc/research/target/tcg/filters
+END
+DefaultTestSuiteFilterTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/cinspg/!svn/ver/3744/SafeRefactor/trunk/Exemplos/TaRGeT%204.0/src/TargetUnitTests/src/java/com/motorola/btc/research/target/tcg/filters/DefaultTestSuiteFilterTest.java
+END
+SimilarityFilterTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/cinspg/!svn/ver/3744/SafeRefactor/trunk/Exemplos/TaRGeT%204.0/src/TargetUnitTests/src/java/com/motorola/btc/research/target/tcg/filters/SimilarityFilterTest.java
+END
+TestFiltersUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/cinspg/!svn/ver/3744/SafeRefactor/trunk/Exemplos/TaRGeT%204.0/src/TargetUnitTests/src/java/com/motorola/btc/research/target/tcg/filters/TestFiltersUtil.java
+END
+RequirementsFilterTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/cinspg/!svn/ver/3744/SafeRefactor/trunk/Exemplos/TaRGeT%204.0/src/TargetUnitTests/src/java/com/motorola/btc/research/target/tcg/filters/RequirementsFilterTest.java
+END
+PurposeFilterTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/cinspg/!svn/ver/3744/SafeRefactor/trunk/Exemplos/TaRGeT%204.0/src/TargetUnitTests/src/java/com/motorola/btc/research/target/tcg/filters/PurposeFilterTest.java
+END
+CompositionTestSuiteFilterTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 176
+/svn/cinspg/!svn/ver/3744/SafeRefactor/trunk/Exemplos/TaRGeT%204.0/src/TargetUnitTests/src/java/com/motorola/btc/research/target/tcg/filters/CompositionTestSuiteFilterTest.java
+END
+TestSuiteFilterAssemblerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/cinspg/!svn/ver/3744/SafeRefactor/trunk/Exemplos/TaRGeT%204.0/src/TargetUnitTests/src/java/com/motorola/btc/research/target/tcg/filters/TestSuiteFilterAssemblerTest.java
+END

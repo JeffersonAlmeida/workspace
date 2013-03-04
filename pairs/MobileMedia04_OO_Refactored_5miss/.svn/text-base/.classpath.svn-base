@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.5.0_09/lib/tools.jar"/>
+	<classpathentry kind="lib" path="D:/research/MobileMedia/Antenna/antenna-bin-0.9.15-beta.jar"/>
+	<classpathentry kind="lib" path="C:/WTK2.5.1/lib/midpapi20.jar"/>
+	<classpathentry kind="var" path="JRE_LIB"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

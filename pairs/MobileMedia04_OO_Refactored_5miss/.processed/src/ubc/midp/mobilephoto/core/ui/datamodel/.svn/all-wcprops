@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/cinspg/!svn/ver/3708/SafeRefactor/trunk/Exemplos/MobileMedia04_OO_Refactored_5miss/.processed/src/ubc/midp/mobilephoto/core/ui/datamodel
+END
+AlbumData.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/cinspg/!svn/ver/3708/SafeRefactor/trunk/Exemplos/MobileMedia04_OO_Refactored_5miss/.processed/src/ubc/midp/mobilephoto/core/ui/datamodel/AlbumData.java
+END
+ImageData.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/cinspg/!svn/ver/3708/SafeRefactor/trunk/Exemplos/MobileMedia04_OO_Refactored_5miss/.processed/src/ubc/midp/mobilephoto/core/ui/datamodel/ImageData.java
+END
+ImageAccessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/cinspg/!svn/ver/3708/SafeRefactor/trunk/Exemplos/MobileMedia04_OO_Refactored_5miss/.processed/src/ubc/midp/mobilephoto/core/ui/datamodel/ImageAccessor.java
+END

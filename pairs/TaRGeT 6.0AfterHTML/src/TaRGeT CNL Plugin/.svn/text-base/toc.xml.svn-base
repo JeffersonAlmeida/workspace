@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?NLS TYPE="org.eclipse.help.toc"?>
+
+<toc label="TaRGeT Controlled Natural Language" topic="html/TaRGeTControlledNaturalLanguage.htm">
+<topic href="html/UsingControlledNaturalLanguage.htm" label="Using Controlled Natural Language">
+    <topic href="html/VisuazingSyntaxErrorsDetails.htm" label="Visualizing Syntax Errors Details">
+    </topic>
+    <topic href="html/SortingCNLErrors.htm" label="Sorting CNL Errors">
+    </topic>
+    <topic href="html/FilteringCNLErrors.htm" label="Filtering CNL Errors">
+    </topic>
+ </topic>
+ <topic href="html/ManagingtheLexiconVocabulary.htm" label="Managing the Lexicon Vocabulary">
+    <topic href="html/AddingTerms.htm" label="Adding Terms">
+    </topic>
+    <topic href="html/EditingTerms.htm" label="Editing Terms">
+    </topic>
+    <topic href="html/RemovingTerms.htm" label="Removing Terms">
+    </topic>
+ </topic>
+</toc>

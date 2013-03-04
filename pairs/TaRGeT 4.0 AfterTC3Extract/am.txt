@@ -1,0 +1,18 @@
+#TaRGeTCommon
+src/TaRGeT Common
+
+#TaRGeTCore
+src/TaRGeT Core
+
+#TaRGeTTCGenerationGUI
+src/TaRGeT TC Generation GUI
+
+#TaRGeTProjectManager
+src/TaRGeT Project Manager
+
+#TaRGeTTestCentral3OutputPlugin
+src/TaRGeT Test Center 3 Output Plug-in
+
+
+
+

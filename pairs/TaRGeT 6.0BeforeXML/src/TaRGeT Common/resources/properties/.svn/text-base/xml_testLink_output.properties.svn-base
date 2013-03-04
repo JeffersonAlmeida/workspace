@@ -1,0 +1,8 @@
+generate_requirements_document=Generate Requirements Document
+generate_requirements_question=Generate requirements XML file to be imported in TestLink?
+the_file=The file
+does_not_exist_in_the_specified_location=does not exist in the specified location.
+requirements_document_summary=Requirements Document Summary
+testlink_requirements_document_saved_in=TestLink Requirements specification document saved in
+testlink_requirements_specification=TestLink Requirements Specification
+type_the_name_of_the_requirements_specification_document=Type the name of the requirements specification document:

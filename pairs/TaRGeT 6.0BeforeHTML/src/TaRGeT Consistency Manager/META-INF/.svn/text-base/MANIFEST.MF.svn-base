@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: TaRGeT Consistency Management Plug-in
+Bundle-SymbolicName: br.ufpe.cin.target.cm;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Vendor: CIN-BTC
+Require-Bundle: br.ufpe.cin.target.tcg,
+ br.ufpe.cin.target.pm,
+ br.ufpe.cin.target.common,
+ org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.nebula.widgets.grid,
+ org.eclipse.ui.forms
+Export-Package: br.ufpe.cin.target.cm.controller,
+ br.ufpe.cin.target.cm.tcsimilarity.logic

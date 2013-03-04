@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension
+         point="br.ufpe.cin.target.tcg.output">
+      <outputDocumentExtension
+            outputDocumentImplementation="br.ufpe.cin.target.xmloutput.xml.XMLFileFormatter">
+      </outputDocumentExtension>
+   </extension>
+   <extension
+         point="br.ufpe.cin.target.tcg.extractor">
+      <extractorDocumentExtension
+            extractorDocumentImplementation="br.ufpe.cin.target.xmloutput.XMLExtractor">
+      </extractorDocumentExtension>
+   </extension>
+
+
+</plugin>

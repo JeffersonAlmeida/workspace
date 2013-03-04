@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/cinspg/!svn/ver/3709/SafeRefactor/trunk/Exemplos/TaRGeT%204.0%20AfterAddTC4/src/TaRGeT%20TC%20Generation%20GUI/src/java/com/motorola/btc/research/target/tcg/editors
+END
+OnTheFlyHeader.java
+K 25
+svn:wc:ra_dav:version-url
+V 189
+/svn/cinspg/!svn/ver/3709/SafeRefactor/trunk/Exemplos/TaRGeT%204.0%20AfterAddTC4/src/TaRGeT%20TC%20Generation%20GUI/src/java/com/motorola/btc/research/target/tcg/editors/OnTheFlyHeader.java
+END
+OnTheFlyEditorInput.java
+K 25
+svn:wc:ra_dav:version-url
+V 194
+/svn/cinspg/!svn/ver/3709/SafeRefactor/trunk/Exemplos/TaRGeT%204.0%20AfterAddTC4/src/TaRGeT%20TC%20Generation%20GUI/src/java/com/motorola/btc/research/target/tcg/editors/OnTheFlyEditorInput.java
+END
+TestCaseTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 188
+/svn/cinspg/!svn/ver/3709/SafeRefactor/trunk/Exemplos/TaRGeT%204.0%20AfterAddTC4/src/TaRGeT%20TC%20Generation%20GUI/src/java/com/motorola/btc/research/target/tcg/editors/TestCaseTable.java
+END
+OnTheFlyTestExclusionPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 200
+/svn/cinspg/!svn/ver/3709/SafeRefactor/trunk/Exemplos/TaRGeT%204.0%20AfterAddTC4/src/TaRGeT%20TC%20Generation%20GUI/src/java/com/motorola/btc/research/target/tcg/editors/OnTheFlyTestExclusionPage.java
+END
+OnTheFlyTestSelectionPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 200
+/svn/cinspg/!svn/ver/3709/SafeRefactor/trunk/Exemplos/TaRGeT%204.0%20AfterAddTC4/src/TaRGeT%20TC%20Generation%20GUI/src/java/com/motorola/btc/research/target/tcg/editors/OnTheFlyTestSelectionPage.java
+END
+OnTheFlyTraceabilityMatrixPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 205
+/svn/cinspg/!svn/ver/3709/SafeRefactor/trunk/Exemplos/TaRGeT%204.0%20AfterAddTC4/src/TaRGeT%20TC%20Generation%20GUI/src/java/com/motorola/btc/research/target/tcg/editors/OnTheFlyTraceabilityMatrixPage.java
+END
+OnTheFlyMultiPageEditor.java
+K 25
+svn:wc:ra_dav:version-url
+V 198
+/svn/cinspg/!svn/ver/3709/SafeRefactor/trunk/Exemplos/TaRGeT%204.0%20AfterAddTC4/src/TaRGeT%20TC%20Generation%20GUI/src/java/com/motorola/btc/research/target/tcg/editors/OnTheFlyMultiPageEditor.java
+END
+OnTheFlyUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 187
+/svn/cinspg/!svn/ver/3709/SafeRefactor/trunk/Exemplos/TaRGeT%204.0%20AfterAddTC4/src/TaRGeT%20TC%20Generation%20GUI/src/java/com/motorola/btc/research/target/tcg/editors/OnTheFlyUtil.java
+END
+OnTheFlyGeneratedTestCasesPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 205
+/svn/cinspg/!svn/ver/3709/SafeRefactor/trunk/Exemplos/TaRGeT%204.0%20AfterAddTC4/src/TaRGeT%20TC%20Generation%20GUI/src/java/com/motorola/btc/research/target/tcg/editors/OnTheFlyGeneratedTestCasesPage.java
+END

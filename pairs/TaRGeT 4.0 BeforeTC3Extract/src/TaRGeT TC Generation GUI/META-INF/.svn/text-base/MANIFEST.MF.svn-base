@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: TCG Plug-in
+Bundle-SymbolicName: com.motorola.btc.research.target.tcg;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: com.motorola.btc.research.target.tcg.TCGActivator
+Bundle-Vendor: CIN-BTC
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.nebula.widgets.grid,
+ com.motorola.btc.research.target.common,
+ com.motorola.btc.research.target.pm,
+ org.aspectj.runtime,
+ org.eclipse.ui.forms
+Eclipse-LazyStart: true
+Bundle-ClassPath: .,
+ lib/poi-2.5.1-final-20040804.jar,
+ lib/aspectjrt.jar
+Export-Package: com.motorola.btc.research.target.tcg,
+ com.motorola.btc.research.target.tcg.actions,
+ com.motorola.btc.research.target.tcg.wizards

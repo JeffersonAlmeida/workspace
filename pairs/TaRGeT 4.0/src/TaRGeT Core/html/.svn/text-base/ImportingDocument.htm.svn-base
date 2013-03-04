@@ -1,0 +1,54 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="book.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>TaRGeT - Importing Documents</title>
+</head>
+
+<body>
+<h1>Importing Documents</h1>
+<p>You can import use case documents by using the <b>Artifacts</b> menu on the Workbench menu bar:</p>
+<OL>
+  <LI>Select <b>Artifacts > Import Use Case Documents </b> from the menu bar.
+    You can also access the <b>Import Documents Wizard</b> via shortcut 'CTRL+I'.
+    <p>&nbsp;</p>
+
+
+  <p><img src="Images/importDocuments.png" width="347" height="134" ></p>
+
+
+  <p>&nbsp;</p>
+
+
+  <li>Click on <b>Add Document</b> button to open the file browser. You can select more than one document
+  at a time.<br>
+  You can remove a document from the <b>Documents to Import</b> list by selecting
+  it, and clicking on <b>Remove Document</b> button.</li>
+  <p><img src="Images/importDocuments_Browser.png" width="438" height="415"></p>
+  <p>&nbsp;</p>
+  <li>Click on <b>Finish </b>button to import the document to the project. After importing, the use case document will be
+  added in the <b>Artifacts View</b>, and its contents will be displayed in the <b>Use Cases</b> 
+    view (see figure below).
+    <p>&nbsp;</p>
+    <p><img border="0" src="Images/merged_feature_usecases_view.PNG" width="266" height="97"></p>
+    <p>&nbsp;</p>
+    <p>
+    TaRGeT allow the importing of documents that contain features with same Id. Although they are
+    placed in different documents, TaRGeT displays those features in the <b>Use Cases</b> 
+    view as only one. For that, the tool merges the contents of those features.
+    As you can see in the figure above, the feature with Id &quot;11111&quot; has the
+    special icon <img border="0" src="Images/merged_feature_icon.PNG" width="26" height="26">,
+    indicating that was merged. 
+    </p>
+    
+    </li>
+</ol>
+<blockquote>
+  <p>If any problem is found during the document importing (see <a href="UseCaseDocError.htm">Use Case document errors</a>), a message dialog is displayed warning the user about the errors.</p>
+  <p>&nbsp;</p>
+</blockquote>
+<p align="center">&nbsp;</p>
+</body>
+</html>

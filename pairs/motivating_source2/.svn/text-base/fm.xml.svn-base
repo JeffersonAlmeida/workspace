@@ -1,0 +1,12 @@
+  <feature min="1" max="1" name="game" type="NONE" id="game">
+    <feature min="1" max="1" name="startup" type="NONE" id="startup">
+    </feature>
+    <feature min="0" max="1" name="multiplayer" type="NONE" id="multiplayer">
+      <feature min="0" max="1" name="internet" type="NONE" id="internet">
+        <feature min="1" max="1" name="connection" type="NONE" id="connection">
+        </feature>
+      </feature>
+      <feature min="0" max="1" name="bluetooth" type="NONE" id="bluetooth">
+      </feature>
+    </feature>
+  </feature>

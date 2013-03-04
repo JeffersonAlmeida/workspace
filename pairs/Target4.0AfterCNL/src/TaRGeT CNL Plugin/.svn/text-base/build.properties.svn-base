@@ -1,0 +1,8 @@
+output.. = build/classes/
+bin.includes = plugin.xml,\
+               META-INF/,\
+               .,\
+               icons/,\
+               src/java/,\
+               build/classes/
+source.. = src/java/

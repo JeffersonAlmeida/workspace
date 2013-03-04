@@ -1,0 +1,135 @@
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="book.css"/>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Test Selection Page</title>
+</head>
+
+<body>
+
+<h1>Test Selection Page</h1>
+<p>In this page contain some filters that can be selected to generate the Test
+Suite according to the following options:</p>
+<ul type="circle">
+  <li>&nbsp;Requirements
+  <li>&nbsp;Use Cases
+  <li>&nbsp;Test Purposes
+  <li>Path Coverage</li>
+</ul>
+<p>If no option is chosen, TaRGeT will generate test cases for all possible
+scenarios.&nbsp;</p>
+<p><img src="Images/TestSelectionPage.PNG" border="0" width="951" height="653"></p>
+<p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</b>&nbsp;</p>
+<ul>
+  <li><b>Test Case Generation by Requirements</b></li>
+</ul>
+<blockquote>
+  <p>To generate tests for specific requirements, you need to select them in the
+  <b>Select the input requirements:</b> list. It is important to highlight that
+  the test generation for all requirements does not mean that all possible
+  scenarios will be covered by the tests. To generate tests for all
+  requirements, you can click on <b>Select all</b> button to select all
+  requirements. The <b>Deselect all</b> button deselect all requirements:</p>
+</blockquote>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="Images/TestSelectionRequirements.PNG" border="0" width="476" height="313"></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; After requirements
+selection, you can generate the test suite. The test suite will contain only
+test cases associated with the selected requirements.</p>
+<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<ul>
+  <li><b>Test Case Generation by Use Case</b></li>
+</ul>
+<blockquote>
+  <p>To generate tests for specific use cases, you need to select them in the <b>Available
+  Use Cases</b> area. After select the use case(s), you click on the button <b>Add
+  Use Case</b> and the selected use case(s) will appear in the <b>Selected Use
+  Cases</b> area. To remove a use case from the <b>Selected Use Cases</b> area,
+  you select it and click on the button <b>Remove Use Case</b>.&nbsp;</p>
+  <p><img src="Images/TestSelectionUseCase.PNG" border="0" width="459" height="316"></p>
+</blockquote>
+<p align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; After requirements
+selection, you can generate the test suite. The test suite will contain only
+test cases derived from the selected use cases.</p>
+<p align="left">&nbsp;</p>
+<ul>
+  <li><b>Test Case Generation by Test Purpose</b></li>
+</ul>
+<blockquote>
+  <p>You can tailor your output test suite by defining test purposes. A test
+  purpose is an abstract description of a subset of the specification, allowing
+  the user to choose behaviors to test, and consequently reducing the
+  specification exploration.&nbsp;</p>
+  <p align="left"><img src="Images/useCasePurposeDefinition.PNG" border="0" width="549" height="445"></p>
+  <p>In TaRGeT, the test purposes are incomplete sequences of steps. For
+  example, in the use case above we can identify 4 test cases:</p>
+  <ol>
+    <li>Step sequence <b>1M</b> -&gt; <b>2M</b> -&gt; <b>3M</b> -&gt; <b>4M</b>
+    <li>Step sequence <b>1M</b> -&gt; <b>2M</b> -&gt; <b>3M</b> -&gt; <b>1A</b>
+      -&gt; <b>4M</b>
+    <li>Step sequence <b>1M</b> -&gt; <b>2M</b> -&gt; <b>3M</b> -&gt; <b>1B</b>
+    <li>Step sequence <b>1M</b> -&gt; <b>2M</b> -&gt; <b>3M</b> -&gt; <b>1A</b>
+      -&gt; <b>1B</b></li>
+  </ol>
+  <p>In this context, you may only be interested in the first two test cases.
+  So, you could define the test purpose &quot;<b>1M; *; 4M</b>&quot;. This test
+  purpose means that TaRGeT will generate test cases that begin with step <b>1M</b>
+  and end with step <b>4M</b>. The operator &quot;<b>*</b>&quot; means any
+  sequence steps.</p>
+  <p>If you are interested in test cases that cover the step 1A, you shall
+  inform TaRGeT the test purpose &quot;<b>*; 1A; *</b>&quot;. This purpose means
+  that TaRGeT will consider any sequence of steps that contains the step <b>1A</b>.&nbsp;</p>
+  <p>Now that we know what test purposes are, let we show you how to define them
+  in TaRGeT. You can define one or more test purposes through the window
+  presented in the picture below. Considering more than one test purpose, TaRGeT
+  will join the set of test cases generated for each purpose.</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;<img src="Images/testSelectionPurpose.PNG" border="0" width="992" height="445"></p>
+</blockquote>
+<p align="center">&nbsp;</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The following
+steps describe the creation of a test purpose.&nbsp;</p>
+<blockquote>
+  <ol>
+    <li>Test purposes are composed by use case steps. So, in order to create a
+      test purpose, you have to choose the use case steps. The area <b>Steps</b>
+      contains all available use case steps and the operator <b>' * '</b>. By
+      pressing the button <b>Select</b>, you can assemble the test purpose in
+      the text field <b>Current Test Purpose</b>. You can repeat this step until
+      create the desired test purpose. You can also move the current test
+      purpose to up or down direction according your preferences.&nbsp;
+    <li>After creating the test purpose, you can clean it by clicking on <b>Clean</b>
+      button, and starting another one again. Or you can press <b>OK</b> button
+      in order to save the purpose in the <b>Created Test Purposes</b> list. You
+      can remove a created purpose by selecting it and pressing on <b>Clean</b>
+      button. You also can remove all created test purposes by pressing <b>Clean
+      all</b> button.</li>
+  </ol>
+</blockquote>
+<h2>&nbsp;</h2>
+<ul>
+  <li><b>Test Case Generation by Test Purpose</b></li>
+</ul>
+<blockquote>
+  <p align="left">Now that you know how to define a test purpose in order to
+  restrict your output test set, you can exclude test cases based on similarity.
+  The similarity is set by the horizontal scale in the figure below. Setting the
+  scale to 100% means that all test cases will be included in the output test
+  suite. On the other hand, for instance, you may restrict the test suite by
+  removing the 30% most similar test cases. So, you must set the scale to 70%,
+  indicating that you want to keep the 70% most distinctive test cases.</p>
+  <p align="left"><img src="Images/PathCoverage.PNG" border="0" width="459" height="141">&nbsp;</p>
+</blockquote>
+<p align="left">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; After choose the filters ,
+you can go to <a href="TestCasesViewer.htm">Test Cases Viewer</a>&nbsp; page
+in order to visualize the test cases and finish test generation.</p>
+<blockquote>
+  <p align="left">&nbsp;</p>
+</blockquote>
+
+</body>
+
+</html>

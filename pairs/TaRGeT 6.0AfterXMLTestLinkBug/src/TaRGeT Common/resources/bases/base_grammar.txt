@@ -1,0 +1,121 @@
+\\ Base Grammar
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+\\ NounPhrase 
+
+NounPhrase = NP, AndNP?
+
+AndNP = 'and', NP
+
+NP = Determiner?, QualifierList?, Noun, PrepositionalPhrase?
+NP = Determiner?, QualifierList?, Noun, RelativeClause
+
+Noun = (NN | NNS | VBG), Noun?
+
+----------------------------------------------------------------------------------------------------------
+\\ Determiner 
+
+Determiner = DT, OD?, CardinalList?
+Determiner = CardinalList
+
+CardinalList = CD, CardinalList?
+
+
+\\ AND entre ordinais  -  desativado
+
+\\ Send the first AND the second messages 
+\\ Essa regra substitui a 1a regra deste grupo
+A-Determiner = DT, OrdinalList?, CardinalList?
+A-OrdinalAnd = 'and', DT?, OD
+A-OrdinalList = Ordinal, ordinalList?, OrdinalAnd?
+
+
+----------------------------------------------------------------------------------------------------------
+\\ PrepositionalPhrase 
+
+PrepositionalPhrase = PP, NounPhrase
+
+PrepositionalPhraseAnd = 'and', PrepositionalPhrase 
+
+PrepositionalPhraseList = PrepositionalPhrase, PrepositionalPhraseList?, PrepositionalPhraseAnd?
+
+
+----------------------------------------------------------------------------------------------------------
+\\ Qualifier 
+
+Qualifier = NG?, ADV?, (JJ | VBN)
+
+QualifierAnd = 'and', Qualifier
+
+QualifierList = Qualifier, QualifierList?, QualifierAnd?
+\\ Lembrar de trocar JJ por ADJ depois que lais implementar.
+
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+\\VERBS
+
+
+\\ ActiveVerb 
+
+ActiveVerb = ActiveVerbPresent | ActiveVerbPast
+ActiveVerbPresent = VBP | VBZ
+ActiveVerbPast = VBD
+
+----------------------------------------------------------------------------------------------------------
+\\ VerbToBe 
+
+VerbToBe = VerbToBePresent | VerbToBePast
+VerbToBePresent = (VTBP | VTBZ), NG?
+VerbToBePast = (VTBDZ | VTBDP), NG?
+
+
+----------------------------------------------------------------------------------------------------------
+\\ VerbComplement 
+
+
+VerbComplement = SimpleVC | ComplexVC
+
+SimpleVC = (NounPhrase, PrepositionalPhraseList?) | PrepositionalPhraseList
+ComplexVC = SimpleVP, 'by', GerundPhrase
+
+
+----------------------------------------------------------------------------------------------------------
+\\ GerundPhrase 
+
+GerundPhrase = VBG, SimpleVC 
+
+\\ duvida para Dante e Erica: Posso ter um GerundPhrase só com prepositionalcomplement, sem o NP?
+\\ se nao posso, então essa regras etsá errada, e deve ser trocada para 
+\\ GerundPhrase = VBG, NounPhrase, PrepositionalPhraseList?
+
+
+----------------------------------------------------------------------------------------------------------
+\\ RelativeClause 
+
+\\ Active Voice
+RelativeClause = 'that', ActiveVerbPresent, VerbComplement 
+\\ "The old content in the inbox folders (that works in the background) is downloaded" 
+
+\\ Passive voice
+RelativeClause = 'that', VerbToBe, VBN, PrepositionalPhraseList?
+\\ ex. the message that was sent by the user 
+
+\\ Present continuous
+RelativeClause = 'that', VerbToBe, 'being', VBN, PrepositionalPhraseList?
+
+
+
+Testar-RelativeClause = 'that', VerbToBe, VBN, PrepositionalPhraseList, 'by', GerundPhrase
+// Send a message that was recived by pressing key one
+// DANTE: Construction below might make the speech confusing
+
+
+
+// pendencia - subordinada - the permissions that the application uses
+
+
+// TODO
+// 'that' com full sentence: Select the message 'that the user sets the status'.  
+// uso do 'whose': Select the message 'whose status was set by the user'.  

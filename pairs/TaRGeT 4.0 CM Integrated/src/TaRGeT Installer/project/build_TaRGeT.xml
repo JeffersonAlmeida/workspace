@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+
+<!--
+ * @(#)build_TaRGeT.xml
+ *
+ * (c) COPYRIGHT 2005 MOTOROLA INC.
+ * MOTOROLA CONFIDENTIAL PROPIETARY
+ * Template ID and version: IL93-TMP-01-0112  Version 1.10
+ *
+ * REVISION HISTORY:
+ * Author    Date           CR Number    Brief Description
+ * dhq348    Mar 30, 2007   LIBll54549   Initial creation.
+ * dhq348    Apr 03, 2007   LIBll54549   Rework of inspection LX158543
+ * dhq348    Sep 03, 2007   LIBnn24462   Set all verbose to 'off'.
+ -->
+
+<!--
+	======================================================================
+	This script is responsible for compiling all classes, building the 
+	plugin jar files and copying all necessary resources
+	======================================================================
+-->
+<project name="TaRGeT_BUILD" default="main">
+
+	<!-- ================================= 
+          target: main
+          Only invokes other targets
+         ================================= -->
+	<target name="main" depends="copyResources, compilePlugins" />
+
+	<!-- ================================= 
+          target: copyResources
+          Unzips the resources in 'resources/prebuild.zip' to the folder 'release'.
+          The file 'prebuild.zip' contains all static files and resources that do 
+          not need to be compiled.
+         ================================= -->
+	<target name="copyResources">
+		<unzip src="../resources/prebuild.zip" dest="${tmp.folder}" />
+		<mkdir dir="${tmp.folder}/resources" />
+		<copy verbose="off" todir="${tmp.folder}/resources">
+			<fileset dir="../../common/resources">
+				<include name="**" />
+			</fileset>
+		</copy>
+	</target>
+
+	<!-- ================================= 
+          target: compilePlugins
+          Compiles all plugins in all projects by inoking 
+          the 'build.xml' in all projects folders
+         ================================= -->
+	<target name="compilePlugins">
+		<echo message="Compiling common plugin . . ." />
+		<ant antfile="build.xml" target="build.update.jar" dir="../../common/project" />
+		<echo message="Compiling core plugin . . ." />
+		<ant antfile="build.xml" target="build.update.jar" dir="../../core/project" />
+		<echo message="Compiling pm plugin . . ." />
+		<ant antfile="build.xml" target="build.update.jar" dir="../../pm/project" />
+		<echo message="Compiling tcg plugin . . ." />
+		<ant antfile="build.xml" target="build.update.jar" dir="../../tcg/project" />
+
+		<!-- Moves the generated plugins to the release directory. 
+		     It can not copy directly to the plugins folder because the 
+		     current script can be executed before the folder creation -->
+		<move verbose="off" todir="${tmp.folder}/plugins">
+			<fileset dir="${tmp.folder}" includes="com.motorola.btc.research.target.common_1.0.0.jar" />
+			<fileset dir="${tmp.folder}" includes="com.motorola.btc.research.target.core_1.0.0.jar" />
+			<fileset dir="${tmp.folder}" includes="com.motorola.btc.research.target.pm_1.0.0.jar" />
+			<fileset dir="${tmp.folder}" includes="com.motorola.btc.research.target.tcg_1.0.0.jar" />
+		</move>
+	</target>
+
+</project>

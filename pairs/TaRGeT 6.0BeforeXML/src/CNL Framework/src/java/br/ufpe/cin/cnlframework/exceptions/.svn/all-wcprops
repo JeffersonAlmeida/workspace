@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/cinspg/!svn/ver/3660/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeXML/src/CNL%20Framework/src/java/br/ufpe/cin/cnlframework/exceptions
+END
+CNLException.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/cinspg/!svn/ver/3660/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeXML/src/CNL%20Framework/src/java/br/ufpe/cin/cnlframework/exceptions/CNLException.java
+END
+RepositoryInitializationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 179
+/svn/cinspg/!svn/ver/3660/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeXML/src/CNL%20Framework/src/java/br/ufpe/cin/cnlframework/exceptions/RepositoryInitializationException.java
+END
+RepositoryException.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/cinspg/!svn/ver/3660/SafeRefactor/trunk/Exemplos/TaRGeT%206.0BeforeXML/src/CNL%20Framework/src/java/br/ufpe/cin/cnlframework/exceptions/RepositoryException.java
+END

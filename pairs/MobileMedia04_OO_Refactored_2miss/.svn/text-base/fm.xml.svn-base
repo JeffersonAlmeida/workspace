@@ -1,0 +1,24 @@
+<feature min="1" max="1" name="MobileMedia" type="NONE" id="MobileMedia">
+	<feature min="1" max="1" name="PhotoManagement" type="NONE"
+		id="PhotoManagement">
+		<featureGroup min="1" max="3" id="group2">
+			<feature min="0" max="1" name="Sorting" type="NONE" id="Sorting">
+			</feature>
+			<feature min="0" max="1" name="Favourites" type="NONE" id="Favourites">
+			</feature>
+			<feature min="0" max="1" name="CopyPhoto" type="NONE" id="CopyPhoto">
+			</feature>
+		</featureGroup>
+	</feature>
+	<feature min="1" max="1" name="DeviceScreen" type="NONE"
+		id="DeviceScreen">
+		<featureGroup min="1" max="1" id="group1">
+			<feature min="0" max="1" name="s176x205" type="NONE" id="s176x205">
+			</feature>
+			<feature min="0" max="1" name="s128x149" type="NONE" id="s128x149">
+			</feature>
+			<feature min="0" max="1" name="s132x176" type="NONE" id="s132x176">
+			</feature>
+		</featureGroup>
+	</feature>
+</feature>
